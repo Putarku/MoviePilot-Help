@@ -163,17 +163,32 @@ services:
 
 # **其他问题**
 
-- ### 日志的时间显示不对/任务的执行时间不对
+- ### 日志的时间显示不对 / 任务的执行时间不对
 
 添加**环境变量**`TZ=Asia/Shanghai`
 
 <br>
 
-- ### 日志提示站点认证失败
+- ### 日志提示站点认证失败 / 软件界面没有站点管理
 
 1.查看[环境变量](https://github.com/jxxghp/MoviePilot/blob/main/README.md#2-用户认证)是否配置好,例如`iyuu`需要同时配置`AUTH_SITE` 、`IYUU_SIGN`两个变量
 2.检查站点连接性
 
+<br>
+
 - ### 插件界面显示404
 
 在网页右下角有一个“+”号，点击即可添加插件
+
+<br>
+
+- ### 配置企业微信时提示“回调失败”
+  
+ 1.填写的地址应为`http://ip:端口/api/v1/message/?token=moviepilot`，其中token为环境变量`API_TOKEN`的值，不进行改动的话默认为`moviepilot`
+ 2.确认在手机打开流量时，直接打开`http://ip:端口`，可以直接访问MoviePilot的网页。
+ 3.微信不支持ipv6,因此如果域名是使用ipv6解析的时候，也会导致不通过。如果没有ipv4的公网ip，建议使用内网穿透。
+
+ <br>
+
+ - ### MoviePilot可以配置多个下载器吗？
+  目前只支持配置**一个**`Qbittorrent`和**一个**`Transmission`
