@@ -177,6 +177,7 @@ services:
 - ### 日志提示站点认证失败 / 软件界面没有站点管理
 
 1.查看[环境变量](https://github.com/jxxghp/MoviePilot/blob/main/README.md#2-用户认证)是否配置好,例如`iyuu`需要同时配置`AUTH_SITE` 、`IYUU_SIGN`两个变量
+
 2.检查站点连接性
 
 <br>
