@@ -111,8 +111,9 @@ services:
 解决方法也很简单，在`设定-词表-自定义识别词`中填写
 
 > Otona_Precure_23 => Kibou no Chikara: Otona Precure `23
+> 推荐优先将替换为**英文译名**，中文译名有时候会歧义导致被经常修改
 
-之后就可以正常识别了
+之后就可以正常识别了，有时候改完以后还无法识别，可以先**清除缓存**后再进行尝试。
 
  <div align=center> <img src="./img/图片3.png" width="600"> </div>
 
