@@ -51,7 +51,7 @@
 ```
 保持目录与宿主机一致，此时在配置文件中可以在后续维护中减少出问题的概率。关于其他容器关于路径的配置问题可以参见下面这张图
 ![路径解析](img/路径解析.png)
-
+ <div align=center> <img src="img/路径解析.png" width="600"> </div>
 
 # **刮削问题**
 
@@ -96,3 +96,26 @@ services:
   - DOMAIN-KEYWORD,tmdb,🚀 节点选择
   - DOMAIN-KEYWORD,themoviedb,🚀 节点选择  
 ```
+
+### 资源不识别导致无法刮削
+
+1.检查日志，查看是否能正常连接tmdb
+2.资源名称命名与tmdb不同导致无法识别，下面是一个例子
+
+ <div align=center> <img src="./img/图片1.png" width="600"> </div>
+
+ 通过检查tmdb的剧集的别名可以看到，该剧集目前是没有`Otona_Precure_23`的译名的，因此也会导致MoviePilot无法识别
+ 
+ <div align=center> <img src="./img/图片2.png" width="600"> </div>
+
+解决方法也很简单，在`设定-词表-自定义识别词`中填写
+
+> Otona_Precure_23 => Kibou no Chikara: Otona Precure `23
+
+之后就可以正常识别了
+
+ <div align=center> <img src="./img/图片3.png" width="600"> </div>
+
+
+# **订阅问题**
+
