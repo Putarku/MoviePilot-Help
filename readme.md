@@ -99,6 +99,7 @@ services:
 ### 资源不识别导致无法刮削
 
 1.检查日志，查看是否能正常连接tmdb
+
 2.资源名称命名与tmdb不同导致无法识别，下面是一个例子
 
  <div align=center> <img src="./img/图片1.png" width="600"> </div>
