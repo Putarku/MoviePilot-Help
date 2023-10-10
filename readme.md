@@ -110,7 +110,7 @@ services:
 
 解决方法也很简单，在`设定-词表-自定义识别词`中填写
 
-> Otona_Precure_23 => Kibou no Chikara: Otona Precure `23
+> **Otona_Precure_23 => Kibou no Chikara: Otona Precure `23**
 > 
 > 推荐优先将替换为**英文译名或原名**，中文译名有时候会歧义导致被经常修改
 
