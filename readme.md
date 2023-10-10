@@ -8,7 +8,11 @@
 # **站点问题**
 
 ### 为什么我的站点添加不了？
-  MoviePilot使用的是`域名白名单`机制，如果添加不了可以去站点公告或者论坛查看站点的其他可用域名，并尝试添加。出于保护站点的原因，这里不再列出常用站点的可用域名。
+  MoviePilot使用的是`域名白名单`机制，如果添加不了可以去站点公告或者论坛查看站点的其他可用域名，并尝试添加。
+
+例如问的最多的馒头，可以尝试将域名的`.cc`更改为`.io`进行添加
+
+
 
 ### 为什么我的站点添加了搜索不到内容？
   可通过**查看日志**按以下顺序排查
@@ -47,3 +51,48 @@
 ```
 保持目录与宿主机一致，此时在配置文件中可以在后续维护中减少出问题的概率。关于其他容器关于路径的配置问题可以参见下面这张图
 ![路径解析](img/路径解析.png)
+
+
+# **刮削问题**
+
+### 刮削完成后演员不显示头像/英文名字
+
+1.使用`演职人员刮削`插件，需要将emby的演员元数据文件夹映射进MoviePilot的容器内。
+
+ - docker版本的emby，其元数据文件夹的路径为config文件内的`/emby/metadata/people`
+ - 群晖套件版本的emby，其元数据文件夹的路径为`/volume1/@appdata/EmbyServer/metadata/people`,其中`/volume1`为你安装套件所在的硬盘
+
+2.使用[MediaServerTools](https://github.com/sleikang/MediaServerTools)来刷新emby的元数据，config文件可在[这里](https://github.com/sleikang/MediaServerTools/blob/main/config/config.yaml)下载。
+
+```yaml
+version: '3.3'
+services:
+    MediaServerTools:
+        container_name: MediaServerTools
+        volumes:
+            - './config:/config'
+        environment:
+            - TZ=Asia/Shanghai
+            - PUID=1000
+            - PGID=1000
+            - UMASK=022
+            - MediaServerTools_AUTO_UPDATE=true # 自动更新
+            - MediaServerTools_CN_UPDATE=true # 使用国内源更新
+        network_mode: host
+        logging:
+          driver: json-file
+          options:
+            max-size: 5m
+        image: 'ddsderek/mediaservertools:latest'
+
+```
+
+### 刮削很慢或者是刮削不出图片
+
+1.检查日志
+2.检查Tmdb、FanArt等网站的的连接性，推荐将这些站点手动添加到代理的规则列表或配置文件中。以下以clash为例：
+```yaml
+  - DOMAIN-SUFFIX,fanart.tv,🚀 节点选择 #🚀 节点选择更改为clash文件中的代理服务器组的名称即可
+  - DOMAIN-KEYWORD,tmdb,🚀 节点选择
+  - DOMAIN-KEYWORD,themoviedb,🚀 节点选择  
+```
