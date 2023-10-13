@@ -12,10 +12,10 @@
    - [日志的时间显示不对 / 任务的执行时间不对](#日志的时间显示不对--任务的执行时间不对)
    - [日志提示站点认证失败 / 软件界面没有站点管理](#日志提示站点认证失败--软件界面没有站点管理)
    - [插件界面显示404](#插件界面显示404)
+   - [如何建立企业微信的代理服务器？](#建立企业微信的代理服务器)
    - [配置企业微信时提示“回调失败”](#配置企业微信时提示回调失败)
    - [MoviePilot可以配置多个下载器吗？](#moviepilot可以配置多个下载器吗)
 
-[toc]
 
 # **一些说明**
  - 本仓库仅作为对moviepilot的一些使用上的内容补充
@@ -199,13 +199,14 @@ MoviePilot会定期使用站点的rss来匹配是否有订阅内容，此时会�
 <br>
 
 - ### 建立企业微信的代理服务器
+  
 
  > 使用[`caddy`](https://github.com/caddyserver/caddy)搭建
 
   1. 从 https://github.com/caddyserver/caddy/releases
 下载自己对应系统的版本，例如 AMD64 下载`caddy_2.7.5_linux_amd64.tar.gz`
-  2. 解压得到 `caddy` 文件 上传到`/usr/local/bin` 目录下，注意设置权限 `0755`
-  3. 在任意目录新建 `Caddyfile` 文件(例如`/usr/local/caddy`) ，注意设置权限 `0755`，文
+  1. 解压得到 `caddy` 文件 上传到`/usr/local/bin` 目录下，注意设置权限 `0755`
+  2. 在任意目录新建 `Caddyfile` 文件(例如`/usr/local/caddy`) ，注意设置权限 `0755`，文
 件内容如下
 ```yaml
 :3000
@@ -213,9 +214,9 @@ reverse_proxy https://qyapi.weixin.qq.com {
 header_up Host {upstream_hostport}
 }
 ```
-  4. SSH 控制台 cd 到 `Caddyfile` 文件的目录(例如`/usr/local/caddy`)
-  5. 输入 caddr start 启动完成，在防火墙中放行3000端口
-  6.  NasTools / MoviePilot 设置微信的代理 IP 地址为 `http://你的服务器ip/域名:3000`
+  1. SSH 控制台 cd 到 `Caddyfile` 文件的目录(例如`/usr/local/caddy`)
+  2. 输入 caddr start 启动完成，在防火墙中放行3000端口
+  3.  NasTools / MoviePilot 设置微信的代理 IP 地址为 `http://你的服务器ip/域名:3000`
 
 <br>
 
