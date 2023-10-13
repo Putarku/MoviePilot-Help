@@ -23,7 +23,8 @@
 
 
 # **一些说明**
- - 本仓库仅作为对moviepilot的一些使用上的内容补充
+ - 本仓库仅作为对[Moviepilot](https://github.com/jxxghp/MoviePilot/blob/main/README.md)的一些使用上的内容补充，发现问题时，请先仔细阅读原项目的[Readme](https://github.com/jxxghp/MoviePilot/blob/main/README.md)
+ - [Moviepilot](https://github.com/jxxghp/MoviePilot/blob/main/README.md)的`docker&docker-compose`配置模板及`Ocr服务`的搭建教程[DDS-Derek/MoviePilot](https://github.com/DDS-Derek/MoviePilot/tree/docs)
  - 提问题前一定记着先去看看日志，一般日志会写出问题所在，在提问时记得附上日志截图
  - 待补充
     
