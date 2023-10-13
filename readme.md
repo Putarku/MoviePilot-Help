@@ -76,6 +76,9 @@
 
 <br>
 
+**补充①**:有些文件系统无法使用符号链接，此时硬链接与软链接均会报错，例如:`exFAT`,`FAT32`
+除此之外，在`NTFS`文件系统上也可能会出现无法创建链接的问题。
+
 ---
 
 # **刮削问题**
@@ -189,6 +192,51 @@ MoviePilot会定期使用站点的rss来匹配是否有订阅内容，此时会�
 - ### 插件界面显示404
 
 在网页右下角有一个“+”号，点击即可添加插件
+
+<br>
+
+- ### 建立企业微信的代理服务器
+
+ > 使用[`caddy`](https://github.com/caddyserver/caddy)搭建
+
+  1. 从 https://github.com/caddyserver/caddy/releases
+下载自己对应系统的版本，我的是 AMD64 下载文件如下
+caddy_2.7.5_linux_amd64.tar.gz
+  2. 解压得到 `caddy` 文件 上传到`/usr/local/bin` 目录下，注意设置权限 `0755`
+  3. 在任意目录新建 `Caddyfile` 文件(例如`/usr/local/caddy`) ，注意设置权限 `0755`，文
+件内容如下
+```yaml
+:3000
+reverse_proxy https://qyapi.weixin.qq.com {
+header_up Host {upstream_hostport}
+}
+```
+  4. SSH 控制台 cd 到 `Caddyfile` 文件的目录(例如`/usr/local/caddy`)
+  5. 输入 caddr start 启动完成，在防火墙中放行3000端口
+  6.  NasTools / MoviePilot 设置微信的代理 IP 地址为 `http://你的服务器ip/域名:3000`
+
+<br>
+
+ > 使用[`ddsderek/wxchat`](https://hub.docker.com/r/ddsderek/wxchat)docker镜像搭建
+
+```yaml
+version: '3.3'
+services:
+    wxchat:
+        container_name: wxchat
+        restart: always
+        ports:
+            - '3000:80'
+        image: 'ddsderek/wxchat:latest'
+```
+```
+docker run -d \
+    --name wxchat \
+    --restart=always \
+    -p 3000:80 \
+    ddsderek/wxchat:latest
+```
+搭建完成后，在防火墙中放行3000端口，并在NasTools / MoviePilot 设置微信的代理 IP 地址为 `http://你的服务器ip/域名:3000`
 
 <br>
 
