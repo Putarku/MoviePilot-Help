@@ -263,5 +263,37 @@ docker run -d \
 
  <br>
 
+ - ### 企业微信部署后不显示菜单
+MoviePilot在成功部署后通常会自动生成微信菜单，可以检查配置信息后重启容器，再进行尝试。
+
+如果还是没有正常生成菜单，则可以手动添加菜单，具体的命令列表如下。
+
+> /cookiecloud 同步站点
+/sites 查询站点
+/site_cookie 更新站点Cookie
+/site_enable 启用站点
+/site_disable 禁用站点
+/mediaserver_sync 同步媒体服务器
+/subscribes 查询订阅
+/subscribe_refresh 刷新订阅
+/subscribe_search 搜索订阅
+/subscribe_delete 删除订阅
+/subscribe_tmdb 订阅元数据更新
+/downloading 正在下载
+/transfer 下载文件整理
+/redo 手动整理
+/clear_cache 清理缓存
+/restart 重启系统
+/site_signin 站点签到
+/site_statistic 站点数据统计
+
+ <br>
+
  - ### MoviePilot可以配置多个下载器吗？
   目前只支持配置**一个**`Qbittorrent`和**一个**`Transmission`
+
+ <br>
+
+ - ### Ocr部署后无故自动重启/无法使用
+
+Ocr与主机的CPU有关，无法使用通常是CPU不支持导致的，例如常用的J4125就无法部署。
