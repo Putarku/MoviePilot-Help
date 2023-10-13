@@ -272,23 +272,23 @@ MoviePilot在成功部署后通常会自动生成微信菜单，可以检查配�
 如果还是没有正常生成菜单，则可以手动添加菜单，具体的命令列表如下。
 
 > /cookiecloud 同步站点
-/sites 查询站点
-/site_cookie 更新站点Cookie
-/site_enable 启用站点
-/site_disable 禁用站点
-/mediaserver_sync 同步媒体服务器
-/subscribes 查询订阅
-/subscribe_refresh 刷新订阅
-/subscribe_search 搜索订阅
-/subscribe_delete 删除订阅
-/subscribe_tmdb 订阅元数据更新
-/downloading 正在下载
-/transfer 下载文件整理
-/redo 手动整理
-/clear_cache 清理缓存
-/restart 重启系统
-/site_signin 站点签到
-/site_statistic 站点数据统计
+> /sites 查询站点
+> /site_cookie 更新站点Cookie
+> /site_enable 启用站点
+> /site_disable 禁用站点
+> /mediaserver_sync 同步媒体服务器
+> /subscribes 查询订阅
+> /subscribe_refresh 刷新订阅
+> /subscribe_search 搜索订阅
+> /subscribe_delete 删除订阅
+> /subscribe_tmdb 订阅元数据更新
+> /downloading 正在下载
+> /transfer 下载文件整理
+> /redo 手动整理
+> /clear_cache 清理缓存
+> /restart 重启系统
+> /site_signin 站点签到
+> /site_statistic 站点数据统计
 
  <br>
 
