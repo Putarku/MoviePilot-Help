@@ -199,6 +199,16 @@ MoviePilot会定期使用站点的rss来匹配是否有订阅内容，此时会�
 
 3.检查下载器内是否已经有相同的下载任务
 
+
+<br>
+
+
+- ### spider / rss订阅模式的区别
+
+**spider模式**:添加订阅时，向所有订阅站点请求一次搜索，并对搜索结果进行匹配，对媒体库中不存在的剧集进行下载操作。之后每隔一段时间重复上述操作。
+
+**rss模式**:首次添加订阅时，会进行与spider模式相同的操作，但之后更新内容的方式变为使用站点的RSS来获取新剧集的信息，因此使用该模式时需要配置好站点的RSS链接的内容，例如只勾选电视剧/动画，或者只指定需要订阅的官组，这样可以使RSS的内容更加干净，减少无关内容造成的订阅错误。
+
 ---
 
 # **功能补充**
@@ -221,8 +231,18 @@ MoviePilot会定期使用站点的rss来匹配是否有订阅内容，此时会�
 
 `(?<=1080p\.).*(?=\.WEB-DL);(?<=2160p\.).*(?=\.WEB-DL);(?<=1080p\.).*(?=\.WEBRip);(?<=2160p\.).*(?=\.WEBRip)`
 
-`\b(B-Global|Baha|CR|B-Global|ABEMA|MyVideo|AMZN|KKTV|friDay|DSNP|LINETV|NF)\b`
+`\b(Baha|CR|B-Global|ABEMA|MyVideo|AMZN|KKTV|friDay|DSNP|LINETV|Crunchyroll|IQ|Hulu|HQ|60fps|Paramount+|LineTV|Linetv|Disney+|FriDay|HMAX|MAX|NF|IQY|IQ|TX|WeTV|YT|YK|Migu|Mgtv|Bilibili|Sohu|Xigua|iTunes)\b`
 
+
+- ### 自定义重命名
+
+**剧集：**
+
+`{{title}}{% if year %} ({{year}}){% endif %}/Season {{season}}/{{title}} - {{season_episode}}{% if part %}-{{part}}{% endif %}{% if videoFormat %} - {{videoFormat}}{% endif %}{% if videoCodec %} - {{videoCodec}}{% endif %}{% if audioCodec %} - {{audioCodec}}{% endif %}{% if customization %} - {{customization}}{% endif %}{% if releaseGroup %} - {{releaseGroup}}{% endif %}{{fileExt}}`
+
+**电影：**
+
+`{{title}}{% if year %} ({{year}}){% endif %}/{{title}}{% if year %} ({{year}}){% endif %}{% if part %}-{{part}}{% endif %}{% if videoFormat %} - {{videoFormat}}{% endif %}{% if videoCodec %} - {{videoCodec}}{% endif %}{% if audioCodec %} - {{audioCodec}}{% endif %}{% if releaseGroup %} - {{releaseGroup}}{% endif %}{{fileExt}}`
 
 ---
 
