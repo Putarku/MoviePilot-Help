@@ -122,10 +122,7 @@
 
 - ### 刮削完成后演员不显示头像/英文名字
 
-1.使用`演职人员刮削`插件，需要将emby的演员元数据文件夹映射进MoviePilot的容器内。
-
- - docker版本的emby，其元数据文件夹的路径为config文件内的`/emby/metadata/people`
- - 群晖套件版本的emby，其元数据文件夹的路径为`/volume1/@appdata/EmbyServer/metadata/people`,其中`/volume1`为你安装套件所在的硬盘
+1.使用`演职人员刮削`插件,填写`扫描周期`后即可。
 
 2.使用[MediaServerTools](https://github.com/sleikang/MediaServerTools)来刷新emby的元数据，config文件可在[这里](https://github.com/sleikang/MediaServerTools/blob/main/config/config.yaml)下载。
 
