@@ -28,6 +28,7 @@
    - [插件界面显示404](#插件界面显示404)
    - [MoviePilot可以配置多个下载器吗？](#moviepilot可以配置多个下载器吗)
    - [ocr部署后无故自动重启无法使用](#ocr部署后无故自动重启无法使用)
+   - [IOS快捷指令快速跳转MoviePilot搜索](#ios快捷指令快速跳转moviepilot搜索)
 
 
 # **一些说明**
@@ -390,8 +391,14 @@ MoviePilot在成功部署后通常会自动生成微信菜单，可以检查配�
  - ### MoviePilot可以配置多个下载器吗？
   目前只支持配置**一个**`Qbittorrent`和**一个**`Transmission`
 
- <br>
+<br>
 
  - ### Ocr部署后无故自动重启/无法使用
 
 Ocr与主机的CPU有关，无法使用通常是CPU不支持导致的，例如常用的J4125就无法部署。
+
+<br>
+
+ - ### IOS快捷指令快速跳转MoviePilot搜索
+
+  参见此项目[Shortcuts-Moviepilot](https://github.com/honue/Shortcuts-Moviepilot)
