@@ -320,7 +320,7 @@ docker run -d \
 
 - ### 配置企业微信时提示“回调失败”
   
- 1.填写的地址应为`http://ip:端口/api/v1/message/?token=moviepilot`，其中token为环境变量`API_TOKEN`的值，不进行改动的话默认为`moviepilot`
+ 1.填写的地址应为`http://ip:端口/api/v1/message/`。
 
  2.确认在手机打开流量时，直接打开`http://ip:端口`，可以直接访问MoviePilot的网页。
 
