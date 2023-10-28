@@ -335,9 +335,16 @@ docker run -d \
  <br>
 
  - ### 企业微信部署后不显示菜单
-MoviePilot在成功部署后通常会自动生成微信菜单，可以检查配置信息后重启容器，再进行尝试。
 
-如果还是没有正常生成菜单，则可以手动添加菜单，具体的命令列表如下。
+如果是沿用nastool的代理服务器配置，需要在`nginx`的配置文件中额外加入下列代码，才能自动生成菜单。
+
+```
+location  /cgi-bin/menu/create {
+    proxy_pass https://qyapi.weixin.qq.com;
+}
+```
+
+如果还是没有正常生成菜单，也可以手动添加菜单，具体的命令列表如下。
 
 > /cookiecloud 同步站点
 > 
