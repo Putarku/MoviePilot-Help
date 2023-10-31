@@ -260,6 +260,8 @@ MoviePilot会定期使用站点的rss来匹配是否有订阅内容，此时会�
 
 - ### 自定义重命名
 
+>填写位置为docker容器的环境变量里的`MOVIE_RENAME_FORMAT`和`TV_RENAME_FORMAT`
+
 **剧集：**
 
 `{{title}}{% if year %} ({{year}}){% endif %}/Season {{season}}/{{title}} - {{season_episode}}{% if part %}-{{part}}{% endif %}{% if videoFormat %} - {{videoFormat}}{% endif %}{% if videoCodec %} - {{videoCodec}}{% endif %}{% if audioCodec %} - {{audioCodec}}{% endif %}{% if customization %} - {{customization}}{% endif %}{% if releaseGroup %} - {{releaseGroup}}{% endif %}{{fileExt}}`
