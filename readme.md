@@ -310,7 +310,7 @@ header_up Host {upstream_hostport}
 
 <br>
 
- > #### 2、使用[`ddsderek/wxchat`](https://hub.docker.com/r/ddsderek/wxchat)docker镜像搭建
+ > #### 2、使用[ddsderek/wxchat](https://hub.docker.com/r/ddsderek/wxchat)docker镜像搭建
 
 ```yaml
 version: '3.3'
