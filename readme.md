@@ -289,9 +289,9 @@ MoviePilot会定期使用站点的rss来匹配是否有订阅内容，此时会�
 
 - ### 建立企业微信的代理服务器
   
-首先需要先准备一个具有固定公网地址的服务器，例如VPS，之后在该服务器上搭建代理服务。
+首先需要先准备一个具有固定公网地址的服务器，例如VPS，之后在该服务器上搭建代理服务。搭建方式可以有以下两种，两种任选其一即可
 
- > 使用[`caddy`](https://github.com/caddyserver/caddy)搭建
+ > #### 1、使用[`caddy`](https://github.com/caddyserver/caddy)搭建
 
   1. 从 https://github.com/caddyserver/caddy/releases
 下载自己对应系统的版本，例如 AMD64 下载`caddy_2.7.5_linux_amd64.tar.gz`
@@ -310,7 +310,7 @@ header_up Host {upstream_hostport}
 
 <br>
 
- > 使用[`ddsderek/wxchat`](https://hub.docker.com/r/ddsderek/wxchat)docker镜像搭建
+ > #### 2、使用[`ddsderek/wxchat`](https://hub.docker.com/r/ddsderek/wxchat)docker镜像搭建
 
 ```yaml
 version: '3.3'
