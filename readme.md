@@ -473,26 +473,7 @@ location  /cgi-bin/menu/create {
 
  <br>
 
----
-# **插件问题**
-- ### 手动添加插件 / 插件市场找不到官方插件市场中的插件
-1. 下载官方市场所有插件：https://github.com/jxxghp/MoviePilot-Plugins
-
-2. 上传目标插件至nas中moviepilot挂载的目录
-```yaml
-volumes:
-  - '/volume2/docker/moviepilot/config:/config'
-```
-假设配置如上，那就临时上传到/volume2/docker/moviepilot/config目录
-3. 在容器管理工具中，打开终端机，新增bash。进入容器
-
-4. 将目标插件移到插件目录
-```shell
-mv /config/{plugin-name} /app/app/plugins
-# mv /config/iyuumsg /app/app/plugins
-```
-5. 重启容器，不需要改配置。（未验证版本更新后，是否需要重新操作一次）
-> 插件图标地址：/public/plugin
+### 
 
 ---
 
@@ -525,3 +506,31 @@ Ocr与主机的CPU有关，无法使用通常是CPU不支持导致的，例如�
  - ### IOS快捷指令快速跳转MoviePilot搜索
 
   参见此项目[Shortcuts-Moviepilot](https://github.com/honue/Shortcuts-Moviepilot)
+
+<br>
+
+- ### 手动添加插件 / 插件市场找不到官方插件市场中的插件
+
+1. 下载官方市场所有插件：https://github.com/jxxghp/MoviePilot-Plugins
+
+2. 上传目标插件至nas中moviepilot挂载的目录
+
+```yaml
+volumes:
+  - '/volume2/docker/moviepilot/config:/config'
+```
+
+假设配置如上，那就临时上传到/volume2/docker/moviepilot/config目录
+
+3. 在容器管理工具中，打开终端机，新增bash。进入容器
+
+4. 将目标插件移到插件目录
+
+```shell
+mv /config/{plugin-name} /app/app/plugins
+# mv /config/iyuumsg /app/app/plugins
+```
+
+5. 重启容器，不需要改配置。（未验证版本更新后，是否需要重新操作一次）
+
+> 插件图标地址：/public/plugin
