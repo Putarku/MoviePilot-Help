@@ -31,6 +31,7 @@
    - [MoviePilot可以配置多个下载器吗？](#moviepilot可以配置多个下载器吗)
    - [ocr部署后无故自动重启无法使用](#ocr部署后无故自动重启无法使用)
    - [IOS快捷指令快速跳转MoviePilot搜索](#ios快捷指令快速跳转moviepilot搜索)
+   - [手动添加插件 / 插件市场找不到官方插件市场中的插件](#手动添加插件--插件市场找不到官方插件市场中的插件)
 
 
 # **一些说明**
@@ -45,7 +46,8 @@
  - 提问题前一定记着先去看看日志，一般日志会写出问题所在，在提问时记得附上日志截图
 
  - 待补充
-    
+   
+
 <br>
 
 ---
@@ -262,7 +264,7 @@ no_proxy=localhost,127.0.0.0/8,10.0.0.0/8,172.16.0.0/12,192.168.0.0/16
  <div align=center> <img src="./img/图片1.png" width="600"> </div>
 
  通过检查tmdb的剧集的别名可以看到，该剧集目前是没有`Otona_Precure_23`的译名的，因此也会导致MoviePilot无法识别
- 
+
  <div align=center> <img src="./img/图片2.png" width="600"> </div>
 
 解决方法也很简单，在`设定-词表-自定义识别词`中填写
@@ -381,6 +383,7 @@ Special Ending Movie
 
 - ### 建立企业微信的代理服务器
   
+
 首先需要先准备一个具有固定公网地址的服务器，例如VPS，之后在该服务器上搭建代理服务。搭建方式可以有以下两种，两种任选其一即可
 
  > #### 1、使用[`caddy`](https://github.com/caddyserver/caddy)搭建
@@ -427,12 +430,13 @@ docker run -d \
 
 - ### 配置企业微信时提示“回调失败”
   
+
  1.在企业微信的填写的地址可以有两种方式
- 
+
  ①`http://ip:端口/api/v1/message/?token=moviepilot`
- 
+
  ②`http://ip:端口/api/v1/message/`
- 
+
  如果自行配置了`API_TOKEN`的值，那么就需要在地址后面补上`?token=moviepilot`。如果`API_TOKEN`为默认值，那么两种填写方式均可。
 
  2.确认在手机打开流量时，直接打开`http://ip:端口`，可以直接访问MoviePilot的网页。
@@ -491,6 +495,8 @@ location  /cgi-bin/menu/create {
 
  <br>
 
+### 
+
 ---
 
 # **其他问题**
@@ -509,7 +515,7 @@ location  /cgi-bin/menu/create {
 
 
  - ### MoviePilot可以配置多个下载器吗？
-  目前只支持配置**一个**`Qbittorrent`和**一个**`Transmission`
+    目前只支持配置**一个**`Qbittorrent`和**一个**`Transmission`
 
 <br>
 
@@ -522,3 +528,31 @@ Ocr与主机的CPU有关，无法使用通常是CPU不支持导致的，例如�
  - ### IOS快捷指令快速跳转MoviePilot搜索
 
   参见此项目[Shortcuts-Moviepilot](https://github.com/honue/Shortcuts-Moviepilot)
+
+<br>
+
+- ### 手动添加插件 / 插件市场找不到官方插件市场中的插件
+
+1. 下载官方市场所有插件：https://github.com/jxxghp/MoviePilot-Plugins
+
+2. 上传目标插件至nas中moviepilot挂载的目录
+
+```yaml
+volumes:
+  - '/volume2/docker/moviepilot/config:/config'
+```
+
+假设配置如上，那就临时上传到/volume2/docker/moviepilot/config目录
+
+3. 在容器管理工具中，打开终端机，新增bash。进入容器
+
+4. 将目标插件移到插件目录
+
+```shell
+mv /config/{plugin-name} /app/app/plugins
+# mv /config/iyuumsg /app/app/plugins
+```
+
+5. 重启容器，不需要改配置。（未验证版本更新后，是否需要重新操作一次）
+
+> 插件图标地址：/public/plugin
