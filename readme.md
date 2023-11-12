@@ -320,20 +320,22 @@ MoviePilot会定期使用站点的rss来匹配是否有订阅内容，此时会�
 > 补充制作组/字幕组的识别规则，填写位置为`设置-词表-自定义制作组/字幕组`
 >
 
-`(?<=264\-)\w+(?=\.mkv);(?<=265\-)\w+(?=\.mkv)`
-
-`(?<=264\-)\w+(?=\.mp4);(?<=265\-)\w+(?=\.mp4)`
-
-`ADWeb`
+```
+(?<=264\-)\w+(?=\.mkv);(?<=265\-)\w+(?=\.mkv)
+(?<=264\-)\w+(?=\.mp4);(?<=265\-)\w+(?=\.mp4)
+ADWeb
+```
 
 - ### 自定义占位符
 
 > 补充制作组/字幕组的识别规则，填写位置为`设置-词表-自定义占位符`
 >
 
-`(?<=1080p\.).*(?=\.WEB-DL);(?<=2160p\.).*(?=\.WEB-DL);(?<=1080p\.).*(?=\.WEBRip);(?<=2160p\.).*(?=\.WEBRip)`
-
-`\b(Baha|CR|B-Global|ABEMA|MyVideo|AMZN|KKTV|friDay|DSNP|LINETV|Crunchyroll|IQ|Hulu|HQ|60fps|Paramount+|LineTV|Linetv|Disney+|FriDay|HMAX|MAX|NF|IQY|IQ|TX|WeTV|YT|YK|Migu|Mgtv|Bilibili|Sohu|Xigua|iTunes)\b`
+```
+(?<=1080p\.).*(?=\.WEB-DL);(?<=2160p\.).*(?=\.WEB-DL)
+(?<=1080p\.).*(?=\.WEBRip);(?<=2160p\.).*(?=\.WEBRip)
+\b(Baha|CR|B-Global|ABEMA|MyVideo|AMZN|KKTV|friDay|DSNP|LINETV|Crunchyroll|IQ|Hulu|HQ|60fps|Paramount+|LineTV|Linetv|Disney+|FriDay|HMAX|MAX|NF|IQY|IQ|TX|WeTV|YT|YK|Migu|Mgtv|Bilibili|Sohu|Xigua|iTunes)\b
+```
 
 
 - ### 自定义重命名
@@ -342,11 +344,29 @@ MoviePilot会定期使用站点的rss来匹配是否有订阅内容，此时会�
 
 **剧集：**
 
-`{{title}}{% if year %} ({{year}}){% endif %}/Season {{season}}/{{title}} - {{season_episode}}{% if part %}-{{part}}{% endif %}{% if videoFormat %} - {{videoFormat}}{% endif %}{% if videoCodec %} - {{videoCodec}}{% endif %}{% if audioCodec %} - {{audioCodec}}{% endif %}{% if customization %} - {{customization}}{% endif %}{% if releaseGroup %} - {{releaseGroup}}{% endif %}{{fileExt}}`
+```
+{{title}}{% if year %} ({{year}}){% endif %}/Season {{season}}/{{title}} - {{season_episode}}{% if part %}-{{part}}{% endif %}{% if videoFormat %} - {{videoFormat}}{% endif %}{% if videoCodec %} - {{videoCodec}}{% endif %}{% if audioCodec %} - {{audioCodec}}{% endif %}{% if customization %} - {{customization}}{% endif %}{% if releaseGroup %} - {{releaseGroup}}{% endif %}{{fileExt}}
+```
 
 **电影：**
 
-`{{title}}{% if year %} ({{year}}){% endif %}/{{title}}{% if year %} ({{year}}){% endif %}{% if part %}-{{part}}{% endif %}{% if videoFormat %} - {{videoFormat}}{% endif %}{% if videoCodec %} - {{videoCodec}}{% endif %}{% if audioCodec %} - {{audioCodec}}{% endif %}{% if releaseGroup %} - {{releaseGroup}}{% endif %}{{fileExt}}`
+```
+{{title}}{% if year %} ({{year}}){% endif %}/{{title}}{% if year %} ({{year}}){% endif %}{% if part %}-{{part}}{% endif %}{% if videoFormat %} - {{videoFormat}}{% endif %}{% if videoCodec %} - {{videoCodec}}{% endif %}{% if audioCodec %} - {{audioCodec}}{% endif %}{% if releaseGroup %} - {{releaseGroup}}{% endif %}{{fileExt}}
+```
+
+- ### 文件整理屏蔽词
+> 自动整理时排除无用的其他文件，填写位置为`设置-词表-文件整理屏蔽词`
+>
+
+```
+Special Ending Movie
+\[((TV|BD|\bBlu-ray\b)?\s*CM\s*\d{2,3})\]
+\[Teaser.*?\]
+\[PV.*?\]
+\[NC[OPED]+.*?\]
+\[S\d+\s+Recap(\s+\d+)?\]
+予告
+```
 
 ---
 
