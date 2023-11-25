@@ -91,18 +91,19 @@ MoviePilot使用的是`域名白名单`机制，如果添加不了可以去`站�
 
 # **转移问题**
 
-- ### 转移媒体文件时提示“-1”错误
+- ### 转移媒体文件时提示“-1”错误 / 使用硬链接但是实际是复制
 一般出现这种提示是出现了跨盘的问题，在建立docker容器时，路径的映射容易出现以下情况
 ```yaml
         volumes:
-            - '/volume1/video/media:/media'
+            - '/volume1/video/media:/media' #注意右侧为容器内路径
             - '/volume1/video/link:/link'
 ```
-此时在容器内部，视频文件和硬链接目录为无隶属关系的两个文件夹，此时使用硬链接时便会报错。正确的路径映射应为下面这种
+ <div align=center> <img src="img/图片5.png" width="600"> </div>
+
+此时在容器内部，视频文件和硬链接目录为无隶属关系的两个文件夹，此时使用硬链接时便会可能**报错或是硬链接变为复制**。正确的路径映射应为下面这种
 ```yaml
         volumes:
-            - '/volume1/video:/volume1/video'
-        #此时环境变量中的路径设置
+            - '/volume1/video:/volume1/video' #此时容器内路径与容器外路径保持一致，并且只映射一个大目录
         environment:
             # 下载保存目录
             - 'DOWNLOAD_PATH=/volume1/video/download'
