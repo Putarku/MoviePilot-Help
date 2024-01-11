@@ -31,6 +31,7 @@
    - [MoviePilot可以配置多个下载器吗？](#moviepilot可以配置多个下载器吗)
    - [ocr部署后无故自动重启无法使用](#ocr部署后无故自动重启无法使用)
    - [IOS快捷指令快速跳转MoviePilot搜索](#ios快捷指令快速跳转moviepilot搜索)
+   - [使用moviepilot的插件生成strm文件](#使用moviepilot的插件生成strm文件)
 
 
 
@@ -529,7 +530,7 @@ Ocr与主机的CPU有关，无法使用通常是CPU不支持导致的，例如�
 
 <br>
 
- - ### 使用Moviepilot的插件生成strm文件、
+ - ### 使用Moviepilot的插件生成strm文件
 
 1、在环境变量`PLUGIN_MARKET`中添加插件市场的地址`https://raw.githubusercontent.com/thsrite/MoviePilot-Plugins/main/`
 
