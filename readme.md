@@ -31,7 +31,7 @@
    - [MoviePilot可以配置多个下载器吗？](#moviepilot可以配置多个下载器吗)
    - [ocr部署后无故自动重启无法使用](#ocr部署后无故自动重启无法使用)
    - [IOS快捷指令快速跳转MoviePilot搜索](#ios快捷指令快速跳转moviepilot搜索)
-   - [手动添加插件 / 插件市场找不到官方插件市场中的插件](#手动添加插件--插件市场找不到官方插件市场中的插件)
+
 
 
 # **一些说明**
@@ -47,7 +47,6 @@
 
  - 待补充
    
-
 <br>
 
 # **站点问题**
@@ -514,7 +513,7 @@ location  /cgi-bin/menu/create {
 
 
  - ### MoviePilot可以配置多个下载器吗？
-    目前只支持配置**一个**`Qbittorrent`和**一个**`Transmission`
+目前只支持配置**一个**`Qbittorrent`和**一个**`Transmission`
 
 <br>
 
@@ -530,28 +529,28 @@ Ocr与主机的CPU有关，无法使用通常是CPU不支持导致的，例如�
 
 <br>
 
-- ### 手动添加插件 / 插件市场找不到官方插件市场中的插件
+ - ### 使用Moviepilot的插件生成strm文件、
 
-1. 下载官方市场所有插件：https://github.com/jxxghp/MoviePilot-Plugins
+1、在环境变量`PLUGIN_MARKET`中添加插件市场的地址`https://raw.githubusercontent.com/thsrite/MoviePilot-Plugins/main/`
 
-2. 上传目标插件至nas中moviepilot挂载的目录
+2、在Moviepilot中安装`云盘Strm生成`插件
 
-```yaml
-volumes:
-  - '/volume2/docker/moviepilot/config:/config'
-```
+3、将`CloudDrive2 / Alist`的网盘挂载地址**原样**映射进Moviepilot的容器，例如
+ <div align=center> <img src="./img/图片6.png" width="600"> </div>
 
-假设配置如上，那就临时上传到/volume2/docker/moviepilot/config目录
+ 在这个例子中我将`CloudDrive2`的根路径挂载到了本地的`/volume4/SSD/CloudDrive`路径下面，此时`115`网盘在本地的实际挂载路径为`/volume4/SSD/CloudDrive/115`。
+ 
+ 此时我们需要给Moviepilot的容器增加一条路径的映射，其中容器内的`/115`应该和`CloudDrive2`内部的115网盘的路径相同。
 
-3. 在容器管理工具中，打开终端机，新增bash。进入容器
+ <div align=center> <img src="./img/图片7.png" width="600"> </div>
 
-4. 将目标插件移到插件目录
+ 4、插件配置
 
-```shell
-mv /config/{plugin-name} /app/app/plugins
-# mv /config/iyuumsg /app/app/plugins
-```
+ 虽然插件能够生成本地路径的strm文件，但个人还是更推荐生成`API`类型的strm文件，兼容性和可操作性都会更好一些，也就是下面这个方式。
+ > 监控方式#监控目录#目的目录#cd2#cd2挂载本地跟路径#cd2服务地址
 
-5. 重启容器，不需要改配置。（未验证版本更新后，是否需要重新操作一次）
+ 按照上面的配置方式，下面是一个例子
+ 
+ > compatibility#/115/动漫#/volume5/网盘/动漫#cd2#/volume5/网盘/动漫#192.168.31.136:19798
 
-> 插件图标地址：/public/plugin
+其中第一条`/115/动漫`为需要生成的网盘文件夹的路径，第二和第三条可以填写`strm文件`的生成路径，并且二者可以保持相同，最后的ip地址为`CloudDrive2`的服务端地址。
