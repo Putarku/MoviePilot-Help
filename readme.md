@@ -367,7 +367,10 @@ Special Ending Movie
 \[PV.*?\]
 \[NC[OPED]+.*?\]
 \[S\d+\s+Recap(\s+\d+)?\]
-予告
+Menu
+Preview
+\b(CDs|SPs|Scans|Bonus|映像特典|特典CD|specials|Menu|Preview|/mv)\b
+\b(NC)?(Disc|SP|片头|OP|片尾|ED|PV|CM|MENU|EDPV|SongSpot|BDSpot)(\d{0,2}|_ALL)\b
 ```
 
 <br>
