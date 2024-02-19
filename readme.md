@@ -280,10 +280,9 @@ no_proxy=localhost,127.0.0.0/8,10.0.0.0/8,172.16.0.0/12,192.168.0.0/16
 <br>
 
 - ### 文件名为"01.mp4"如何进行转移？
-该文件命名MoviePilot无法识别，需要进行手动转移，转移的配置如下。
+该文件命名MoviePilot无法识别，需要进行手动转移，转移的配置如下。其中`TMDBID`为手动在[TMDB站点](https://www.themoviedb.org)检索剧集后，查看剧集信息页面的网址，最后的数字即为该影视的`TMDBID`
  <div align=center> <img src="./img/图片4.png" width="600"> </div>
 
-<br>
 
 <br>
 
