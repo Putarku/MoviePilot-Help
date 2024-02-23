@@ -27,7 +27,7 @@
    - [配置企业微信时提示“回调失败”](#配置企业微信时提示回调失败)
    - [企业微信部署后不显示菜单](#企业微信部署后不显示菜单)
  - [其他问题](#其他问题)
-   - [插件市场连接出错](#插件市场连接出错)  
+   - [插件市场连接出错](#插件市场出错)  
    - [日志的时间显示不对 / 任务的执行时间不对](#日志的时间显示不对--任务的执行时间不对)
    - [插件界面显示404](#插件界面显示404)
    - [MoviePilot可以配置多个下载器吗？](#moviepilot可以配置多个下载器吗)
@@ -537,11 +537,14 @@ location  /cgi-bin/menu/create {
 - ### 插件市场出错
 1、检查复制时有无错漏，每个插件地址是否都能正常打开，以下是目前常用的插件市场地址，可直接复制至`PLUGIN_MARKET`变量中
 
->https://raw.githubusercontent.com/jxxghp/MoviePilot-Plugins/main/,https://raw.githubusercontent.com/thsrite/MoviePilot-Plugins/main/,https://raw.githubusercontent.com/honue/MoviePilot-Plugins/main/,https://raw.githubusercontent.com/dandkong/MoviePilot-Plugins/main/,https://raw.githubusercontent.com/Aqr-K/MoviePilot-Plugins/main/,https://raw.githubusercontent.com/AnjoyLi/MoviePilot-Plugins/main/,https://raw.githubusercontent.com/WithdewHua/MoviePilot-Plugins/main/,https://raw.githubusercontent.com/HankunYu/MoviePilot-Plugins/main/,https://github.com/almus2zhang/MoviePilot-Plugins,https://github.com/baozaodetudou/MoviePilot-Plugins,https://github.com/HankunYu/MoviePilot-Plugins
+```
+https://raw.githubusercontent.com/jxxghp/MoviePilot-Plugins/main/,https://raw.githubusercontent.com/thsrite/MoviePilot-Plugins/main/,https://raw.githubusercontent.com/honue/MoviePilot-Plugins/main/,https://raw.githubusercontent.com/dandkong/MoviePilot-Plugins/main/,https://raw.githubusercontent.com/Aqr-K/MoviePilot-Plugins/main/,https://raw.githubusercontent.com/AnjoyLi/MoviePilot-Plugins/main/,https://raw.githubusercontent.com/WithdewHua/MoviePilot-Plugins/main/,https://raw.githubusercontent.com/HankunYu/MoviePilot-Plugins/main/,https://github.com/almus2zhang/MoviePilot-Plugins,https://github.com/baozaodetudou/MoviePilot-Plugins,https://github.com/HankunYu/MoviePilot-Plugins
+```
 
 2、配置代理信息,例如可以在环境变量中加入下面两个环境变量
 
 >https_proxy=http://127.0.0.1:7890
+>
 >no_proxy=localhost,127.0.0.0/8,10.0.0.0/8,172.16.0.0/12,192.168.0.0/16
 
 <br>
