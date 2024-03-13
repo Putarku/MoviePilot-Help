@@ -1,0 +1,23 @@
+#猎冰
+The.Hunter.S01(?=.*(?:2024)) => 猎冰.The.Hunter.2024.S01
+
+#天龙八部
+Heaven.Dragon.the.Eighth.Episode.2003 => 天龙八部 (2003)
+
+#大王别慌张
+My Dear King Theatre => 大王别慌张
+
+#超异能族
+Moving.S01 => 超异能族 S01
+
+#仙剑奇侠传三
+仙剑奇侠传三.Chinese.Paladin.3.S03 => 仙剑奇侠传三.Chinese.Paladin.3.S01
+
+#婚后事
+Happily.Ever.After.2024 => 婚后事
+
+#南来北往
+Always.on.the.Move=>南来北往
+
+#黑镜
+Black Mirror 2011-2019 1080p WEB-DL x265 AC3￡cXcY@FRDS => 黑镜S01-S05
