@@ -188,3 +188,6 @@ bad character range at position => 欢迎来到实力至上主义的教室
 #我心里危险的东西
 The Dangers in My Heart 2024 S02E => The Dangers in My Heart 2024 S01E && The Dangers in My Heart 2024 S01E <> 1080p >> EP+12
 The.Dangers.in.My.Heart.2024.S02E => The.Dangers.in.My.Heart.2024.S01E && The.Dangers.in.My.Heart.2024.S01E <> 1080p >> EP+12
+
+#死神（匹配TMDB）
+\[Bleach Sennen Kessen[- ]?.*?\] => [Bleach Sennen Kessen.S02]
