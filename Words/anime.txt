@@ -146,6 +146,10 @@ one_piece => 海贼王 1999
 \[CHS\_JP\]\(\w{8}\)
 \[SBSUB\]\[CONAN\]\[DR => [银色子弹字幕组][名侦探柯南][S01E
 \[SBSUB\]\[CONAN\]\[ => [银色子弹字幕组][名侦探柯南][S01E
+#名侦探柯南 【APTX4869 BT】
+\[CHS\_CHT\_JPN\]\(\w{8}\)
+\[APTX4869\]\[CONAN\]\[ => [APTX4869][名侦探柯南][S01E
+\[APTX4869&CONANS\]\[CONAN\]\[ => [APTX4869][名侦探柯南][S01E
 
 # 一念永恒
 A.Will.Eternal.2022.S02 => A.Will.Eternal.2020.S01 && A.Will.Eternal.2020.S01 <> 2160p >> EP+52
@@ -191,3 +195,12 @@ The.Dangers.in.My.Heart.2024.S02E => The.Dangers.in.My.Heart.2024.S01E && The.Da
 
 #死神（匹配TMDB）
 \[Bleach Sennen Kessen[- ]?.*?\] => [Bleach Sennen Kessen.S02]
+
+#死神（匹配TMDB）
+\[Bleach Sennen Kessen[- ]?.*?\] => [Bleach Sennen Kessen.S02]
+
+#憧憬成为魔法少女（匹配 ANi 源）
+夢想成為魔法少女 \[年齡限制版\]  => 憧憬成为魔法少女
+
+#如果30歲還是處男，似乎就能成為魔法師（匹配 ANi 源）
+如果 30 歲還是處男，似乎就能成為魔法師 => 如果30歲還是處男，似乎就能成為魔法師
