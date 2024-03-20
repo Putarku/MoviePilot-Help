@@ -216,3 +216,6 @@ The.Dangers.in.My.Heart.2024.S02E => The.Dangers.in.My.Heart.2024.S01E && The.Da
 
 #最强肉盾的迷宫攻略～拥有稀少技能体力9999的肉盾，被勇者队伍辞退了
 最強肉盾的迷宮攻略～擁有稀少技能體力 9999 的肉盾，被勇者隊伍辭退了～ =>  最强肉盾的迷宫攻略～拥有稀少技能体力9999的肉盾，被勇者队伍辞退了～ (2024)
+
+#反派千金等级 99～我是隐藏头目但不是魔王～(ANI)
+反派千金等级 99～我是隐藏头目但不是魔王～  => Akuyaku Reijou Level 99: Watashi wa Ura-Boss desu ga Maou dewa Arimasen
