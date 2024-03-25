@@ -426,6 +426,7 @@ Preview
 - ### 如何配置企业微信通知
   
   1.参见[此教程](https://pt-helper.notion.site/50a7b44e255d40109bd7ad474abfeba5)
+  
   2.目前有热心网友提供了`免费`的[代理服务器地址](https://github.com/PTLSP/MoviePilot-Wechat-PROXY)，如果自己没有vps可以先使用免费的代理服务器，尝试一下效果。
   <br>
 
