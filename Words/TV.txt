@@ -27,3 +27,12 @@ Zhi Neng Shi Dai S01 2023 => 智能时代  第一季
 
 #蜘蛛夫人：超感觉醒
 Madame.Web => 蜘蛛夫人：超感觉醒
+
+#三体（2024）
+3.Body.Problem.2024 => 三体.2024
+
+#请回答1988
+Reply 1988 => 请回答1988
+
+#天机算
+Tin.Gei.Suen.2007 => {[tmdbid=3125;type=tv]}
