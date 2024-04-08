@@ -226,3 +226,11 @@ The.Dangers.in.My.Heart.2024.S02E => The.Dangers.in.My.Heart.2024.S01E && The.Da
 #转生贵族凭鉴定技能扭转人生
 转生贵族靠着鉴定技能一飞冲天 => Tensei Kizoku, Kantei Skill de Nariagaru
 转生贵族凭鉴定技能扭转人生 => Tensei Kizoku, Kantei Skill de Nariagaru
+Kantei Skill => 转生贵族凭鉴定技能扭转人生
+
+#4月新番名称识别
+从 Lv2 开始开外挂的前勇者候补过著悠哉异世界生活 => {[tmdbid=237233;type=tv]}
+ReMonster / Re：Monster => {[tmdbid=235389]}
+Blue Archive The Animation / 蔚藍檔案 The Animation => {[tmdbid=218833;type=tv]}
+蔚藍檔案 The Animation => {[tmdbid=218833;type=tv]}
+GIRLS BAND CRY / Girls Band Cry => {[tmdbid=241928;type=tv]}
