@@ -219,3 +219,10 @@ The.Dangers.in.My.Heart.2024.S02E => The.Dangers.in.My.Heart.2024.S01E && The.Da
 
 #反派千金等级 99～我是隐藏头目但不是魔王～(ANI)
 反派千金等级 99～我是隐藏头目但不是魔王～  => Akuyaku Reijou Level 99: Watashi wa Ura-Boss desu ga Maou dewa Arimasen
+
+#摇曳露营 第三季(ADweb)
+(?<=Yuru Camp S03.*?)2024 => 2018
+
+#转生贵族凭鉴定技能扭转人生
+转生贵族靠着鉴定技能一飞冲天 => Tensei Kizoku, Kantei Skill de Nariagaru
+转生贵族凭鉴定技能扭转人生 => Tensei Kizoku, Kantei Skill de Nariagaru
