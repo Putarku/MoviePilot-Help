@@ -231,6 +231,7 @@ Kantei Skill => 转生贵族凭鉴定技能扭转人生
 #4月新番名称识别
 从 Lv2 开始开外挂的前勇者候补过著悠哉异世界生活 => {[tmdbid=237233;type=tv]}
 ReMonster / Re：Monster => {[tmdbid=235389]}
+ReMonster / Re：Monster => 怪物转生
 Blue Archive The Animation / 蔚藍檔案 The Animation => {[tmdbid=218833;type=tv]}
 蔚藍檔案 The Animation => {[tmdbid=218833;type=tv]}
 GIRLS BAND CRY / Girls Band Cry => {[tmdbid=241928;type=tv]}
