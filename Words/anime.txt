@@ -223,6 +223,9 @@ The.Dangers.in.My.Heart.2024.S02E => The.Dangers.in.My.Heart.2024.S01E && The.Da
 #摇曳露营 第三季(ADweb)
 (?<=Yuru Camp S03.*?)2024 => 2018
 
+#诛仙 【ADWeb 订阅第二季】
+Jade.Dynasty.S01(?=.*ADWeb) => Jade.Dynasty.S02 && S02 <> 2024 >> EP-26
+
 #转生贵族凭鉴定技能扭转人生
 转生贵族靠着鉴定技能一飞冲天 => Tensei Kizoku, Kantei Skill de Nariagaru
 转生贵族凭鉴定技能扭转人生 => Tensei Kizoku, Kantei Skill de Nariagaru
@@ -257,3 +260,4 @@ Thefable => 杀手寓言
 
 #转生为第七王子，随心所欲的魔法学习之路
 Tensei shitara Dainana Ouji Datta node, Kimama ni Majutsu wo Kiwamemasu => {[tmdbid=213830;type=tv;]}
+
