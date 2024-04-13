@@ -276,4 +276,4 @@ Love Live！虹咲學園 學園偶像同好會 短篇動畫 第二季 => {[tmdbi
 搖曳露營△ 第三季 => {[tmdbid=76075;type=tv;s=3]}
 王牌酒保 Glass of God => {[tmdbid=225168;type=tv;]} 
 魔王學院的不適任者 => {[tmdbid=97617;type=tv;]}  
-
+为美好的世界献上祝福！3 => 为美好的世界献上祝福！第三季
