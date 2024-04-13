@@ -261,3 +261,19 @@ Thefable => 杀手寓言
 #转生为第七王子，随心所欲的魔法学习之路
 Tensei shitara Dainana Ouji Datta node, Kimama ni Majutsu wo Kiwamemasu => {[tmdbid=213830;type=tv;]}
 
+#[ANi]
+隊長小翼 Season2 青少年篇 => {[tmdbid=77240;type=tv;s=2]}
+至高之牌 2 => 至高之牌.S02 && 至高之牌.S02 - <> [1080P] >> EP-12
+花野井同学与恋爱病 => 花野井君和相思病
+青之驅魔師 島根啟明結社篇 => {[tmdbid=38464;type=tv;s=3]}
+約會大作戰 DATE A LIVE V => {[tmdbid=46004;type=tv;s=5]}
+歡迎來到實力至上主義的教室 第三季 => {[tmdbid=72517;type=tv;s=3]}
+聲優廣播的幕前幕後 => {[tmdbid=216760]}
+弱角友崎同學 2nd STAGE => {[tmdbid=99083;type=tv;s=2]}
+卡片戰鬥!! 先導者 Divinez => {[tmdbid=106301-overdress;type=tv;s=5]}
+她來自煩星 第二季 => 福星小子.S01 && 福星小子.S01 <> [1080P] >> EP+22
+Love Live！虹咲學園 學園偶像同好會 短篇動畫 第二季 => {[tmdbid=210511;type=tv;s=2]}
+搖曳露營△ 第三季 => {[tmdbid=76075;type=tv;s=3]}
+王牌酒保 Glass of God => {[tmdbid=225168;type=tv;]} 
+魔王學院的不適任者 => {[tmdbid=97617;type=tv;]}  
+
