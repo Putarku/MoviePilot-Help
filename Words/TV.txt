@@ -45,3 +45,12 @@ Noble.Aspirations => 青云志
 
 #武神主宰
 Dominator of Martial Gods => {[tmdbid=228707;type=tv]}
+
+#诡探前传
+Psycho.Detective.2.2019 => 诡探前传
+
+#诡探
+Psycho.Detective.2017 => 诡探
+
+#神探夏洛克
+Sherlock => 神探夏洛克

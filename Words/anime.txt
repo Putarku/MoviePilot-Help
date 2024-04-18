@@ -242,6 +242,11 @@ Blue Archive The Animation / 蔚藍檔案 The Animation => {[tmdbid=218833;type=
 GIRLS BAND CRY / Girls Band Cry => {[tmdbid=241928;type=tv]}
 单间，光照尚好，附带天使。 / One Room, Hiatari Futsuu, Tenshi-tsuki => 单人房、日照一般、附天使
 轻旅轻营 \(摇曳露营\) Season 3 / Yuru Camp Season 3 => 摇曳露营△ Season 3{[tmdbid=76075;type=tv;s=3]}
+Kuroshitsuji - Kishuku Gakkou-hen =>{[tmdbid=50712;type=tv;s=4]}
+Ooi! Tonbo =>{[tmdbid=243140;type=tv]}
+Kono Subarashii Sekai ni Shukufuku wo => {[tmdbid=65844;type=tv;]} 
+Bartender：Kami no Glass => {[tmdbid=225168;type=tv;]} 
+Blue Archive => {[tmdbid=218833;type=tv;]} 
 
 #转生贵族凭鉴定技能扭转人生
 轉生貴族憑鑑定技能扭轉人生 => {[tmdbid=237150;type=tv;]}
@@ -263,10 +268,14 @@ Thefable => 杀手寓言
 #转生为第七王子，随心所欲的魔法学习之路
 Tensei shitara Dainana Ouji Datta node, Kimama ni Majutsu wo Kiwamemasu => {[tmdbid=213830;type=tv;]}
 
+#大欺诈师
+GREAT PRETENDER razbliuto => {[tmdbid=93816;type=tv;s=2]}
+
 #[ANi]
 隊長小翼 Season2 青少年篇 => {[tmdbid=77240;type=tv;s=2]}
 至高之牌 2 => 至高之牌.S02 && 至高之牌.S02 - <> [1080P] >> EP-12
-花野井同学与恋爱病 => 花野井君和相思病
+花野井同學與戀愛病 => 花野井君和相思病
+花野井同學與戀愛病 =>{[tmdbid=239214;type=tv]}
 青之驅魔師 島根啟明結社篇 => {[tmdbid=38464;type=tv;s=3]}
 約會大作戰 DATE A LIVE V => {[tmdbid=46004;type=tv;s=5]}
 歡迎來到實力至上主義的教室 第三季 => {[tmdbid=72517;type=tv;s=3]}
@@ -279,6 +288,15 @@ Love Live！虹咲學園 學園偶像同好會 短篇動畫 第二季 => {[tmdbi
 王牌酒保 Glass of God => {[tmdbid=225168;type=tv;]} 
 魔王學院的不適任者 => {[tmdbid=97617;type=tv;]}  
 为美好的世界献上祝福！3 => 为美好的世界献上祝福！第三季
+约会大作战 DATE A LIVE V => 约会大作战 S5
+魔王學院的不適任者～史上最強的魔王始祖，轉生就讀子孫們的學校～ => 魔王学院的不适任者
+魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～ => 魔王学院的不适任者
+黑执事 寄宿学校篇 => 黑执事 S4
+黑執事 寄宿學校篇 => {[tmdbid=50712;type=tv;s=4]}
+為美好的世界獻上祝福！3 => 为美好的世界献上祝福！ S3
+为美好的世界献上祝福！3 => 为美好的世界献上祝福！ S3
+花野井同學與戀愛病 => 花野井君和相思病
+花野井同学与恋爱病 => 花野井君和相思病
 
 
 
