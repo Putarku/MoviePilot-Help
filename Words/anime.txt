@@ -298,6 +298,19 @@ Love Live！虹咲學園 學園偶像同好會 短篇動畫 第二季 => {[tmdbi
 花野井同學與戀愛病 => 花野井君和相思病
 花野井同学与恋爱病 => 花野井君和相思病
 
-
-
-
+#其他儿童动画
+#大耳朵图图
+大耳朵图图 =>  {[tmdbid=131937;type=tv;]}
+Da.Er.Duo.Tutu =>  {[tmdbid=131937;type=tv;]}
+BigEarTutu =>  {[tmdbid=131937;type=tv;]}
+Big.Ear.Tutu =>  {[tmdbid=131937;type=tv;]}
+Peppa.Pig => 小猪佩奇
+Meitantei.Conan => 名侦探柯南
+Young.Di.Renjie =>  {[tmdbid=157287;type=tv;]}
+小狼乐宾 => {[tmdbid=129874;type=tv;]}
+Meng.Ji.Xiao.Dui => {[tmdbid=85087;type=tv;]}
+MengJiXiaoDui => {[tmdbid=85087;type=tv;]}
+Journey.to.the.West => {[tmdbid=85672;type=tv;]}
+超级飞侠.Super.Wings => {[tmdbid=71026;type=tv;]}
+超级飞侠.第3季.Super.Wings => {[tmdbid=71026;type=tv;]}
+YuZhouHuWeiDui => {[tmdbid=114674;type=tv;]}
