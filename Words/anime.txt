@@ -244,7 +244,6 @@ GIRLS BAND CRY / Girls Band Cry => {[tmdbid=241928;type=tv]}
 轻旅轻营 \(摇曳露营\) Season 3 / Yuru Camp Season 3 => 摇曳露营△ Season 3{[tmdbid=76075;type=tv;s=3]}
 Kuroshitsuji - Kishuku Gakkou-hen =>{[tmdbid=50712;type=tv;s=4]}
 Ooi! Tonbo =>{[tmdbid=243140;type=tv]}
-Kono Subarashii Sekai ni Shukufuku wo => {[tmdbid=65844;type=tv;]} 
 Bartender：Kami no Glass => {[tmdbid=225168;type=tv;]} 
 Blue Archive => {[tmdbid=218833;type=tv;]} 
 
