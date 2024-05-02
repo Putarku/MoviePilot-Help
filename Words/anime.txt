@@ -246,6 +246,7 @@ Kuroshitsuji - Kishuku Gakkou-hen =>{[tmdbid=50712;type=tv;s=4]}
 Ooi! Tonbo =>{[tmdbid=243140;type=tv]}
 Bartender：Kami no Glass => {[tmdbid=225168;type=tv;]} 
 Blue Archive => {[tmdbid=218833;type=tv;]} 
+Kono Subarashii Sekai ni Shukufuku wo => {[tmdbid=65844;type=tv;]} 
 
 #转生贵族凭鉴定技能扭转人生
 轉生貴族憑鑑定技能扭轉人生 => {[tmdbid=237150;type=tv;]}
@@ -269,6 +270,23 @@ Tensei shitara Dainana Ouji Datta node, Kimama ni Majutsu wo Kiwamemasu => {[tmd
 
 #大欺诈师
 GREAT PRETENDER razbliuto => {[tmdbid=93816;type=tv;s=2]}
+
+#身为魔王的我娶了奴隶精灵为妻，该如何表白我的爱？
+身为魔王的我娶了奴隶精灵为妻、该如何爱她才好？=> 身为魔王的我娶了奴隶精灵为妻，该如何表白我的爱？ {[tmdbid=238848;type=tv;]}
+
+#关于我转生变成史莱姆这档事 第三季
+Tensei Shitara Slime Datta Ken 3rd Season - 48.5 => 关于我转生变成史莱姆这档事.S00 E14 {[tmdbid=82684;type=tv;s=0;e=14]}
+Tensei Shitara Slime Datta Ken 3rd Season - 00\(48.5\) => 关于我转生变成史莱姆这档事.S00 E14 {[tmdbid=82684;type=tv;s=0;e=14]}
+Tensei Shitara Slime Datta Ken 3rd Season - 00\(49\) => 关于我转生变成史莱姆这档事.S03 E01 {[tmdbid=82684;type=tv;s=3;e=1]}
+Tensei Shitara Slime Datta Ken 3rd Season - (\d{1,2}) .* => 关于我转生变成史莱姆这档事.S3 E\1  {[tmdbid=82684;type=tv;]} && 关于我转生变成史莱姆这档事.S3 E <>  >> EP-48
+Tensei Shitara Slime Datta Ken 3rd Season - (\d{1,2})\((\d{1,2})\) => 关于我转生变成史莱姆这档事.S3 E\1 {[tmdbid=82684;type=tv;]}
+
+#关于我转生变成史莱姆这档事 第二季
+Tensei Shitara Slime Datta Ken 2nd Season - (\d{1,2}) .* => 关于我转生变成史莱姆这档事.S2 E\1 {[tmdbid=82684;type=tv;]} && 关于我转生变成史莱姆这档事.S2 E <>  >> EP-24
+Tensei Shitara Slime Datta Ken.*24.9.* => 关于我转生变成史莱姆这档事.S00 E07 {[tmdbid=82684;type=tv;]}
+
+#关于我转生变成史莱姆这档事 第一季
+Tensei Shitara Slime Datta Ken.*24.5.* => 关于我转生变成史莱姆这档事.S00 E01 {[tmdbid=82684;type=tv;]}
 
 #[ANi]
 隊長小翼 Season2 青少年篇 => {[tmdbid=77240;type=tv;s=2]}

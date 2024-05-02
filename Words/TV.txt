@@ -54,3 +54,6 @@ Psycho.Detective.2017 => 诡探
 
 #神探夏洛克
 Sherlock => 神探夏洛克
+
+#背着善宰跑
+背着善在跑吧 => {[tmdbid=230923;type=tv]}
