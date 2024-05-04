@@ -2,6 +2,9 @@
  A Record Of Mortal's Journey To Immortality =>  凡人修仙传(2020)
 \[凡人修仙传 星海飞驰\]\[Fan Ren Xiu Xian Zhuan\]\[2023\] => 凡人修仙传.2020 && 2020 <> AVC >> EP+76
 
+#诛仙 【ADWeb 订阅第二季】
+Jade.Dynasty.S01(?=.*ADWeb) => Jade.Dynasty.S02 && S02 <> 2024 >> EP-26
+
 #斗罗大陆2：绝世唐门
 Soul Land S02 => Soul Land II: The Unrivaled Tang 
 斗罗大陆.Soul.Land.S02 => Soul Land II: The Unrivaled Tang 
@@ -247,6 +250,10 @@ Ooi! Tonbo =>{[tmdbid=243140;type=tv]}
 Bartender：Kami no Glass => {[tmdbid=225168;type=tv;]} 
 Blue Archive => {[tmdbid=218833;type=tv;]} 
 Kono Subarashii Sekai ni Shukufuku wo => {[tmdbid=65844;type=tv;]} 
+#蜻蛉高球
+Ooi! Tonbo =>{[tmdbid=243140;type=tv]}
+#防风玲
+WIND BREAKER—防風少年— =>{[tmdbid=223500;type=tv]}
 
 #转生贵族凭鉴定技能扭转人生
 轉生貴族憑鑑定技能扭轉人生 => {[tmdbid=237150;type=tv;]}
@@ -314,6 +321,7 @@ Love Live！虹咲學園 學園偶像同好會 短篇動畫 第二季 => {[tmdbi
 为美好的世界献上祝福！3 => 为美好的世界献上祝福！ S3
 花野井同學與戀愛病 => 花野井君和相思病
 花野井同学与恋爱病 => 花野井君和相思病
+(雀魂 KANG!! / Jantama Kan!!)|(Jantama Kan!!) => 雀魂 S02
 
 #其他儿童动画
 #大耳朵图图
@@ -331,3 +339,16 @@ Journey.to.the.West => {[tmdbid=85672;type=tv;]}
 超级飞侠.Super.Wings => {[tmdbid=71026;type=tv;]}
 超级飞侠.第3季.Super.Wings => {[tmdbid=71026;type=tv;]}
 YuZhouHuWeiDui => {[tmdbid=114674;type=tv;]}
+
+#其他老番
+NEW GAME!! => NEW GAME!! S02
+听我的电波吧 =>听我的电波吧 动画
+OVERLORD II => OVERLORD S02
+OVERLORD III => OVERLORD S03
+OVERLORD Ⅳ => OVERLORD S03
+# 笨蛋测验召唤兽第二季
+# 兼容名称[Yousei-raws] Baka to Test to Shoukanjuu Ni! 08 [BDrip 1920x1080 x264 FLAC].mkv
+Baka to Test to Shoukanjuu Ni! (\d{2,3}) => Baka to Test to Shoukanjuu S02 E\1
+# 笨蛋测验召唤兽第一季
+# 兼容名称[Yousei-raws] Baka to Test to Shoukanjuu 12 [BDrip 1920x1080 x264 FLAC].mkv
+Baka to Test to Shoukanjuu (\d{2,3}) => Baka to Test to Shoukanjuu S01 E\1
