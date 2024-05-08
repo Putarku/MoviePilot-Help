@@ -9,6 +9,38 @@ Jade.Dynasty.S01(?=.*ADWeb) => Jade.Dynasty.S02 && S02 <> 2024 >> EP-26
 Soul Land S02 => Soul Land II: The Unrivaled Tang 
 斗罗大陆.Soul.Land.S02 => Soul Land II: The Unrivaled Tang 
 
+#师兄啊师兄
+师兄啊师兄.My.Senior.Brother.is.Too.Steady.S02E => 师兄啊师兄.My.Senior.Brother.is.Too.Steady.S01E && S01 <> 2023 >> EP+13
+
+#吞噬星空
+(?<=Swallowed.Star.S04.*?)2023 => 2020
+Swallowed.Star.S04 => Swallowed.Star.S01 && S01 <> 2020 >> EP+85
+Swallowed.Star.S03 => Swallowed.Star.S01
+Swallowed.Star.S02 => Swallowed.Star.S01
+#吞噬星空 【ADWeb 订阅第2-4季】24.05.07
+吞噬星空·第2季.Swallowed.Star.S02 => Swallowed.Star.S01
+吞噬星空.第3季.Swallowed.Star.S03 => Swallowed.Star.S01
+吞噬星空.Swallowed.Star.S04 => Swallowed.Star.S01 && S01 <> 2023 >> EP+85
+
+#百炼成神
+Apotheosis.S02 => Apotheosis.S01 && S01 <> 2022 >> EP+52
+(?<=Apotheosis.S02.*?)2023 => 2022
+
+#全职法师
+Quan Zhi Fa Shi Ⅵ  => Quan Zhi Fa Shi
+#诛仙
+Jade Dynasty Ⅱ => Jade Dynasty
+#雾山五行 犀川幻紫林
+Fog Hill of Five Elements Ⅱ => Fog Hill of Five Elements
+#镇魂街
+Rakshasa Street Ⅲ => Rakshasa Street
+#大王饶命
+Da Wang Rao Ming Ⅱ => Da Wang Rao Ming
+#永生
+IMMORTALITY.S01(?=.*ADWeb) => IMMORTALITY.S03 && S03 <> 2022 >> EP-24
+
+
+
 #宝可梦 地平线(枫叶字幕组)
 宝可梦 地平线 太乐巴戈斯的光辉 => 宝可梦 地平线(2023)
 (.+)\[宠物小精灵(.+?地平线)|(.+)\[寵物小精靈(.+?地平線) => \1{[tmdbid=220150]}\2
@@ -56,18 +88,6 @@ Yahari Ore no Seishun Lovecome wa Machigatte Iru. Zoku \[OVA\] => Yahari Ore no 
 Yahari Ore no Seishun Lovecome wa Machigatte Iru. Zoku => Yahari Ore no Seishun Lovecome wa Machigatte Iru. S02
 Oregairu Kan => Yahari Ore no Seishun Lovecome wa Machigatte Iru. S03
 
-#师兄啊师兄
-师兄啊师兄.My.Senior.Brother.is.Too.Steady.S02E => 师兄啊师兄.My.Senior.Brother.is.Too.Steady.S01E && S01 <> 2023 >> EP+13
-
-#吞噬星空
-(?<=Swallowed.Star.S04.*?)2023 => 2020
-Swallowed.Star.S04 => Swallowed.Star.S01 && S01 <> 2020 >> EP+85
-Swallowed.Star.S03 => Swallowed.Star.S01
-Swallowed.Star.S02 => Swallowed.Star.S01
-
-#百炼成神
-Apotheosis.S02 => Apotheosis.S01 && S01 <> 2022 >> EP+52
-(?<=Apotheosis.S02.*?)2023 => 2022
 
 #文豪野犬
 Bungou Stray Dogs S00E01 => Bungou Stray Dogs S01E25
@@ -145,8 +165,6 @@ One.Piece.S01(?=.*ADWeb) => One Piece S22
 海贼王 1999\]\[(?=\b(89[0-1]|88[0-9]|87[8-9])\b) => 海贼王 1999][S20E
 海贼王 1999\]\[(?=\b(108[0-5]|10[0-7][0-9]|9[0-9][0-9]|89[2-9])\b) => 海贼王 1999][S21E
 海贼王 1999\]\[(?=\b(1[1-9][0-9][0-9]|109[0-9]|108[6-9])\b) => 海贼王 1999][S22E
-
-
 
 #名侦探柯南 【银色子弹 BT】
 (?<=SBSUB.*DR.*?)- => part
@@ -247,9 +265,7 @@ GIRLS BAND CRY / Girls Band Cry => {[tmdbid=241928;type=tv]}
 轻旅轻营 \(摇曳露营\) Season 3 / Yuru Camp Season 3 => 摇曳露营△ Season 3{[tmdbid=76075;type=tv;s=3]}
 Kuroshitsuji - Kishuku Gakkou-hen =>{[tmdbid=50712;type=tv;s=4]}
 Ooi! Tonbo =>{[tmdbid=243140;type=tv]}
-Bartender：Kami no Glass => {[tmdbid=225168;type=tv;]} 
 Blue Archive => {[tmdbid=218833;type=tv;]} 
-Kono Subarashii Sekai ni Shukufuku wo => {[tmdbid=65844;type=tv;]} 
 #蜻蛉高球
 Ooi! Tonbo =>{[tmdbid=243140;type=tv]}
 #防风玲
