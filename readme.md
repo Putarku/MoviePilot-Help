@@ -1,3 +1,4 @@
+# 点击查看[MoviePilot-Note](https://putarku.github.io/MoviePilot-Help/#/readme)
 
 # **一些说明**
  - 本仓库仅作为对[Moviepilot](https://github.com/jxxghp/MoviePilot/blob/main/README.md)的一些使用上的内容补充，发现问题时，请先仔细阅读原项目的[Readme](https://github.com/jxxghp/MoviePilot/blob/main/README.md)
