@@ -23,8 +23,9 @@ Swallowed.Star.S02 => Swallowed.Star.S01
 吞噬星空.Swallowed.Star.S04 => Swallowed.Star.S01 && S01 <> 2023 >> EP+85
 
 #百炼成神
-Apotheosis.S02 => Apotheosis.S01 && S01 <> 2022 >> EP+52
 (?<=Apotheosis.S02.*?)2023 => 2022
+Apotheosis.S02 => Apotheosis.S01 && S01 <> 2022 >> EP+52
+
 
 #全职法师
 Quan Zhi Fa Shi Ⅵ  => Quan Zhi Fa Shi
@@ -39,7 +40,17 @@ Da Wang Rao Ming Ⅱ => Da Wang Rao Ming
 #永生
 IMMORTALITY.S01(?=.*ADWeb) => IMMORTALITY.S03 && S03 <> 2022 >> EP-24
 
-
+#名侦探柯南 【银色子弹 BT】
+(?<=SBSUB.*DR.*?)- => part
+\[CHS\_CHT\_JP\]\(\w{8}\)
+\[CHT\_JP\]\(\w{8}\)
+\[CHS\_JP\]\(\w{8}\)
+\[SBSUB\]\[CONAN\]\[DR => [银色子弹字幕组][名侦探柯南][S01E
+\[SBSUB\]\[CONAN\]\[ => [银色子弹字幕组][名侦探柯南][S01E
+#名侦探柯南 【APTX4869 BT】
+\[CHS\_CHT\_JPN\]\(\w{8}\)
+\[APTX4869\]\[CONAN\]\[ => [APTX4869][名侦探柯南][S01E
+\[APTX4869&CONANS\]\[CONAN\]\[ => [APTX4869][名侦探柯南][S01E
 
 #宝可梦 地平线(枫叶字幕组)
 宝可梦 地平线 太乐巴戈斯的光辉 => 宝可梦 地平线(2023)
@@ -165,18 +176,6 @@ One.Piece.S01(?=.*ADWeb) => One Piece S22
 海贼王 1999\]\[(?=\b(89[0-1]|88[0-9]|87[8-9])\b) => 海贼王 1999][S20E
 海贼王 1999\]\[(?=\b(108[0-5]|10[0-7][0-9]|9[0-9][0-9]|89[2-9])\b) => 海贼王 1999][S21E
 海贼王 1999\]\[(?=\b(1[1-9][0-9][0-9]|109[0-9]|108[6-9])\b) => 海贼王 1999][S22E
-
-#名侦探柯南 【银色子弹 BT】
-(?<=SBSUB.*DR.*?)- => part
-\[CHS\_CHT\_JP\]\(\w{8}\)
-\[CHT\_JP\]\(\w{8}\)
-\[CHS\_JP\]\(\w{8}\)
-\[SBSUB\]\[CONAN\]\[DR => [银色子弹字幕组][名侦探柯南][S01E
-\[SBSUB\]\[CONAN\]\[ => [银色子弹字幕组][名侦探柯南][S01E
-#名侦探柯南 【APTX4869 BT】
-\[CHS\_CHT\_JPN\]\(\w{8}\)
-\[APTX4869\]\[CONAN\]\[ => [APTX4869][名侦探柯南][S01E
-\[APTX4869&CONANS\]\[CONAN\]\[ => [APTX4869][名侦探柯南][S01E
 
 # 一念永恒
 A.Will.Eternal.2022.S02 => A.Will.Eternal.2020.S01 && A.Will.Eternal.2020.S01 <> 2160p >> EP+52
