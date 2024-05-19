@@ -141,7 +141,7 @@ Blue Archive The Animation / 蔚藍檔案 The Animation => {[tmdbid=218833;type=
 蔚藍檔案 The Animation => {[tmdbid=218833;type=tv]}
 GIRLS BAND CRY / Girls Band Cry => {[tmdbid=241928;type=tv]}
 单间，光照尚好，附带天使。 / One Room, Hiatari Futsuu, Tenshi-tsuki => 单人房、日照一般、附天使
-轻旅轻营 \(摇曳露营\) Season 3 / Yuru Camp Season 3 => 摇曳露营△ Season 3{[tmdbid=76075;type=tv;s=3]}
+轻旅轻营 \(摇曳露营\) Season 3 / Yuru Camp Season 3 => 摇曳露营△ Season 3
 Kuroshitsuji - Kishuku Gakkou-hen =>{[tmdbid=50712;type=tv;s=4]}
 Ooi! Tonbo =>{[tmdbid=243140;type=tv]}
 Blue Archive => {[tmdbid=218833;type=tv;]} 
@@ -169,18 +169,17 @@ WIND BREAKER—防風少年— =>{[tmdbid=223500;type=tv]}
 Kuroshitsuji - Kishuku Gakkou-hen => {[tmdbid=50712;type=tv;s=4]}
 
 #被称为废物的原英雄被家里流放后随心所欲地活下去
-被称为废物的原英雄被家里流放后随心所欲地活下去 => {[tmdbid=229108;type=tv]}
 被称为废物的原英雄被家里流放后随心所欲地活下去 => 被称为废物的原英雄，被家里流放后随心所欲地活下去 S01E
 
 #从Lv2开始开外挂的前勇者候补过着悠哉异世界生活
 從 Lv2 開始開外掛的前勇者候補過著悠哉異世界生活 => 从Lv2开始开外挂的前勇者候补过着悠哉异世界生活
-從 Lv2 開始開外掛的前勇者候補過著悠哉異世界生活 => {[tmdbid=237233;type=tv]}
+
 
 #2024年4月新番
 Kono Subarashii Sekai ni Shukufuku wo => {[tmdbid=65844;type=tv;]}
-轉生貴族憑鑑定技能扭轉人生 => 转生贵族靠着鉴定技能一飞冲天 {[tmdbid=237150;type=tv;]}
-转生贵族靠着鉴定技能一飞冲天 =>  转生贵族靠着鉴定技能一飞冲天 {[tmdbid=237150;type=tv;]}
-转生贵族凭鉴定技能扭转人生 => 转生贵族靠着鉴定技能一飞冲天 {[tmdbid=237150;type=tv;]}
+轉生貴族憑鑑定技能扭轉人生 => 转生贵族靠着鉴定技能一飞冲天
+转生贵族靠着鉴定技能一飞冲天 =>  转生贵族靠着鉴定技能一飞冲天
+转生贵族凭鉴定技能扭转人生 => 转生贵族靠着鉴定技能一飞冲天
 
 #狼与香辛料
 Ookami to Koushinryou => {[tmdbid=229676;type=tv;]}
