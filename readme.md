@@ -18,3 +18,6 @@
 - [MoviePilot配置教程](https://blog.goalonez.site/blog/MoviePilot%E9%85%8D%E7%BD%AE-Nas%E5%AA%92%E4%BD%93%E5%BA%93%E8%87%AA%E5%8A%A8%E5%8C%96%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7.html)：MoviePilot配置-Nas媒体库自动化管理工具
 - [MoviePilot配置教程](https://hackfang.me/movie-pilot-install-and-guide)：自动化观影平台MoviePilot安装与使用
 - [企业微信推送配置教程](https://pt-helper.notion.site/50a7b44e255d40109bd7ad474abfeba5)：企业微信推送
+
+
+## **新更新的问题可以查看[近期新问题](/docs/近期新问题)**
