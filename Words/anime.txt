@@ -1,10 +1,13 @@
 #国漫
+
+
 #凡人修仙传
  A Record Of Mortal's Journey To Immortality =>  凡人修仙传(2020)
 \[凡人修仙传 星海飞驰\]\[Fan Ren Xiu Xian Zhuan\]\[2023\] => 凡人修仙传.2020 && 2020 <> AVC >> EP+76
 
 #诛仙 【ADWeb 订阅第二季】
-Jade.Dynasty.S01(?=.*ADWeb) => Jade.Dynasty.S02 && S02 <> 2024 >> EP-26
+Jade.Dynasty.S01(?=.*ADWeb) => 诛仙动画.S02 && S02 <> 2024 >> EP-26
+Jade.Dynasty.S01(?=.*HHWEB) => 诛仙.Jade.Dynasty.S02 && S02 <> 2022 >> EP-26
 
 #斗罗大陆2：绝世唐门
 Soul Land S02 => Soul Land II: The Unrivaled Tang 
@@ -35,7 +38,7 @@ Stellar Transformation Ⅴ => Stellar Transformation
 #全职法师
 Quan Zhi Fa Shi Ⅵ  => Quan Zhi Fa Shi
 #诛仙
-Jade Dynasty Ⅱ => Jade Dynasty
+Jade Dynasty Ⅱ => 诛仙动画
 #雾山五行 犀川幻紫林
 Fog Hill of Five Elements Ⅱ => Fog Hill of Five Elements
 #镇魂街
@@ -321,6 +324,8 @@ A.Will.Eternal.2022.S02 => A.Will.Eternal.2020.S01 && A.Will.Eternal.2020.S01 <>
 Shin no Nakama 2nd => {[tmdbid=113256;type=tv;s=2]}
 # 碧蓝幻想 BDrip
 Granblue Fantasy The Animation S2 => {[tmdbid=69820;type=tv;s=02]}
+#鬼灭之刃 柱训练篇
+鬼灭之刃 柱训练篇 => {[tmdbid=85937;type=tv;s=5]}
 
 #其他老番
 NEW GAME!! => NEW GAME!! S02
