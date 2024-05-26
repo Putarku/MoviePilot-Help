@@ -8,6 +8,8 @@
 #诛仙 【ADWeb 订阅第二季】
 Jade.Dynasty.S01(?=.*ADWeb) => 诛仙动画.S02 && S02 <> 2024 >> EP-26
 Jade.Dynasty.S01(?=.*HHWEB) => 诛仙.Jade.Dynasty.S02 && S02 <> 2022 >> EP-26
+Jade.Dynasty (?=.*ZWEX) => 诛仙动画 
+Jade Dynasty Ⅱ => 诛仙动画
 
 #斗罗大陆2：绝世唐门
 Soul Land S02 => Soul Land II: The Unrivaled Tang 
@@ -37,8 +39,7 @@ Stellar Transformation Ⅴ => Stellar Transformation
 
 #全职法师
 Quan Zhi Fa Shi Ⅵ  => Quan Zhi Fa Shi
-#诛仙
-Jade Dynasty Ⅱ => 诛仙动画
+
 #雾山五行 犀川幻紫林
 Fog Hill of Five Elements Ⅱ => Fog Hill of Five Elements
 #镇魂街
