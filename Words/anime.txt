@@ -29,7 +29,7 @@ Swallowed.Star.S02 => Swallowed.Star.S01
 吞噬星空·第2季.Swallowed.Star.S02 => Swallowed.Star.S01
 吞噬星空.第3季.Swallowed.Star.S03 => Swallowed.Star.S01
 吞噬星空.Swallowed.Star.S04 => Swallowed.Star.S01 && S01 <> 2023 >> EP+85
-Swallowed.Star.2023.S04(?=.*PTerWEB) => Swallowed.Star.S01 && S01 <> WEB >> EP+85
+Swallowed.Star.2023.S04(?=.*PTerWEB) => Swallowed.Star.S01 && S01 <> WEB-DL >> EP+85
 
 #百炼成神
 (?<=Apotheosis.S02.*?)2023 => 2022
