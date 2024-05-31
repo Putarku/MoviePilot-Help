@@ -15,6 +15,7 @@
 - [DDS-Derek/MoviePilot](https://github.com/DDS-Derek/MoviePilot/tree/docs)：MoviePilot常见问题及其解决办法 & 部分自建功能教程
 - [developer-wlj/Windows-MoviePilot](https://github.com/developer-wlj/Windows-MoviePilot)：exe方式运行MoviePilot
 - [PTLSP/MoviePilot-Wechat-PROXY](https://blog.ptlsp.com/moviepilotwechat)：MoviePilot企业微信推送之新手喂饭教程
+- [MoviePilot部署教程](https://blog.zwbcc.cn/archives/1711674204030)：MoviePilot新手部署教程
 - [MoviePilot配置教程](https://blog.goalonez.site/blog/MoviePilot%E9%85%8D%E7%BD%AE-Nas%E5%AA%92%E4%BD%93%E5%BA%93%E8%87%AA%E5%8A%A8%E5%8C%96%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7.html)：MoviePilot配置-Nas媒体库自动化管理工具
 - [MoviePilot配置教程](https://hackfang.me/movie-pilot-install-and-guide)：自动化观影平台MoviePilot安装与使用
 - [企业微信推送配置教程](https://pt-helper.notion.site/50a7b44e255d40109bd7ad474abfeba5)：企业微信推送
