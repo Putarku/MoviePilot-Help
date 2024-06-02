@@ -82,6 +82,9 @@ Pokemon.Best.Wishes.2010 => Pokemon.1998
 #海贼王第22季（观众版本，仅用于追最新季的时候添加）
 One.Piece.S01(?=.*ADWeb) => One Piece S22
 
+#海贼王第22季使用mikan订阅[枫雪动漫]
+(?<=枫雪动漫.*?)ONE PIECE 海贼王 => One Piece(1999) S22
+
 #海贼王第22季使用mikan订阅[GJ.Y]
 海贼王 / One Piece => 海贼王 1999
 海贼王 1999 - (?=\b(1[1-9][0-9][0-9]|109[0-9]|108[6-9])\b) => 海贼王 1999 S22E
