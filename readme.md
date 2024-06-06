@@ -1,4 +1,5 @@
 # 点击查看[MoviePilot-Note](https://putarku.github.io/MoviePilot-Help/#/readme)
+## **新更新的问题可以查看[近期新问题](/docs/近期新问题)**
 
 # **一些说明**
  - 本仓库仅作为对[Moviepilot](https://github.com/jxxghp/MoviePilot/blob/main/README.md)的一些使用上的内容补充，发现问题时，请先仔细阅读原项目的[Readme](https://github.com/jxxghp/MoviePilot/blob/main/README.md)
@@ -10,7 +11,7 @@
 
 <br>
 
-# **MoviePoilt相关教程**
+# **MoviePoilt相关教程和工具**
 
 - [DDS-Derek/MoviePilot](https://github.com/DDS-Derek/MoviePilot/tree/docs)：MoviePilot常见问题及其解决办法 & 部分自建功能教程
 - [developer-wlj/Windows-MoviePilot](https://github.com/developer-wlj/Windows-MoviePilot)：exe方式运行MoviePilot
@@ -21,4 +22,5 @@
 - [企业微信推送配置教程](https://pt-helper.notion.site/50a7b44e255d40109bd7ad474abfeba5)：企业微信推送
 
 
-## **新更新的问题可以查看[近期新问题](/docs/近期新问题)**
+- [moviepilotNameTest](https://greasyfork.org/zh-CN/scripts/486188-moviepilotnametest)：从站点页面发送种子到MP的油猴脚本
+
