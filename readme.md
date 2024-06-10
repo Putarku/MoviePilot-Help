@@ -1,5 +1,8 @@
+
+# **最近出现的新问题可以查看[近期新问题](/docs/近期新问题)**
+
+
 # 点击查看[MoviePilot-Note](https://putarku.github.io/MoviePilot-Help/#/readme)
-## **新更新的问题可以查看[近期新问题](/docs/近期新问题)**
 
 # **一些说明**
  - 本仓库仅作为对[Moviepilot](https://github.com/jxxghp/MoviePilot/blob/main/README.md)的一些使用上的内容补充，发现问题时，请先仔细阅读原项目的[Readme](https://github.com/jxxghp/MoviePilot/blob/main/README.md)
@@ -20,7 +23,5 @@
 - [MoviePilot配置教程](https://blog.goalonez.site/blog/MoviePilot%E9%85%8D%E7%BD%AE-Nas%E5%AA%92%E4%BD%93%E5%BA%93%E8%87%AA%E5%8A%A8%E5%8C%96%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7.html)：MoviePilot配置-Nas媒体库自动化管理工具
 - [MoviePilot配置教程](https://hackfang.me/movie-pilot-install-and-guide)：自动化观影平台MoviePilot安装与使用
 - [企业微信推送配置教程](https://pt-helper.notion.site/50a7b44e255d40109bd7ad474abfeba5)：企业微信推送
-
-
 - [moviepilotNameTest](https://greasyfork.org/zh-CN/scripts/486188-moviepilotnametest)：从站点页面发送种子到MP的油猴脚本
 
