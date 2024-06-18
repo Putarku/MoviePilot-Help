@@ -1,5 +1,5 @@
 
-# **最近出现的新问题可以查看[近期新问题](/docs/近期新问题)**
+# **最近出现的新问题可以查看[近期新问题](https://putarku.github.io/MoviePilot-Help/#/docs/%E8%BF%91%E6%9C%9F%E6%96%B0%E9%97%AE%E9%A2%98)**
 
 
 # 点击查看[MoviePilot-Note](https://putarku.github.io/MoviePilot-Help/#/readme)

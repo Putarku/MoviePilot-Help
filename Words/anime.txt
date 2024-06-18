@@ -13,9 +13,18 @@ Jade.Dynasty.S01(?=.*HHWEB) => 诛仙.Jade.Dynasty.S02 && S02 <> 2022 >> EP-26
 Jade.Dynasty (?=.*ZWEX) => 诛仙动画 
 Jade Dynasty Ⅱ => 诛仙动画
 
+#诛仙-HHWEB订阅
+Jade.Dynasty.S01(?=.*HHWEB) => 诛仙.S01{[tmdbid=206484;type=tv;s=1]}
+Dynasty S01 2022(?=.*HHWEB) => 诛仙.S01{[tmdbid=206484;type=tv;s=1;e=37]}
+
 #斗罗大陆2：绝世唐门
 Soul Land S02 => Soul Land II: The Unrivaled Tang 
 斗罗大陆.Soul.Land.S02 => Soul Land II: The Unrivaled Tang 
+
+#斗破苍穹特别篇-HHWEB
+Fights.Break.Sphere.The.Origin.S01(?=.*HHWEB) => 斗破苍穹 特别篇.S04{[tmdbid=213658;type=tv;s=4]}
+Fights.Break.Sphere.SP3(?=.*HHWEB) => 斗破苍穹 特别篇.S03{[tmdbid=213658;type=tv;s=3]}
+Fights.Break.Sphere.SP2(?=.*HHWEB) => 斗破苍穹 特别篇.S02{[tmdbid=213658;type=tv;s=2]}
 
 #师兄啊师兄
 师兄啊师兄.My.Senior.Brother.is.Too.Steady.S02E => 师兄啊师兄.My.Senior.Brother.is.Too.Steady.S01E && S01 <> 2023 >> EP+13
@@ -156,6 +165,11 @@ one_piece]\[(?=(89[2-9]|9[0-9][0-9]|10[0-7][0-9]|108[0-8])) => 海贼王 1999][S
 # S06 E134~E159
 【CXRAW】【ドラゴンボール改】【(13[4-9]|14\d|15[0-9])】【.*】 => 龙珠改.S06E\1 && 龙珠改.S06 <> .* >> EP-133
 
+#火影忍者-猪猪字幕组-Naruto HDTV 1920x1080 x264 AAC-jumpcn
+\[猪猪字幕组\]\[火影忍者-NARUTO -ナルト\]\[(00[1-9]|0[1-4][0-9]|05[0-2])\]\[DVD 720x544\] => [猪猪字幕组][火影忍者-NARUTO -ナルト][\1][DVD 720x544]{[tmdbid=46260;type=tv;s=1]}
+\[猪猪字幕组\]\[火影忍者-NARUTO -ナルト\]\[(05[3-9]|0[6-9][0-9]|10[0-4])\]\[DVD 720x544\] => [猪猪字幕组][火影忍者-NARUTO -ナルト][\1][DVD 720x544]{[tmdbid=46260;type=tv;s=2]}
+\[猪猪字幕组\]\[火影忍者-NARUTO -ナルト\]\[(10[5-9]|1[1-4][0-9]|15[0-8])\]\[DVD 720x544\] => [猪猪字幕组][火影忍者-NARUTO -ナルト][\1][DVD 720x544]{[tmdbid=46260;type=tv;s=3]}
+\[猪猪字幕组\]\[火影忍者-NARUTO -ナルト\]\[(15[9-9]|1[6-9][0-9]|20[0-9]|220)\]\[DVD 720x544\] => [猪猪字幕组][火影忍者-NARUTO -ナルト][\1][DVD 720x544]{[tmdbid=46260;type=tv;s=4]}
 
 #4月新番名称识别
 
