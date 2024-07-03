@@ -8,6 +8,7 @@ The.King's.Avatar.S03.2017 => {[tmdbid=71194;type=tv;s=3]}
 \[凡人修仙传 星海飞驰\]\[Fan Ren Xiu Xian Zhuan\]\[2023\] => 凡人修仙传.2020 && 2020 <> AVC >> EP+76
 
 #诛仙 【ADWeb 订阅第二季】
+(?:诛仙\.)?Jade.Dynasty.S01E(2[7-9]|[3-9][0-9]).2024.*ADWeb => 诛仙.S02E\1.2022 && S02 <> 2022 >> EP-26
 Jade.Dynasty.S01(?=.*ADWeb) => 诛仙动画.S02 && S02 <> 2024 >> EP-26
 Jade.Dynasty.S01(?=.*HHWEB) => 诛仙.Jade.Dynasty.S02 && S02 <> 2022 >> EP-26
 Jade.Dynasty (?=.*ZWEX) => 诛仙动画 
@@ -362,7 +363,9 @@ Bungou.Stray.Dogs.S05E => Bungou.Stray.Dogs.S01E && Bungou.Stray.Dogs.S01E <> 20
 
 #咒术回战
 Jujutsu.Kaisen.S02E => Jujutsu.Kaisen.S01E && Jujutsu.Kaisen.S01E <> 2023 >> EP+24
-# 一念永恒
+# 一念永恒S03【ADWeb】
+(?<=Yi.Nian.Yong.Heng.S03.*?)2024 => 2020
+Yi.Nian.Yong.Heng.S03 => A.Will.Eternal.S01 && S01 <> 2020 >> EP+106
 A.Will.Eternal.2022.S02 => A.Will.Eternal.2020.S01 && A.Will.Eternal.2020.S01 <> 2160p >> EP+52
 # 我被逐出队伍后过上慢生活 S02 (LoliHouse)
 Shin no Nakama 2nd => {[tmdbid=113256;type=tv;s=2]}
