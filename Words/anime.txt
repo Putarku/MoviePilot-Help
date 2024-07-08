@@ -1,5 +1,6 @@
 ## 7月新番 ##
 Ore.wa.Subete.wo.Parry.Suru.Gyaku.Kanchigai.no.Sekai.Saikyou.wa.Boukensha.ni.Naritai => Ore.wa.Subete.wo.Parry.Suru.Gyaku.Kanchigai.no.Sekai.Saikyou.wa.Boukensha.ni.Naritai {[tmdbid=238892;type=tv;s=1]}
+Monogatari.Series.Off.Monster.Season =>  Monogatari.Series.Off.Monster.Season{[tmdbid=258616;type=tv;s=1]}
 
 #【我推的孩子】 
 【我推的孩子】 => 我推的孩子 S01
@@ -16,6 +17,33 @@ Ore.wa.Subete.wo.Parry.Suru.Gyaku.Kanchigai.no.Sekai.Saikyou.wa.Boukensha.ni.Nar
 
 #我的妻子没有感情
 我的妻子不具感情 => 我的妻子没有感情{[tmdbid=250596;type=tv]}
+
+#百变的七仓同学 (2024)
+模擬後宮體驗 => 百变的七仓同学
+
+#身为VTuber的我因为忘记关台而成了传说 (2024)
+身為 VTuber 的我因為忘記關台而成了傳說 => 身为VTuber的我因为忘记关台而成了传说
+
+#妖精的尾巴 百年任务
+魔導少年 百年任務 => 妖精的尾巴 百年任务
+
+#亚刻奥特曼 (2024)
+超人力霸王雅克 => 亚刻奥特曼
+
+#疑似后宫
+模擬後宮體驗 => 疑似后宫
+
+#尼尔：自动人形
+尼爾：自動人形 Ver1.1a -  =>尼尔：自动人形 (2023).S01E
+
+#2.5次元的诱惑
+2.5 次元的誘惑 => 2.5次元的诱惑
+
+#前辈是男孩子
+學姊是男孩 => 前辈是男孩子
+
+#我要【招架】一切~反误解的世界最强想成为冒险者～
+我要【招架】一切～反誤解的世界最強想成為冒險家 => 我要【招架】一切~反误解的世界最强想成为冒险者～
 
 #国漫
 
