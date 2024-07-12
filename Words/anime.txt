@@ -1,3 +1,6 @@
+## ANI泛用规则，用于清除ani多余的别名 ##
+\[ANi\].*\/ =>  [ANi]
+
 ## 7月新番 ##
 Ore.wa.Subete.wo.Parry.Suru.Gyaku.Kanchigai.no.Sekai.Saikyou.wa.Boukensha.ni.Naritai => Ore.wa.Subete.wo.Parry.Suru.Gyaku.Kanchigai.no.Sekai.Saikyou.wa.Boukensha.ni.Naritai {[tmdbid=238892;type=tv;s=1]}
 Monogatari.Series.Off.Monster.Season =>  Monogatari.Series.Off.Monster.Season{[tmdbid=258616;type=tv;s=1]}
@@ -53,6 +56,7 @@ Monogatari.Series.Off.Monster.Season =>  Monogatari.Series.Off.Monster.Season{[t
 
  #魔法少女与邪恶曾经敌对。 (2024)
 曾經、魔法少女和邪惡相互為敵。 => 魔法少女与邪恶曾经敌对。
+曾经、魔法少女和邪恶相互为敌。 => 魔法少女与邪恶曾经敌对。
 
 #妖精的尾巴 百年任务
 魔導少年 百年任務 => 妖精的尾巴 百年任务
