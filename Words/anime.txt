@@ -1,5 +1,4 @@
-## 泛用规则，用于清除多余的别名 ##
-\[ANi\].*\/ => [ANi]
+
 
 ## 7月新番 ##
 Ore.wa.Subete.wo.Parry.Suru.Gyaku.Kanchigai.no.Sekai.Saikyou.wa.Boukensha.ni.Naritai => Ore.wa.Subete.wo.Parry.Suru.Gyaku.Kanchigai.no.Sekai.Saikyou.wa.Boukensha.ni.Naritai {[tmdbid=238892;type=tv;s=1]}
@@ -451,6 +450,8 @@ Baka to Test to Shoukanjuu Ni! (\d{2,3}) => Baka to Test to Shoukanjuu S02 E\1
 # 兼容名称[Yousei-raws] Baka to Test to Shoukanjuu 12 [BDrip 1920x1080 x264 FLAC].mkv
 Baka to Test to Shoukanjuu (\d{2,3}) => Baka to Test to Shoukanjuu S01 E\1
 
+## 泛用规则，用于清除多余的别名 ##
+\[ANi\].*\/ => [ANi]
 
 #字幕组修正
 Nekomoe kissaten => 喵萌奶茶屋
