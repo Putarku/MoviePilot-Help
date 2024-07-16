@@ -1,5 +1,3 @@
-
-
 ## 7月新番 ##
 Ore.wa.Subete.wo.Parry.Suru.Gyaku.Kanchigai.no.Sekai.Saikyou.wa.Boukensha.ni.Naritai => Ore.wa.Subete.wo.Parry.Suru.Gyaku.Kanchigai.no.Sekai.Saikyou.wa.Boukensha.ni.Naritai {[tmdbid=238892;type=tv;s=1]}
 Monogatari.Series.Off.Monster.Season =>  Monogatari.Series.Off.Monster.Season{[tmdbid=258616;type=tv;s=1]}
@@ -61,7 +59,7 @@ Monogatari.Series.Off.Monster.Season =>  Monogatari.Series.Off.Monster.Season{[t
 魔導少年 百年任務 => 妖精的尾巴 百年任务
 
 #物语系列 (2009)
-物語系列 第外季＆第怪季 => 物语系列 第外季&第怪季
+物語系列 第外季＆第怪季 => 物语系列 (2009).S05
 
 #国漫
 
