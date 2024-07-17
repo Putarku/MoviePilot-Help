@@ -60,6 +60,7 @@ Monogatari.Series.Off.Monster.Season =>  Monogatari.Series.Off.Monster.Season{[t
 
 #物语系列 (2009)
 物語系列 第外季＆第怪季 => 物语系列 (2009).S05
+物语系列 第外季＆第怪季 => 物语系列 (2009).S05
 
 #国漫
 
