@@ -7,13 +7,14 @@ Monogatari.Series.Off.Monster.Season =>  Monogatari.Series.Off.Monster.Season{[t
 
 #【我推的孩子】 
 【我推的孩子】 => 我推的孩子{[tmdbid=203737;type=tv;s=1]}
+推しの子 => 我推的孩子{[tmdbid=203737;type=tv;s=1]}
 
 #战国妖狐 (2024)
 戰國妖狐 千魔混沌編​ - 特別篇 => 战国妖狐 (2024).S00E01
 
 #最強肉盾的迷宮攻略～擁有稀少技能體力 9999 的肉盾，被勇者隊伍辭退了
 最強肉盾的迷宮攻略～擁有稀少技能體力 9999 的肉盾，被勇者隊伍辭退了～ => {[tmdbid=236532;type=tv]}
-最強肉盾的迷宮攻略～擁有稀少技能體力 9999 的肉盾，被勇者隊伍辭退了～ =>最强肉盾的迷宫攻略～拥有稀少技能体力9999的肉盾，被勇者队伍辞退了～
+最強肉盾的迷宮攻略～擁有稀少技能體力 9999 的肉盾，被勇者隊伍辭退了～ => 最强肉盾的迷宫攻略～拥有稀少技能体力9999的肉盾，被勇者队伍辞退了～
 
 #大叔新人冒险者，被最强小队拼死锻炼后无敌了
 新人大叔冒險者，被最強隊伍操到死成無敵 => 大叔新人冒险者，被最强小队拼死锻炼后无敌了
@@ -48,6 +49,9 @@ Monogatari.Series.Off.Monster.Season =>  Monogatari.Series.Off.Monster.Season{[t
 #我要【招架】一切~反误解的世界最强想成为冒险者～
 我要【招架】一切～反誤解的世界最強想成為冒險家 => 我要【招架】一切~反误解的世界最强想成为冒险者～
 
+#靠废柴技能【状态异常】成为最强的我将蹂躏一切
+靠废柴技能【状态异常】成为最强的我将蹂躏一切 => 靠废柴技能状态异常成为最强的我将蹂躏一切
+
 #深夜重拳 (2024)
 深夜 Punch => 深夜冲击
 
@@ -61,6 +65,11 @@ Monogatari.Series.Off.Monster.Season =>  Monogatari.Series.Off.Monster.Season{[t
 #物语系列 (2009)
 物語系列 第外季＆第怪季 => 物语系列 (2009).S05
 物语系列 第外季＆第怪季 => 物语系列 (2009).S05
+
+異世界自殺突擊隊 => 异世界自杀小队{[tmdbid=229926;type=tv]}
+Kimetsu no Yaiba：Hashira Geiko-hen => 鬼灭之刃 S5
+少年白马醉春风.The.Young.Brewmaster's.Adventure.2024.S02 => 少年白马醉春风S2 {[tmdbid=206878;type=tv;s=2]}
+(雀魂 KANG!! / Jantama Kan!!)|(Jantama Kan!!) => 雀魂 S02
 
 #国漫
 
@@ -117,6 +126,17 @@ Stellar Transformation Ⅴ => Stellar Transformation
 #全职法师
 Quan Zhi Fa Shi Ⅵ  => Quan Zhi Fa Shi
 
+#火凤燎原
+Huo.Feng.Liao.Yuan => {[tmdbid=225458;type=tv]}
+#时光代理人
+时光代理人 => {[tmdbid=123542;type=tv]}
+#墓王之王
+he.King.of.Tomb => {[tmdbid=104926;type=tv]}
+#Modao Zushi Q
+Modao Zushi Q => {[tmdbid=106650;type=tv]}
+#画江湖之不良人
+HuaJiangHu.BuLiangRen.S => 画江湖之不良人.S
+
 #雾山五行 犀川幻紫林
 Fog Hill of Five Elements Ⅱ => Fog Hill of Five Elements
 #镇魂街
@@ -127,6 +147,7 @@ Da Wang Rao Ming Ⅱ => Da Wang Rao Ming
 IMMORTALITY.S01(?=.*ADWeb) => IMMORTALITY.S03 && S03 <> 2022 >> EP-24
 #零食八江 (2024)
 小酒館 Basue => 零食八江 (2024)
+
 
 #长篇动画
 
