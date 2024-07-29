@@ -76,3 +76,5 @@ The.Last.Cook.2024.S01 => 末代厨娘
 #有兽焉
 Fabulous Beasts S01(?=.*E(2[5-9]|3[0-4]).*ADWeb) => Fabulous Beasts S03 && S03 <> 2023 >> EP-24
 
+#唐朝诡事录s2
+\[唐朝诡事录之西行\].Strange.Tales.of.Tang.Dynasty.II.To.the.West(?=.*QHstudIo) => 唐朝诡事录
