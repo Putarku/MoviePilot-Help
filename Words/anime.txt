@@ -70,6 +70,7 @@ Monogatari.Series.Off.Monster.Season =>  Monogatari.Series.Off.Monster.Season{[t
 Kimetsu no Yaiba：Hashira Geiko-hen => 鬼灭之刃 S5
 少年白马醉春风.The.Young.Brewmaster's.Adventure.2024.S02 => 少年白马醉春风S2 {[tmdbid=206878;type=tv;s=2]}
 (雀魂 KANG!! / Jantama Kan!!)|(Jantama Kan!!) => 雀魂 S02
+SPYxFAMILY CODE White => 间谍过家家 代号：白{[tmdbid=1062807;type=movie]}
 
 #国漫
 
