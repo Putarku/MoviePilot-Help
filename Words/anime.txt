@@ -27,6 +27,7 @@ Monogatari.Series.Off.Monster.Season =>  Monogatari.Series.Off.Monster.Season{[t
 
 #身为VTuber的我因为忘记关台而成了传说 (2024)
 身為 VTuber 的我因為忘記關台而成了傳說 => 身为VTuber的我因为忘记关台而成了传说
+VTuber.nanda.ga => VTuber.nandaga
 
 #妖精的尾巴 百年任务
 魔導少年 百年任務 => 妖精的尾巴 百年任务
@@ -66,11 +67,24 @@ Monogatari.Series.Off.Monster.Season =>  Monogatari.Series.Off.Monster.Season{[t
 物語系列 第外季＆第怪季 => 物语系列 (2009).S05
 物语系列 第外季＆第怪季 => 物语系列 (2009).S05
 
+#天行九歌
+Tian.Xing.Jiu.Ge => 天行九歌
+
+#亚托莉 -我挚爱的时光- (2024)
+ATRI -My Dear Moments => 亚托莉 -我挚爱的时光-{[tmdbid=210875;type=tv;s=1]}
+
+#鹿乃子乃子虎视眈眈
+鹿乃子乃子乃子虎視眈眈 => 鹿乃子乃子虎视眈眈{[tmdbid=248866;type=tv;s=1]}
+
+#不时用俄语小声说真心话的邻桌艾莉同学
+不時輕聲地以俄語遮羞的鄰座艾莉同學 => 不时用俄语小声说真心话的邻桌艾莉同学{[tmdbid=235758;type=tv;s=1]}
+
 異世界自殺突擊隊 => 异世界自杀小队{[tmdbid=229926;type=tv]}
 Kimetsu no Yaiba：Hashira Geiko-hen => 鬼灭之刃 S5
 少年白马醉春风.The.Young.Brewmaster's.Adventure.2024.S02 => 少年白马醉春风S2 {[tmdbid=206878;type=tv;s=2]}
 (雀魂 KANG!! / Jantama Kan!!)|(Jantama Kan!!) => 雀魂 S02
 SPYxFAMILY CODE White => 间谍过家家 代号：白{[tmdbid=1062807;type=movie]}
+
 
 #国漫
 
