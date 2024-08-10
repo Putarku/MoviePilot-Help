@@ -79,6 +79,12 @@ ATRI -My Dear Moments => 亚托莉 -我挚爱的时光-{[tmdbid=210875;type=tv;s
 #不时用俄语小声说真心话的邻桌艾莉同学
 不時輕聲地以俄語遮羞的鄰座艾莉同學 => 不时用俄语小声说真心话的邻桌艾莉同学{[tmdbid=235758;type=tv;s=1]}
 
+#狐妖小红娘 镜花缘篇
+(?<=Fox.Spirit.Matchmaker.*?)2024 => 2015 && S01 <> 2160p >> EP+157
+
+#夜晚游玩生活！
+夜晚游玩生活！=> {[tmdbid=249891;type=tv;s=1]}
+
 異世界自殺突擊隊 => 异世界自杀小队{[tmdbid=229926;type=tv]}
 Kimetsu no Yaiba：Hashira Geiko-hen => 鬼灭之刃 S5
 少年白马醉春风.The.Young.Brewmaster's.Adventure.2024.S02 => 少年白马醉春风S2 {[tmdbid=206878;type=tv;s=2]}
