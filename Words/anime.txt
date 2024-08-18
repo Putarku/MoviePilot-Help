@@ -94,6 +94,9 @@ SPYxFAMILY CODE White => 间谍过家家 代号：白{[tmdbid=1062807;type=movie
 
 #国漫
 
+#永生【ADWeb订阅第四季】
+IMMORTALITY.S01(?=.*E(4[1-9]|5[0-6]).*ADWeb) => IMMORTALITY.S04 && S04 <> 2022 >> EP-40
+
 #全职高手 第三季
 The.King's.Avatar.S03.2017 => {[tmdbid=71194;type=tv;s=3]}
 
