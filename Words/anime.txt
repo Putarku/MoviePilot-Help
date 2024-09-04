@@ -81,6 +81,10 @@ ATRI -My Dear Moments => 亚托莉 -我挚爱的时光-{[tmdbid=210875;type=tv;s
 
 #狐妖小红娘 镜花缘篇
 (?<=Fox.Spirit.Matchmaker.*?)2024 => 2015 && S01 <> 2160p >> EP+157
+(?<=Fox.Spirit.Matchmaker.*?)S12E(?=.*ADWeb) => S01E && S01E  <> 2024 >> EP+157
+(?<=Fox.Spirit.Matchmaker.*?)2024(?=.*ADWeb) => 2015
+(?<=Fox.Spirit.Matchmaker.*?)2024(?=.*PTerWEB) =>  2015 && S01 <> 2160p >> EP+157
+(?<=Fox.Spirit.Matchmaker.*?)2024(?=.*PTerWEB) =>  2015 && S01 <> 1080p >> EP+157
 
 #夜晚游玩生活！
 夜晚游玩生活！=> {[tmdbid=249891;type=tv;s=1]}
@@ -93,6 +97,9 @@ SPYxFAMILY CODE White => 间谍过家家 代号：白{[tmdbid=1062807;type=movie
 
 
 #国漫
+
+#回铭之烽火三月
+回铭 =>  {[tmdbid=253336;type=tv;s=2]}
 
 #永生【ADWeb订阅第四季】
 IMMORTALITY.S01(?=.*E(4[1-9]|5[0-6]).*ADWeb) => IMMORTALITY.S04 && S04 <> 2022 >> EP-40
@@ -131,6 +138,7 @@ Fights.Break.Sphere.SP2(?=.*HHWEB) => 斗破苍穹 特别篇.S02{[tmdbid=213658;
 (?<=Swallowed.Star.S04.*?)2023 => 2020
 (?<=Swallowed.Star.S02.*?)2021 => 2020
 (?<=Swallowed.Star.S03.*?)2022 => 2020
+Swallowed.Star.S05(?=.*ADWeb) => Swallowed.Star.S01
 Swallowed.Star.S04 => Swallowed.Star.S01 && S01 <> 2020 >> EP+85
 Swallowed.Star.S03 => Swallowed.Star.S01
 Swallowed.Star.S02 => Swallowed.Star.S01
