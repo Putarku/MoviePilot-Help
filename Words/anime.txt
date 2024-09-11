@@ -99,8 +99,8 @@ SPYxFAMILY CODE White => 间谍过家家 代号：白{[tmdbid=1062807;type=movie
 #国漫
 
 #神墓-HHWEB
-神墓.Tomb.of.Fallen.Gods.S01(1[7-9]|[3-9][0-9])(?=.*HHWEB) => 神墓.S02E\1.2022 && S02 <> 2022 >> EP-16
-
+神墓.Tomb.of.Fallen.Gods.S01E(1[7-9]|[3-9][0-9])(?=.*HHWEB) => 神墓.S02E\1 && S02 <> 2022 >> EP-16
+(?:神墓\.)?Tomb.of.Fallen.Gods.S02E(1[7-9]|[2-9][0-9])(?=.*ADWeb) => 神墓.S02E\1 && S02 <> 2024 >> EP-16
 #回铭之烽火三月
 回铭 =>  {[tmdbid=253336;type=tv;s=2]}
 
