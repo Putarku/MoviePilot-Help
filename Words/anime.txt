@@ -139,9 +139,10 @@ Fights.Break.Sphere.SP2(?=.*HHWEB) => 斗破苍穹 特别篇.S02{[tmdbid=213658;
 师兄啊师兄.My.Senior.Brother.is.Too.Steady.S02E => 师兄啊师兄.My.Senior.Brother.is.Too.Steady.S01E && S01 <> 2023 >> EP+13
 
 #吞噬星空
+(?<=Swallowed.Star.S05.*?)2024 => 2020
 (?<=Swallowed.Star.S04.*?)2023 => 2020
-(?<=Swallowed.Star.S02.*?)2021 => 2020
 (?<=Swallowed.Star.S03.*?)2022 => 2020
+(?<=Swallowed.Star.S02.*?)2021 => 2020
 Swallowed.Star.S05(?=.*ADWeb) => Swallowed.Star.S01
 Swallowed.Star.S04 => Swallowed.Star.S01 && S01 <> 2020 >> EP+85
 Swallowed.Star.S03 => Swallowed.Star.S01
