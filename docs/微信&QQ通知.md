@@ -1,8 +1,55 @@
+# QQ通知
+
+## 安装QQ机器人
+
+使用包含LiteLoaderQQNT 插件[LLOneBot](https://github.com/LLOneBot/LLOneBot?tab=readme-ov-file)是最方便的部署方式。
+
+### Windows 一键安装方案（推荐，开一个windows的虚拟机即可）
+
+<https://github.com/super1207/install_llob/releases> 下载 exe，双击运行即可，之后打开 QQ 的设置，看到了 `LLOneBot` 就代表安装成功了。
+
+### Linux 安装
+
+Linux 安装方法与 Windows 类似，只是需要手动安装 LiteLoaderQQNT
+
+如果要使用 Docker 安装 LLOneBot，可参考 <https://github.com/LLOneBot/llonebot-docker>
+
+如果你的 Linux 上的 QQ 出现各种问题了，推荐使用无头 NTQQ 框架 [NapCatQQ](https://github.com/NapNeko/NapCatQQ)
+
+<br>
+
+## 配置机器人
+
+首先需要去[QQ官网](https://www.qq.com)注册一个小号，手机可以直接用自己的，同一个手机号可以注册多个QQ号。之后在电脑上登录。
+
+ <div align=center> <img src="https://github.com/Putarku/MoviePilot-Help/raw/main/img/QQ_1726579343068.png" width="600"> </div>
+
+Windows版本中，进入设置，开启`启用HTTP服务`，并记住监听端口，之后MP插件的配置中需要填写`http:{ip}:{端口}`。
+
+<br>
+
+## 配置MP插件
+ <div align=center> <img src="https://github.com/Putarku/MoviePilot-Help/raw/main/img/QQ_1726579589520.png" width="600"> </div>
+
+```json
+{"group_id": "群号","message": "[CQ:image,file=${image}]\n${title}\n${text}"}
+```
+
+由于测试消息没有图片，因此会报错无法发出，此时只需要json改写成
+
+```json
+{"group_id": "群号","message": "${title}\n${text}"}
+```
+测试通过后再改回去即可。
+
+<br>
+
+# 微信通知
+
 ### 如何配置企业微信通知
   
   1.参见[此教程](https://pt-helper.notion.site/50a7b44e255d40109bd7ad474abfeba5)
   
-  2.目前有热心网友提供了`免费`的[代理服务器地址](https://github.com/PTLSP/MoviePilot-Wechat-PROXY)，如果自己没有vps可以先使用免费的代理服务器，尝试一下效果。
   <br>
 
 ### 建立企业微信的代理服务器
@@ -79,46 +126,7 @@ location  /cgi-bin/menu/create {
 }
 ```
 
-如果还是没有正常生成菜单，也可以手动添加菜单，具体的命令列表如下。
-
-> /cookiecloud 同步站点
-> 
-> /sites 查询站点
-> 
-> /site_cookie 更新站点Cookie
-> 
-> /site_enable 启用站点
-> 
-> /site_disable 禁用站点
-> 
-> /mediaserver_sync 同步媒体服务器
-> 
-> /subscribes 查询订阅
-> 
-> /subscribe_refresh 刷新订阅
-> 
-> /subscribe_search 搜索订阅
-> 
-> /subscribe_delete 删除订阅
-> 
-> /subscribe_tmdb 订阅元数据更新
-> 
-> /downloading 正在下载
-> 
-> /transfer 下载文件整理
-> 
-> /redo 手动整理
-> 
-> /clear_cache 清理缓存
-> 
-> /restart 重启系统
-> 
-> /site_signin 站点签到
-> 
-> /site_statistic 站点数据统计
-
  <br>
 
-### 
 
-<br>
+
