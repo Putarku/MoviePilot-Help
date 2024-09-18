@@ -29,18 +29,8 @@ Windows版本中，进入设置，开启`启用HTTP服务`，并记住监听端�
 <br>
 
 ## 配置MP插件
- <div align=center> <img src="https://github.com/Putarku/MoviePilot-Help/raw/main/img/QQ_1726579589520.png" width="600"> </div>
-
-```json
-{"group_id": "群号","message": "[CQ:image,file=${image}]\n${title}\n${text}"}
-```
-
-由于测试消息没有图片，因此会报错无法发出，此时只需要json改写成
-
-```json
-{"group_id": "群号","message": "${title}\n${text}"}
-```
-测试通过后再改回去即可。
+ <div align=center> <img src="https://github.com/Putarku/MoviePilot-Help/raw/main/img/QQ_1726668218021.png" width="600"> </div>
+填写上面机器人的http地址和端口，以及想要通知的QQ号和QQ群号，之后点击保存即可。
 
 <br>
 
