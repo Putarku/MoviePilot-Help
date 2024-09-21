@@ -35,11 +35,16 @@ Windows版本中，进入设置，开启`启用HTTP服务`，并记住监听端�
 ```python
 ${render_image(image)}
 ${title}
-${text}
+${render_text(text)}
 <%!
 def render_image(image):
     if image:
         return f"[CQ:image,file={image}]"
+    return ""
+
+def render_text(text):
+    if text is not None:
+        return text
     return ""
 %>
 ```
