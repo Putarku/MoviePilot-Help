@@ -30,7 +30,19 @@ Windows版本中，进入设置，开启`启用HTTP服务`，并记住监听端�
 
 ## 配置MP插件
  <div align=center> <img src="https://github.com/Putarku/MoviePilot-Help/raw/main/img/QQ_1726668218021.png" width="600"> </div>
-填写上面机器人的http地址和端口，以及想要通知的QQ号和QQ群号，之后点击保存即可。
+填写上面机器人的http地址和端口，以及想要通知的QQ号和QQ群号，同时点击`配置消息模板`，将下面的模板复制进去，保存即可。
+
+```python
+${render_image(image)}
+${title}
+${text}
+<%!
+def render_image(image):
+    if image:
+        return f"[CQ:image,file={image}]"
+    return ""
+%>
+```
 
 <br>
 
