@@ -29,7 +29,7 @@ Windows版本中，进入设置，开启`启用HTTP服务`，并记住监听端�
 
 ## 配置nonebot机器人
 
-将本项目中的`nonebot`文件夹的内容下载到本地，修改`plugins/sub.py`中的MP配置信息，之后在`nonebot`文件夹中打开命令行，运行`docker-compose up -d`，即可启动机器人。
+将本项目中的`nonebot`文件夹的内容下载到本地（或者直接下载解压这个压缩包[nonebot.zip](https://github.com/Putarku/MoviePilot-Help/blob/main/nonebot/nonebot.zip)），修改`plugins/sub.py`中的MP配置信息，之后在`nonebot`文件夹中打开命令行，运行`docker-compose up -d`，即可启动机器人。
 
 在`LLOneBot`的`反向 WebSocket 监听地址`中填写`ws://ip:端口/onebot/v11/ws/`。
 
