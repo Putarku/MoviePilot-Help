@@ -26,6 +26,7 @@ Linux 安装方法与 Windows 类似，只是需要手动安装 LiteLoaderQQNT
 
 Windows版本中，进入设置，开启`启用HTTP服务`，并记住监听端口，之后MP插件的配置中需要填写`http:{ip}:{端口}`。
 
+<br>
 
 ## 配置nonebot机器人
 
