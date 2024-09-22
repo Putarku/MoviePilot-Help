@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "bot-kuraku-bot"
+version = "1.0.0"
+description = "bot-kuraku-bot"
+authors = ["ssttkkl <huang.wen.long@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+setuptools = "^68.2.0"
+nonebot2 = { extras = ["fastapi", "httpx"], version = "^2.3.0" }
+nb-cli = ">=1.0.5"
+asyncpg = ">=0.27.0"
+cachetools = "^5.2.0"
+httpx = { version = ">=0.23.0", extras = ["socks"] }
+aiohttp-socks = ">=0.9.0"
+nonebot-adapter-onebot = ">=2.1.5"
+
+[tool.nonebot]
+plugins = []
+plugin_dirs = ["src/plugins"]
+
+[build-system]
+requires = ["poetry_core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

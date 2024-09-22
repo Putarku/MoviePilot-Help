@@ -1,0 +1,18 @@
+version: "3.3"
+
+services:
+  bot:
+    image: "ssttkkl/bot-kuraku-bot:latest"
+    # build: bot
+    container_name: "bot2"
+    restart: always
+    environment:
+      - "HOST=0.0.0.0"
+      - "PORT=8080"
+    ports:  # 添加端口映射
+      - "8083:8080"
+    volumes:
+      - ./.env.prod:/app/.env.prod
+      - ./plugins:/app/plugins
+      - ./pyproject.toml:/app/pyproject.toml
+

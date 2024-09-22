@@ -18,13 +18,25 @@ Linux 安装方法与 Windows 类似，只是需要手动安装 LiteLoaderQQNT
 
 <br>
 
-## 配置机器人
+## 配置QQ机器人
 
 首先需要去[QQ官网](https://www.qq.com)注册一个小号，手机可以直接用自己的，同一个手机号可以注册多个QQ号。之后在电脑上登录。
 
  <div align=center> <img src="https://github.com/Putarku/MoviePilot-Help/raw/main/img/QQ_1726579343068.png" width="600"> </div>
 
 Windows版本中，进入设置，开启`启用HTTP服务`，并记住监听端口，之后MP插件的配置中需要填写`http:{ip}:{端口}`。
+
+
+## 配置nonebot机器人
+
+将本项目中的`nonebot`文件夹的内容下载到本地，修改`plugins/sub.py`中的MP配置信息，之后在`nonebot`文件夹中打开命令行，运行`docker-compose up -d`，即可启动机器人。
+
+在`LLOneBot`的`反向 WebSocket 监听地址`中填写`ws://ip:端口/onebot/v11/ws/`。
+
+此时私聊或是群聊中发送`/sub 片名`即可触发查询并添加订阅。
+
+ <div align=center> <img src="https://github.com/Putarku/MoviePilot-Help/raw/main/img/QQ20240922-163922.png" width="600"> </div>
+
 
 <br>
 
