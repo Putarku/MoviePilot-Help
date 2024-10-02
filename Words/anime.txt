@@ -4,7 +4,7 @@
 魔王陛下，RETRY！ => 重来吧，魔王大人！ (2019)
 
 #转生贵族靠着鉴定技能一飞冲天 第二季
-Tensei.Kizoku.Kantei.Skill.de.Nariagaru.S01E(1[3-9]|2[0-9]) => Tensei.Kizoku.Kantei.Skill.de.Nariagaru.S02E\1 && S02 <> 1080p >> EP-12
+Tensei.Kizoku.Kantei.Skill.de.Nariagaru.S01E(1[3-9]|2[0-9]) => Tensei.Kizoku.Kantei.Skill.de.Nariagaru.S02E\1 && S02 <> 2024 >> EP-12
 As a Reincarnated Aristocrat I ll Use My Appraisal Skill to Rise in the World 2024 S01E(1[3-9]|2[0-9]) => Tensei.Kizoku.Kantei.Skill.de.Nariagaru.S02E\1 && S02 <> 1080p >> EP-12
 轉生貴族憑鑑定技能扭轉人生 第二季 - (1[3-9]|2[0-9]) => 转生贵族靠着鉴定技能一飞冲天 S02E\1 && S02E <> 1080P >> EP-12
 转生贵族凭鉴定技能扭转人生 第二季 - (1[3-9]|2[0-9]) => 转生贵族靠着鉴定技能一飞冲天 S02E\1 && S02E <> 1080P >> EP-12
