@@ -16,6 +16,9 @@ Re.Zero.kara.Hajimeru.Isekai.Seikatsu.S03(?=.*ADWeb) => Re.Zero.kara.Hajimeru.Is
 (?<=ANi.*?)新网球王子 U-17 世界杯 SEMIFINAL => 新网球王子 U-17世界杯篇 {[tmdbid=205493;type=tv;s=2]}
 (?<=ANi.*?)新網球王子 U-17 世界盃 SEMIFINAL => 新网球王子 U-17世界杯篇 {[tmdbid=205493;type=tv;s=2]}
 
+#乱马½
+Ranma.S01(?=.*2024) => Ranma.1/2.S01
+
 ## 7月新番 ##
 Ore.wa.Subete.wo.Parry.Suru.Gyaku.Kanchigai.no.Sekai.Saikyou.wa.Boukensha.ni.Naritai => Ore.wa.Subete.wo.Parry.Suru.Gyaku.Kanchigai.no.Sekai.Saikyou.wa.Boukensha.ni.Naritai {[tmdbid=238892;type=tv;s=1]}
 Monogatari.Series.Off.Monster.Season =>  Monogatari.Series.Off.Monster.Season{[tmdbid=258616;type=tv;s=1]}
