@@ -19,6 +19,11 @@ Re.Zero.kara.Hajimeru.Isekai.Seikatsu.S03(?=.*ADWeb) => Re.Zero.kara.Hajimeru.Is
 #乱马½
 Ranma.S01(?=.*2024) => Ranma.1/2.S01
 
+#死神 千年血战篇
+(?<=ANi.*?)BLEACH 死神 千年血战篇-相克谭- => 死神 千年血战篇 {[tmdbid=30984;type=tv;s=2]}
+(?<=ANi.*?)BLEACH 死神 千年血戰篇-相剋譚- => 死神 千年血战篇 {[tmdbid=30984;type=tv;s=2]}
+BLEACH.Sennen.Kessen.hen.S01(?=.*ADWeb) => BLEACH.Sennen.Kessen.hen.S02(?=.*ADWeb)
+
 ## 7月新番 ##
 Ore.wa.Subete.wo.Parry.Suru.Gyaku.Kanchigai.no.Sekai.Saikyou.wa.Boukensha.ni.Naritai => Ore.wa.Subete.wo.Parry.Suru.Gyaku.Kanchigai.no.Sekai.Saikyou.wa.Boukensha.ni.Naritai {[tmdbid=238892;type=tv;s=1]}
 Monogatari.Series.Off.Monster.Season =>  Monogatari.Series.Off.Monster.Season{[tmdbid=258616;type=tv;s=1]}
