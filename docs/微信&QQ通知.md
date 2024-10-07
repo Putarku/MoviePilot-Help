@@ -2,37 +2,104 @@
 
 ## 安装QQ机器人
 
-使用包含LiteLoaderQQNT 插件[LLOneBot](https://github.com/LLOneBot/LLOneBot?tab=readme-ov-file)是最方便的部署方式。
+使用[Lagrange](https://github.com/LagrangeDev/Lagrange.Core/releases)是最方便的部署方式。
 
-### Windows 一键安装方案（推荐，开一个windows的虚拟机即可）
+### Windows
 
-<https://github.com/super1207/install_llob/releases> 下载 exe，双击运行即可，之后打开 QQ 的设置，看到了 `LLOneBot` 就代表安装成功了。
+<https://github.com/LagrangeDev/Lagrange.Core/releases> 下载 Lagrange.OneBot_win-x64_net8.0_SelfContained.zip
+，双击运行即可，之后参考下文进行配置
 
-### Linux 安装
 
-Linux 安装方法与 Windows 类似，只是需要手动安装 LiteLoaderQQNT
+### Linux
 
-如果要使用 Docker 安装 LLOneBot，可参考 <https://github.com/LLOneBot/llonebot-docker>
+Linux 安装方法与 Windows 类似，使用多任务管理器创建一个会话，下载对应的二进制文件并运行
 
-如果你的 Linux 上的 QQ 出现各种问题了，推荐使用无头 NTQQ 框架 [NapCatQQ](https://github.com/NapNeko/NapCatQQ)
+如果要使用 Docker 安装 Larganeg，可参考 <https://github.com/LagrangeDev/Lagrange.Core/blob/nightly/Docker.md>
 
-<br>
 
 ## 配置QQ机器人
 
 首先需要去[QQ官网](https://www.qq.com)注册一个小号，手机可以直接用自己的，同一个手机号可以注册多个QQ号。之后在电脑上登录。
 
- <div align=center> <img src="https://github.com/Putarku/MoviePilot-Help/raw/main/img/QQ_1726579343068.png" width="600"> </div>
 
-Windows版本中，进入设置，开启`启用HTTP服务`，并记住监听端口，之后MP插件的配置中需要填写`http:{ip}:{端口}`。
-
-<br>
 
 ## 配置nonebot机器人
 
-将本项目中的`nonebot`文件夹的内容下载到本地（或者直接下载解压这个压缩包[nonebot.zip](https://github.com/Putarku/MoviePilot-Help/blob/main/nonebot/nonebot.zip)），修改`plugins/sub.py`中的MP配置信息，之后在`nonebot`文件夹中打开命令行，运行`docker-compose up -d`，即可启动机器人。
+将本项目中的`nonebot-plugin`文件夹的内容下载到本地，修改`docker-compose.yml`中的MP配置信息</br>
+之后在`nonebot-plugin`文件夹中打开命令行  运行`docker-compose up -d`，即可启动机器人
 
-在`LLOneBot`的`反向 WebSocket 监听地址`中填写`ws://ip:端口/onebot/v11/ws/`。
+```bash
+cd ./nonebot-plugin
+vi docker-compose.yml
+docker-compose up -d
+```
+
+按情况在`Lagrange`的`appsettings.json`中更改`ReverseWebSocket`项
+
+
+
+<Details>
+<Summary>appsettings.json Example</Summary>
+
+```json
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning",
+      "Microsoft.Hosting.Lifetime": "Information"
+    }
+  },
+  "SignServerUrl": Find SignServer In Some Loc,
+  "Account": {
+    "Uin": 0,
+    "Password": "",
+    "Protocol": "Linux",
+    "AutoReconnect": true,
+    "GetOptimumServer": true
+  },
+  "Message": {
+    "IgnoreSelf": true,
+    "StringPost": false
+  },
+  "QrCode": {
+    "ConsoleCompatibilityMode": false
+  },
+  "Implementations": [
+    {
+      "Type": "ReverseWebSocket",
+      "Host": 你的IP,
+      "Port": 8083,
+      "Suffix": "/onebot/v11/ws",
+      "ReconnectInterval": 5000,
+      "HeartBeatInterval": 5000,
+      "HeartBeatEnable": true,
+      "AccessToken": ""
+    },
+    {
+      "Type": "Http",
+      "Host": "*",
+      "Port": 8088,
+      "AccessToken": ""
+    }
+  ]
+}
+```
+</details>
+
+<details>
+<summary>SignServer And Some Tips</summary>
+
+### Tips
+** DO NOT CHANGE "Protocol" IN APPSETTINGS **
+
+### SignServer
+
+https://sign.lagrangecore.org/api/sign
+
+</details>
+
+## 使用
 
 此时私聊或是群聊中发送`/sub 片名`即可触发查询并添加订阅。
 
@@ -42,10 +109,13 @@ Windows版本中，进入设置，开启`启用HTTP服务`，并记住监听端�
 <br>
 
 ## 配置MP插件
+
+消息聚合插件在第三方插件市场：https://github.com/hotlcc/MoviePilot-Plugins-Third
+
  <div align=center> <img src="https://github.com/Putarku/MoviePilot-Help/raw/main/img/QQ_1726668218021.png" width="600"> </div>
 填写上面机器人的http地址和端口，以及想要通知的QQ号和QQ群号，同时点击`配置消息模板`，将下面的模板复制进去，保存即可。
 
-```python
+```block
 ${render_image(image)}
 ${title}
 ${render_text(text)}

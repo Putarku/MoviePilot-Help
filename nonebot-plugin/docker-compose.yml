@@ -1,0 +1,21 @@
+version: "3"
+
+services:
+  nonebot:
+    build: .
+    container_name: nonebot-plugin-moviepilot
+    env_file:
+      - .env.prod
+    environment:
+      ENVIRONMENT: prod
+      PORT: 8083
+      MP_ADMIN: "admin"
+      MP_PASSWORD: "123456"
+      MP_URL: "http://127.0.0.1:3001"
+    network_mode: host
+    volumes:
+      - ./.env.prod:/nb2/.env.prod
+      - ./src/plugins:/nb2/src/plugins
+      - ./pyproject.toml:/nb2/pyproject.toml
+      - ./bot.py:/nb2/bot.py
+    restart: always
