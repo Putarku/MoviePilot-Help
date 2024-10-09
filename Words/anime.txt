@@ -22,7 +22,12 @@ Ranma.S01(?=.*2024) => Ranma.1/2.S01
 #死神 千年血战篇
 (?<=ANi.*?)BLEACH 死神 千年血战篇-相克谭- => 死神 千年血战篇 {[tmdbid=30984;type=tv;s=2]}
 (?<=ANi.*?)BLEACH 死神 千年血戰篇-相剋譚- => 死神 千年血战篇 {[tmdbid=30984;type=tv;s=2]}
-BLEACH.Sennen.Kessen.hen.S01(?=.*ADWeb) => BLEACH.Sennen.Kessen.hen.S02
+BLEACH.Sennen.Kessen.hen.S01(?=.*ADWeb) => BLEACH.Sennen.Kessen.hen.S02 {[tmdbid=30984;type=tv;s=2]}
+BLEACH.Sennen.Kessenhen.S01(?=.*ADWeb) => BLEACH.Sennen.Kessen.hen.S02 {[tmdbid=30984;type=tv;s=2]}
+
+#极速车魂
+MF Ghost S02E => MF Ghost.S01E  && .S01E <>  2024 >> EP+12
+燃油车斗魂 => 极速车魂
 
 ## 7月新番 ##
 Ore.wa.Subete.wo.Parry.Suru.Gyaku.Kanchigai.no.Sekai.Saikyou.wa.Boukensha.ni.Naritai => Ore.wa.Subete.wo.Parry.Suru.Gyaku.Kanchigai.no.Sekai.Saikyou.wa.Boukensha.ni.Naritai {[tmdbid=238892;type=tv;s=1]}
