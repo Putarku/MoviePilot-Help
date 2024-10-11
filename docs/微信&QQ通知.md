@@ -25,8 +25,8 @@ Linux 安装方法与 Windows 类似，使用多任务管理器创建一个会�
 
 ## 配置nonebot机器人
 
-将本项目中的`nonebot-plugin`文件夹的内容下载到本地，修改`docker-compose.yml`中的MP配置信息</br>
-之后在`nonebot-plugin`文件夹中打开命令行  运行`docker-compose up -d`，即可启动机器人
+将本项目中的[nonebot-plugin](https://github.com/Putarku/MoviePilot-Help/tree/main/nonebot-plugin)文件夹的内容下载到本地，修改`docker-compose.yml`中的MP配置信息</br>
+之后在[nonebot-plugin](https://github.com/Putarku/MoviePilot-Help/tree/main/nonebot-plugin)文件夹中打开命令行  运行`docker-compose up -d`，即可启动nonebot机器人
 
 ```bash
 cd ./nonebot-plugin
@@ -34,12 +34,11 @@ vi docker-compose.yml
 docker-compose up -d
 ```
 
-按情况在`Lagrange`的`appsettings.json`中更改`ReverseWebSocket`项
-
+按情况在`Lagrange`的`appsettings.json`中更改`ReverseWebSocket`项，本例中只需要填写ip和对应端口（默认8083），这样`Larganeg`就可以与`nonebot`进行通信了。
 
 
 <Details>
-<Summary>appsettings.json Example</Summary>
+<Summary>Lagrange的示例appsettings.json</Summary>
 
 ```json
 {
@@ -98,6 +97,11 @@ docker-compose up -d
 https://sign.lagrangecore.org/api/sign
 
 </details>
+
+## 设置MP的通知信息
+ <div align=center> <img src="https://github.com/Putarku/MoviePilot-Help/raw/main/img/QQ_1726668218021.png" width="600"> </div>
+ 其中服务器地址为上面`Larganeg`的ip，端口默认为8088，可在上面的`appsettings.json`中修改。
+
 
 ## 使用
 
