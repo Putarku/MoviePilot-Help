@@ -100,6 +100,7 @@ https://sign.lagrangecore.org/api/sign
 
 ## 设置MP的通知信息
  <div align=center> <img src="https://github.com/Putarku/MoviePilot-Help/raw/main/img/QQ_1726668218021.png" width="600"> </div>
+ 
  其中服务器地址为上面`Larganeg`的ip，端口默认为8088，可在上面的`appsettings.json`中修改。
 
 
