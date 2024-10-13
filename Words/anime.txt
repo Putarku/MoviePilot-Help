@@ -537,7 +537,8 @@ Baka to Test to Shoukanjuu (\d{2,3}) => Baka to Test to Shoukanjuu S01 E\1
 \[ANi\].*\/ => [ANi]
 
 #字幕组修正
-Nekomoe kissaten => 喵萌奶茶屋
+(?i)\bNekomoe kisstan\b => 喵萌奶茶屋
+(?i)\bNekomoe kissaten\b => 喵萌奶茶屋
 KitaujiSub => 北宇治字幕组
 \[orion origin\] => [猎户压制部]
 FYSub|楓葉字幕組 => 枫叶字幕组
@@ -560,13 +561,85 @@ LPSub => 离谱Sub
 LKSUB => 轻之国度字幕组
 Haruhana => ❀拨雪寻春❀
 SBSUB|銀色子彈字幕組 => 银色子弹字幕组
+(?i)\bPCSUB\b => 波洛咖啡厅
+(?i)\bImoeer\b => 启萌字幕组
+(?i)\bKTXP\b => 极影字幕社
+(?i)\bYUI-7\b => 西农YUI汉化组
+(?i)\bSBSUB\b => 银色子弹字幕组
+(?i)\bKyokuSai\b => 極彩字幕组
+(?i)\bSTYHSub\b => 霜庭云花Sub
+(?i)\bDMMOESub\b => 动漫萌Sub
+(?i)\bSWSUB\b => SW字幕组
+RoxyLib => 洛琪希图书馆
+(?i)\bDMMSub\b => 动漫萌Sub
+(?i)\bComicat\b => 漫猫字幕社
+(?i)\bRomanticat\b => 猫恋汉化组
+(?i)\bKissSub\b => 爱恋字幕社
+JPSC&JPTC => 简繁日内封
+(?i)\bOPFansMaplesnow\b => OPFans枫雪动漫
+\[GM-Team\]\[国漫\] => [GM-Team]
+(?i)\bCoolComic404\b => 酷漫字幕组
+(?i)\bSumiSora\b => 澄空学园
+(?i)\bYYDM-11FANS\b => 异域-11番小队
+康复重症 => 康复重症监护室字幕组
+(?i)\bLKSUB\b => 轻之国度字幕组
+(?i)\bKitaujiSub\b => 北宇治字幕组
+(?i)\bFYSub\b => 枫叶字幕组
+DHR&MakariHoshiyume => DHR动研字幕组&茉语星梦
+(?i)\bYYSUB-RAW\b => 夜莺家族
+MSRSub&Todokoi => 野生菌字幕组&届恋字幕组
+(?i)\bTodokoi\b => 届恋字幕组
+(?i)\bHYSUB\b => 幻樱字幕组
+(?i)\bDMG\b => 动漫国字幕组
+(?i)\bigsub\b => 爱咕字幕组
+(?i)\bUHA-Wing\b => 悠哈璃羽字幕社
+(?i)\bH-BBR\b => 氢气烤肉架
+(?i)\bBeanSub\b => 豌豆字幕组
+(?i)\bFZSD\b => 风之圣殿字幕组
+(?i)\bMCE\b => MCE汉化组
+\x20*(&|＆)\x20* => &
+(?i)\borion origin\b => 猎户发布组
+(?i)\bAirota\b => 千夏字幕组
+(?i)\bLPSub\b => 离谱Sub
+(ASSx2|ASS) => 简繁内封
+(?i)\bUHA-WINGS\b => 悠哈璃羽字幕社
+(?i)\bMahoMabo\b => 魔穗字幕组&幻之字幕组
+(?i)\bMabors Sub\b|魔穗字幕组|魔穗 => 魔穗字幕组
+(?i)\bMabors Sub\b|幻之字幕组|幻之 => 幻之字幕组
+(?i)\bsuzume Ryokosha\b => 玲芽旅行团
+(?i)\bHaruhana\b => ❀拨雪寻春❀
+(?i)\bMingYSub\b|\bMingY\b => MingYSub
+(\[|【|&)Lemonade(】|]|&) => \1波子汽水汉化组\2
+(?i)\bXKsub\b|(?i)\bXK SPIRITS\b => 星空字幕组
+(?i)\bSakurato\b|樱都字幕组|桜都字幕组|桜都 => 桜都字幕组
+(?i)\bCoolFansSub\b => 冷番补完字幕组
+(?i)\bShirokoi\b => 白恋字幕组
+(?i)\bFLsnow\b => 雪飘工作室
+
+#字幕规格修正
+(?i)(CHS|GB|SC)(&|_|＆|\x20)(CHT|BIG5|TC)(&|_|＆|\x20)JA?PN? => 简繁日内封
+(?i)(CHS|GB|SC)_JA?PN?(&|＆|\x20)(CHT|BIG5|TC)_JA?PN? => 简繁日内封
+(?i)(CHS|GB|SC)(&|＆|\x20)(CHT|BIG5|TC) => 简繁内封
+(?i)(CHS|GB|SC)(_|&|＆|\x20)JA?PN? => 简日双语
+(?i)\[JA?PN?(_|&|＆|\x20)?(SC|CHS|GB)\] => [简日双语]
+\[SweetSub\](.*)\[CHS\] => [SweetSub]\1[简日双语]
+\[CHS\] => [简体内嵌]
+SRTx1 => 简体内封
+(SRTx2|SRT) => 简繁内封
+(?i)Season( *)0?(\d+) => S\2
+
+#视频来源修正
+(?<=[\W_])CR(?=[\W_]) => Crunchyroll
+(?<=[\W_])NF(?=[\W_]) => Netflix
+(?<=[\W_])AMZN(?=[\W_]) => Amazon
+(?<=[\W_])DV(?=[\W_]) => DoVi
 
 #辅助识别修正词
 #(\b[5-9]\b|\b[1-9][0-9]\b) \[ =>  E\1 [
 (?<=[\[【].*?(?:组|組|sub|S(?:UB|ub|tudio)|Raw(?:|s)|社)[\]】])(?:(?:\[|【|★|)\d{1,2}月新番(?:\]|】|★|)|)[\[【](.*?)[\]】] => \1
 ^[\W_](.*?(?:组|組|屋|社|動漫|Lab|sub|S(?:UB|ub|tudio)|Raw(?:|s)|Production))[\W_]+(?:[\W_]+\d{1,2}(?:月(?:新|)番|国漫)[\W_]+|)[\[【](.*?)[\]】] => [\1] \2 
-\(([^\(\)\s]+)\)\.(mp4|mkv) => 
-[【\[](Fin|END)[】\]]|(?:|\s|\s-\s)(Fin|END)(?=\])|(?<=\d{1,2})(Fin|END) => 
+\(([^\(\)\s]+)\)\.(mp4|mkv) => \1
+[【\[](Fin|END)[】\]]|(?:|\s|\s-\s)(Fin|END)(?=\])|(?<=\d{1,2})(Fin|END)
 Hi10p_1080p => 1080p x264
 Ma10p_1080p => 1080p x265
 HEVC Main10P => x265
