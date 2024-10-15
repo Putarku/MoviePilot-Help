@@ -516,7 +516,8 @@ Bungou.Stray.Dogs.S05E => Bungou.Stray.Dogs.S01E && Bungou.Stray.Dogs.S01E <> 20
 Jujutsu.Kaisen.S02E => Jujutsu.Kaisen.S01E && Jujutsu.Kaisen.S01E <> 2023 >> EP+24
 # 一念永恒S03【ADWeb】
 (?<=Yi.Nian.Yong.Heng.S03.*?)2024 => 2020
-Yi.Nian.Yong.Heng.S03 => A.Will.Eternal.S01 && S01 <> 2020 >> EP+106
+Yi.Nian.Yong.Heng.S03 => A.Will.Eternal.S01 && S01 <> 2024 >> EP+106
+A.Will.Eternal.S03 => A.Will.Eternal.S01 && S01 <> 2024 >> EP+106
 A.Will.Eternal.2022.S02 => A.Will.Eternal.2020.S01 && A.Will.Eternal.2020.S01 <> 2160p >> EP+52
 # 我被逐出队伍后过上慢生活 S02 (LoliHouse)
 Shin no Nakama 2nd => {[tmdbid=113256;type=tv;s=2]}
