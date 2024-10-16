@@ -1,0 +1,319 @@
+#[ANi]
+隊長小翼 Season2 青少年篇 => {[tmdbid=77240;type=tv;s=2]}
+至高之牌 2 => 至高之牌.S02 && 至高之牌.S02 - <> [1080P] >> EP-12
+花野井同學與戀愛病 => 花野井君和相思病
+花野井同學與戀愛病 =>{[tmdbid=239214;type=tv]}
+青之驅魔師 島根啟明結社篇 => {[tmdbid=38464;type=tv;s=3]}
+約會大作戰 DATE A LIVE V => {[tmdbid=46004;type=tv;s=5]}
+歡迎來到實力至上主義的教室 第三季 => {[tmdbid=72517;type=tv;s=3]}
+聲優廣播的幕前幕後 => {[tmdbid=216760]}
+弱角友崎同學 2nd STAGE => {[tmdbid=99083;type=tv;s=2]}
+卡片戰鬥!! 先導者 Divinez => {[tmdbid=106301-overdress;type=tv;s=5]}
+她來自煩星 第二季 => 福星小子.S01 && 福星小子.S01 <> [1080P] >> EP+22
+Love Live！虹咲學園 學園偶像同好會 短篇動畫 第二季 => {[tmdbid=210511;type=tv;s=2]}
+搖曳露營△ 第三季 => {[tmdbid=76075;type=tv;s=3]}
+王牌酒保 Glass of God => {[tmdbid=225168;type=tv;]} 
+魔王學院的不適任者 => {[tmdbid=97617;type=tv;]}  
+为美好的世界献上祝福！3 => 为美好的世界献上祝福！第三季
+约会大作战 DATE A LIVE V => 约会大作战 S5
+魔王學院的不適任者～史上最強的魔王始祖，轉生就讀子孫們的學校～ => 魔王学院的不适任者
+魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～ => 魔王学院的不适任者
+黑执事 寄宿学校篇 => 黑执事 S4
+黑執事 寄宿學校篇 => {[tmdbid=50712;type=tv;s=4]}
+為美好的世界獻上祝福！3 => 为美好的世界献上祝福！ S3
+为美好的世界献上祝福！3 => 为美好的世界献上祝福！ S3
+花野井同學與戀愛病 => 花野井君和相思病
+花野井同学与恋爱病 => 花野井君和相思病
+約會大作戰 DATE A LIVE V => 约会大作战 S05
+她來自煩星 第二季 => 福星小子.S01 && 福星小子.S01 <> [1080P] >> EP
+黑執事 寄宿學校篇 => 黑执事 S4
+關於我轉生變成史萊姆這檔事 第三季 - <> [1080P] >> EP-48
+(雀魂 KANG!! / Jantama Kan!!)|(Jantama Kan!!) => 雀魂 S02
+Tian.Dao => 天道 (2008)
+Demon.Slayer：Kimetsu.No.Yaiba => 鬼灭之刃
+
+
+#以前季度动画识别词留档
+
+#欢迎来到实力至上主义的教室
+bad character range at position => 欢迎来到实力至上主义的教室
+#最强肉盾的迷宫攻略～拥有稀少技能体力9999的肉盾，被勇者队伍辞退了～
+最強肉盾的迷宮攻略 => {[tmdbid=236532]}
+#零食八江 (2024)
+小酒館 Basue => {[tmdbid=236930]}
+#我心里危险的东西
+The Dangers in My Heart 2024 S02E => The Dangers in My Heart 2024 S01E && The Dangers in My Heart 2024 S01E <> 1080p >> EP+12
+The.Dangers.in.My.Heart.2024.S02E => The.Dangers.in.My.Heart.2024.S01E && The.Dangers.in.My.Heart.2024.S01E <> 1080p >> EP+12
+#死神（匹配TMDB）
+\[Bleach Sennen Kessen[- ]?.*?\] => [Bleach Sennen Kessen.S02]
+#憧憬成为魔法少女（匹配 ANi 源）
+夢想成為魔法少女 \[年齡限制版\]  => 憧憬成为魔法少女
+#如果30歲還是處男，似乎就能成為魔法師（匹配 ANi 源）
+如果 30 歲還是處男，似乎就能成為魔法師 => 如果30歲還是處男，似乎就能成為魔法師
+#最强肉盾的迷宫攻略～拥有稀少技能体力9999的肉盾，被勇者队伍辞退了
+最強肉盾的迷宮攻略～擁有稀少技能體力 9999 的肉盾，被勇者隊伍辭退了～ =>  最强肉盾的迷宫攻略～拥有稀少技能体力9999的肉盾，被勇者队伍辞退了～ (2024)
+#反派千金等级 99～我是隐藏头目但不是魔王～(ANI)
+反派千金等级 99～我是隐藏头目但不是魔王～  => Akuyaku Reijou Level 99: Watashi wa Ura-Boss desu ga Maou dewa Arimasen
+#物理魔法使马修(猫站，注:观众只有无字幕版本)
+Mashle.Magic.and.Muscles.2024.S02 => Mashle.Magic.and.Muscles.2024.S01 && S01 <> 1080p >> EP+12
+
+#物理魔法使（馒头）
+Mashle.Magic.and.Muscles.2024.S02 => 物理魔法使马修 2023 S01 && S01 <> 1080p >> EP+12
+
+#物理魔法使马修(ANi)
+肌肉魔法使-MASHLE- 神觉者候补选拔试验篇 => Mashle.Magic.and.Muscles.2024.S01
+肌肉魔法使-MASHLE- 神覺者候補選拔試驗篇 => Mashle.Magic.and.Muscles.2024.S01
+
+#物理魔法使马修(LoliHouse)
+肌肉魔法使\-MASHLE\- 神觉者候补选拔试验篇 \/ Mashle Season 2 \- .. => Mashle.Magic.and.Muscles.S01
+
+#我心里危险的东西(ANi)
+我内心的糟糕念头 第二季 => 我内心的糟糕念头
+
+#国王战队君王者(星空字幕组)
+KING-OHGER => Ohsama Sentai King-Ohger
+
+#小书痴的下克上为了成为图书管理员不择手段（VCB）
+Honzuki no Gekokujou S2 \[\d{2} => Honzuki no Gekokujou S01
+Honzuki no Gekokujou S3 \[\d{2} => Honzuki no Gekokujou S01
+
+#小林家的龙女仆（VCB）
+Kobayashi-san Chi no Maid Dragon \[14\] => Kobayashi-san Chi no Maid Dragon S00E08
+Kobayashi-san Chi no Maid Dragon S \[13\] => Kobayashi-san Chi no Maid Dragon S00E30
+Kobayashi-san Chi no Maid Dragon S S => Kobayashi-san Chi no Maid Dragon S02
+
+#我的青春恋爱物语果然有问题。（VCB）
+Yahari Ore no Seishun Lovecome wa Machigatte Iru. \[OVA\] => Yahari Ore no Seishun Lovecome wa Machigatte Iru. S00E01
+Yahari Ore no Seishun Lovecome wa Machigatte Iru. Zoku \[OVA\] => Yahari Ore no Seishun Lovecome wa Machigatte Iru. S00E02
+Yahari Ore no Seishun Lovecome wa Machigatte Iru. Zoku => Yahari Ore no Seishun Lovecome wa Machigatte Iru. S02
+Oregairu Kan => Yahari Ore no Seishun Lovecome wa Machigatte Iru. S03
+
+#文豪野犬
+Bungou Stray Dogs S00E01 => Bungou Stray Dogs S01E25
+Bungou Stray Dogs S02E => Bungou Stray Dogs S01E && Bungou Stray Dogs S01E <> 1080p >> EP+12
+Bungou Stray Dogs S03E => Bungou Stray Dogs S01E && Bungou Stray Dogs S01E <> 1080p >> EP+25
+Bungou.Stray.Dogs.S05E => Bungou.Stray.Dogs.S01E && Bungou.Stray.Dogs.S01E <> 2023 >> EP+49
+
+#咒术回战
+Jujutsu.Kaisen.S02E => Jujutsu.Kaisen.S01E && Jujutsu.Kaisen.S01E <> 2023 >> EP+24
+# 一念永恒S03【ADWeb】
+(?<=Yi.Nian.Yong.Heng.S03.*?)2024 => 2020
+Yi.Nian.Yong.Heng.S03 => A.Will.Eternal.S01 && S01 <> 2024 >> EP+106
+A.Will.Eternal.S03 => A.Will.Eternal.S01 && S01 <> 2024 >> EP+106
+A.Will.Eternal.2022.S02 => A.Will.Eternal.2020.S01 && A.Will.Eternal.2020.S01 <> 2160p >> EP+52
+# 我被逐出队伍后过上慢生活 S02 (LoliHouse)
+Shin no Nakama 2nd => {[tmdbid=113256;type=tv;s=2]}
+# 碧蓝幻想 BDrip
+Granblue Fantasy The Animation S2 => {[tmdbid=69820;type=tv;s=02]}
+#鬼灭之刃 柱训练篇
+鬼灭之刃 柱训练篇 => {[tmdbid=85937;type=tv;s=5]}
+
+#其他老番
+NEW GAME!! => NEW GAME!! S02
+听我的电波吧 =>听我的电波吧 动画
+OVERLORD II => OVERLORD S02
+OVERLORD III => OVERLORD S03
+OVERLORD Ⅳ => OVERLORD S03
+# 笨蛋测验召唤兽第二季
+# 兼容名称[Yousei-raws] Baka to Test to Shoukanjuu Ni! 08 [BDrip 1920x1080 x264 FLAC].mkv
+Baka to Test to Shoukanjuu Ni! (\d{2,3}) => Baka to Test to Shoukanjuu S02 E\1
+# 笨蛋测验召唤兽第一季
+# 兼容名称[Yousei-raws] Baka to Test to Shoukanjuu 12 [BDrip 1920x1080 x264 FLAC].mkv
+Baka to Test to Shoukanjuu (\d{2,3}) => Baka to Test to Shoukanjuu S01 E\1
+
+#字幕组修正
+
+(?i)\bNekomoe kisstan\b => 喵萌奶茶屋
+(?i)\bNekomoe kissaten\b => 喵萌奶茶屋
+KitaujiSub => 北宇治字幕组
+\[orion origin\] => [猎户压制部]
+FYSub|楓葉字幕組 => 枫叶字幕组
+【枫叶字幕组】 => [枫叶字幕组] 
+桜都字幕組|Sakurato => 桜都字幕组
+BeanSub => 豌豆字幕组
+DMG => 动漫国字幕组
+Airota|千夏字幕组 => 千夏字幕组
+UHA-WINGS => 悠哈璃羽字幕社
+YUI-7 => 西农YUI汉化组
+KissSub|愛戀字幕社 => 爱恋字幕社
+XKsub => 星空字幕组
+貓戀漢化組|Romanticat => 猫恋汉化组
+Comicat|漫貓字幕社 => 漫猫字幕社
+FZSD|風之聖殿 => 风之圣殿
+FLsnow => 雪飘工作室
+XKsub|星空字幕組|XK SPIRITS => 星空字幕组
+HYSUB|幻櫻字幕組 => 幻樱字幕组
+LPSub => 离谱Sub
+LKSUB => 轻之国度字幕组
+Haruhana => ❀拨雪寻春❀
+SBSUB|銀色子彈字幕組 => 银色子弹字幕组
+(?i)\bPCSUB\b => 波洛咖啡厅
+(?i)\bImoeer\b => 启萌字幕组
+(?i)\bKTXP\b => 极影字幕社
+(?i)\bYUI-7\b => 西农YUI汉化组
+(?i)\bSBSUB\b => 银色子弹字幕组
+(?i)\bKyokuSai\b => 極彩字幕组
+(?i)\bSTYHSub\b => 霜庭云花Sub
+(?i)\bDMMOESub\b => 动漫萌Sub
+(?i)\bSWSUB\b => SW字幕组
+RoxyLib => 洛琪希图书馆
+(?i)\bDMMSub\b => 动漫萌Sub
+(?i)\bComicat\b => 漫猫字幕社
+(?i)\bRomanticat\b => 猫恋汉化组
+(?i)\bKissSub\b => 爱恋字幕社
+JPSC&JPTC => 简繁日内封
+(?i)\bOPFansMaplesnow\b => OPFans枫雪动漫
+\[GM-Team\]\[国漫\] => [GM-Team]
+(?i)\bCoolComic404\b => 酷漫字幕组
+(?i)\bSumiSora\b => 澄空学园
+(?i)\bYYDM-11FANS\b => 异域-11番小队
+康复重症 => 康复重症监护室字幕组
+(?i)\bLKSUB\b => 轻之国度字幕组
+(?i)\bKitaujiSub\b => 北宇治字幕组
+(?i)\bFYSub\b => 枫叶字幕组
+DHR&MakariHoshiyume => DHR动研字幕组&茉语星梦
+(?i)\bYYSUB-RAW\b => 夜莺家族
+MSRSub&Todokoi => 野生菌字幕组&届恋字幕组
+(?i)\bTodokoi\b => 届恋字幕组
+(?i)\bHYSUB\b => 幻樱字幕组
+(?i)\bDMG\b => 动漫国字幕组
+(?i)\bigsub\b => 爱咕字幕组
+(?i)\bUHA-Wing\b => 悠哈璃羽字幕社
+(?i)\bH-BBR\b => 氢气烤肉架
+(?i)\bBeanSub\b => 豌豆字幕组
+(?i)\bFZSD\b => 风之圣殿字幕组
+(?i)\bMCE\b => MCE汉化组
+\x20*(&|＆)\x20* => &
+(?i)\borion origin\b => 猎户发布组
+(?i)\bAirota\b => 千夏字幕组
+(?i)\bLPSub\b => 离谱Sub
+(ASSx2|ASS) => 简繁内封
+(?i)\bUHA-WINGS\b => 悠哈璃羽字幕社
+(?i)\bMahoMabo\b => 魔穗字幕组&幻之字幕组
+(?i)\bMabors Sub\b|魔穗字幕组|魔穗 => 魔穗字幕组
+(?i)\bMabors Sub\b|幻之字幕组|幻之 => 幻之字幕组
+(?i)\bsuzume Ryokosha\b => 玲芽旅行团
+(?i)\bHaruhana\b => ❀拨雪寻春❀
+(?i)\bMingYSub\b|\bMingY\b => MingYSub
+(\[|【|&)Lemonade(】|]|&) => \1波子汽水汉化组\2
+(?i)\bXKsub\b|(?i)\bXK SPIRITS\b => 星空字幕组
+(?i)\bSakurato\b|樱都字幕组|桜都字幕组|桜都 => 桜都字幕组
+(?i)\bCoolFansSub\b => 冷番补完字幕组
+(?i)\bShirokoi\b => 白恋字幕组
+(?i)\bFLsnow\b => 雪飘工作室
+
+
+#字幕规格修正
+(?i)(CHS|GB|SC)(&|_|＆|\x20)(CHT|BIG5|TC)(&|_|＆|\x20)JA?PN? => 简繁日内封
+(?i)(CHS|GB|SC)_JA?PN?(&|＆|\x20)(CHT|BIG5|TC)_JA?PN? => 简繁日内封
+(?i)(CHS|GB|SC)(&|＆|\x20)(CHT|BIG5|TC) => 简繁内封
+(?i)(CHS|GB|SC)(_|&|＆|\x20)JA?PN? => 简日双语
+(?i)\[JA?PN?(_|&|＆|\x20)?(SC|CHS|GB)\] => [简日双语]
+\[SweetSub\](.*)\[CHS\] => [SweetSub]\1[简日双语]
+\[CHS\] => [简体内嵌]
+SRTx1 => 简体内封
+(SRTx2|SRT) => 简繁内封
+(?i)Season( *)0?(\d+) => S\2
+
+#其他儿童动画
+#大耳朵图图
+大耳朵图图 =>  {[tmdbid=131937;type=tv;]}
+Da.Er.Duo.Tutu =>  {[tmdbid=131937;type=tv;]}
+BigEarTutu =>  {[tmdbid=131937;type=tv;]}
+Big.Ear.Tutu =>  {[tmdbid=131937;type=tv;]}
+Peppa.Pig => 小猪佩奇
+Meitantei.Conan => 名侦探柯南
+Young.Di.Renjie =>  {[tmdbid=157287;type=tv;]}
+小狼乐宾 => {[tmdbid=129874;type=tv;]}
+Meng.Ji.Xiao.Dui => {[tmdbid=85087;type=tv;]}
+MengJiXiaoDui => {[tmdbid=85087;type=tv;]}
+Journey.to.the.West => {[tmdbid=85672;type=tv;]}
+超级飞侠.Super.Wings => {[tmdbid=71026;type=tv;]}
+超级飞侠.第3季.Super.Wings => {[tmdbid=71026;type=tv;]}
+YuZhouHuWeiDui => {[tmdbid=114674;type=tv;]}
+Pleasant.Goat.and.Big.Big.Wolf：Guardian.of.Sheep.Village => 喜羊羊与灰太狼之羊村守护者
+Pleasant.Goat.and.Big.Big.Wolf.Ultimate.Battle.The.Next.Generation => 喜羊羊与灰太狼之决战次时代
+PJ MASKS Season 3.2021 => 睡衣小英雄
+PJ MASKS Season 1.2015 => 睡衣小英雄
+P.King.Duckling.The.Mini.Little.Adventure => 豆小鸭
+P.King.Duckling.The.Adventure.Tips.2018 => 豆小鸭
+Miniforce.Super.Dino.Power.2020 => 迷你特工队之超级恐龙力量
+Mini.Force.2014 => 最强战士之迷你特工队
+Meng.Ji.Xiao.Dui => 萌鸡小队
+Magic Panda => 神奇熊猫
+Liang.Zi.Zhan.Dui.Zhi.Kong.Long.Shou.Hu => 量子战队之恐龙守护
+Kira.Kira.Happy.Hirake.Cocotama => KiraKira Happy
+Kira.Kira.Happy.Hirake.Cocotama.2019 => KiraKira Happy
+Ju.Chong.Gong.Yuan => 巨虫公园
+Kaka.Tiger.Adventure => 卡卡虎大冒险
+Jin Pai Kuai Di Yuan => 金牌快递员
+Inspector Black Cati => 黑猫警长
+GG.Bond.Of.Dinosaurs => 猪猪侠之恐龙日记
+Duobao Family => 多宝一家人
+Desire.for.sky => 渴望蓝天
+Da.tou.er.zi.he.xiao.tou.ba.ba => 大头儿子和小头爸爸
+Da.Er.Duo.Tutu => 大耳朵图图
+Big Ear Tutu => 大耳朵图图
+Badanamu.Situational.English => 巴塔木儿歌
+CoComelon系列儿歌 => 系列儿歌可可瓜儿歌
+玛莎和熊 => 玛莎与熊
+盖比娃娃屋 => 盖比的娃娃屋
+看医生,我不怕 蓝迪智慧乐园 => 蓝迪智慧乐园之看医生,我不怕
+鹅妈妈英文儿歌 => 鹅妈妈英文儿歌动物乐园
+舞法天女 => 舞法天女朵法拉
+羊羊运动会 => 喜羊羊与灰太狼之羊羊运动会
+羊羊快乐的一年 => 喜羊羊与灰太狼之羊羊快乐的一年
+碰碰狐儿歌之儿歌舞蹈英文版 => 碰碰狐儿歌之儿歌舞蹈系列英文版
+碰碰狐儿歌之3D版系列碰碰狐儿歌之3D版系列 => 碰碰狐儿歌之3D版系列
+爱探险的朵拉特辑 => 爱探险的朵拉 特别篇
+海底小纵队在中国 => 海底小纵队在中国：中国之旅
+棉花糖和云朵妈妈·快乐生活 => 棉花糖和云朵妈妈
+杰力豆爆笑畅享版 => 杰力豆爆笑日记
+星际炮兵团之拯救色彩 => 星际炮兵团之护花使者
+斗龙战士之龙印之战 => 斗龙战士
+托宝战士之银河侦探 => 托宝战士
+心奇爆龙战车X3超斗爆龙 => 心奇爆龙战车之暴龙出击
+工程车益智好伙伴 => 益智宝贝工程车
+小巴士巴斯德 => Go Buster!
+奇思妙想喜羊羊 => 喜羊羊与灰太狼之奇思妙想喜羊羊
+奇妙启蒙课 好奇版 2-3岁 => 宝宝巴士奇妙启蒙课
+乐高幻影忍者 => 乐高幻影忍者：神龙崛起
+The Octonauts Season 6.2021 => 海底小纵队
+The Octonauts Season 5.2020 => 海底小纵队
+The Octonauts Season 4.2015 => 海底小纵队
+The Octonauts Season 3.2014 => 海底小纵队
+The Octonauts Season 2.2012 => 海底小纵队
+The Octonauts Season 1.2010 => 海底小纵队
+The Tales of Wonder Keepers => 冰雪守护者
+The Intriguing Alien Guests => 喜羊羊与灰太狼之奇趣外星客
+Super Train Robot.2022 => 列车超人
+Seer：Pi Li Jiu Chong Tian => 赛尔号
+Seer：Bing Feng Yao Sai.2019 => 赛尔号
+Seer.2017 => 赛尔号
+Seer.2016 => 赛尔号
+Seer.2015 => 赛尔号
+Seer.2013 => 赛尔号
+Seer.2012 => 赛尔号
+Seer：Lie Kong Cang Hai.2021 => 赛尔号
+狂野地球少儿版 => 狂野地球
+神奇动物的一天少儿版 => 神奇动物的一天
+疯了！桂宝之三星夺宝.Crazy.Guibao's.Three.Stars.Seize.Treasures => 疯了！桂宝之三星夺宝
+Jurassic.World => 侏罗纪世界
+新猪猪侠大电影·超级赛车.GG.Bond.Super.Racing => 新猪猪侠大电影·超级赛车
+疯狂小世界.S01E01 => 疯狂小世界
+New Happy Dad and Son 5 My Alien Friends => 新大头儿子和小头爸爸5：我的外星朋友
+Agent Backkom：Kings Bear.2021.S01.2160p.WEB-DL.H265.AC3-PigoWeb => 贝肯熊2：金牌特工
+Backkom Bear Agent 008.2017.S01.1080p.WEB-DL.H265.AC3-PigoWeb => 大卫贝肯之倒霉特工熊
+Monster Island.2017.S01.2160p.WEB-DL.H265.DDP-PigoWeb => 怪物岛
+Happy.Little.Submarine.3.Rainbow.Treasure => 潜艇总动员3：彩虹宝藏
+Happy.Little.Submarine.Journey.To.The.Center.Of.The.Deep.Ocean => 潜艇总动员：海底两万里
+Geukjangpan.Banjiui.Bimirilgi => 潘及的秘密日记 剧场版
+Pororo.Movie.Treasure.Island.Adventure => 波鲁鲁：金银岛历险记
+Da ErDuo Tutu Zhi Mei Shi Kuang Xiang Qu => 大耳朵图图之美食狂想曲
+Pleasant.Goat.And.Big.Big.Wolf => 喜羊羊与灰太狼之牛气冲天
+Let's.Go.Anpanman.Fluffy.Fuwari.and.the.Cloud.Country => 面包超人：软绵绵与云之国
+Soreike.Anpanman.Dadandan.to.futago.no.hoshi => 面包超人：大当当与双子星
+Soreike.Anpanman.Tobase.Kibou.no.hankachi => 面包超人：跳跃吧！希望的手绢
+LetS.Go.Anpanman.Sparkle.Princess.Vanilla.of.the.Land.of.Ice.Cream => 走起！面包超人闪耀！冰激凌国的香草姬
+Eiga.Kureyon.Shinchan.Bakauma.B-kyu.gurume.sabaibaru => 蜡笔小新：超级美味！B级美食大逃亡
+Kureyon.Shinchan.Gekitotsu.Rakugakingudamu.to.Hobo.Shi-Ri.no.Yusha => 蜡笔小新：激战！涂鸦王国和约四位勇士
