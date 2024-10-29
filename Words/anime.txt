@@ -17,7 +17,7 @@ Re.Zero.kara.Hajimeru.Isekai.Seikatsu.S03(?=.*ADWeb) => Re.Zero.kara.Hajimeru.Is
 (?<=ANi.*?)新網球王子 U-17 世界盃 SEMIFINAL => 新网球王子 U-17世界杯篇 {[tmdbid=205493;type=tv;s=2]}
 
 #乱马½
-Ranma.S01(?=.*2024) => Ranma.1/2.S01
+Ranma.S01(?=.*2024) => 乱马½.S01
 
 #死神 千年血战篇
 (?<=ANi.*?)BLEACH 死神 千年血战篇-相克谭- => 死神 千年血战篇 {[tmdbid=30984;type=tv;s=2]}
