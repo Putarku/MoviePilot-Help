@@ -5,7 +5,9 @@
 使用[Lagrange](https://github.com/LagrangeDev/Lagrange.Core/releases)是最方便的部署方式。
 
 除此之外也可以选用这些方案，均具有多端部署的特性：
+
 [NapNekoQQ](https://github.com/NapNeko/NapCatQQ?tab=readme-ov-file)：NapCatQQ 是现代化的基于 NTQQ 的 Bot 协议端实现
+
 [LLOneBot](https://llob.napneko.com/zh-CN/guide/getting-started)：LiteLoaderQQNT 插件，实现 OneBot 11 和 Satori 协议，用于 QQ 机器人开发
 
 ### Windows
