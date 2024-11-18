@@ -1,6 +1,6 @@
 # QQ通知
 
-## 安装QQ机器人
+## 安装QQ无头客户端
 
 使用[Lagrange](https://github.com/LagrangeDev/Lagrange.Core/releases)是最方便的部署方式。
 
