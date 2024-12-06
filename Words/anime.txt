@@ -134,6 +134,10 @@ SPYxFAMILY CODE White => 间谍过家家 代号：白{[tmdbid=1062807;type=movie
 
 #国漫
 
+#沧元图
+(?:沧元图\.)?Azure.Legacy.S01E(3[1-9]|[4-9][0-9])(?=.*ADWeb) => 沧元图.S02E\1 && S02 <> 2023 >> EP-30
+(?:沧元图\.)?Azure.Legacy.S01E(3[1-9]|[4-9][0-9])(?=.*HHWEB) => 沧元图.S02E\1 && S02 <> 2023 >> EP-30
+(?:沧元图\.)?The.Demon.Hunter.2023.S01E(3[1-9]|[4-9][0-9])(?=.*ZWEX) => 沧元图.S02E\1 && S02 <> 2160p >> EP-30
 #神墓
 神墓.Tomb.of.Fallen.Gods.S01E(1[7-9]|[3-9][0-9])(?=.*HHWEB) => 神墓.S02E\1 && S02 <> 2022 >> EP-16
 (?:神墓\.)?Tomb.of.Fallen.Gods.S02E(1[7-9]|[2-9][0-9])(?=.*ADWeb) => 神墓.S02E\1 && S02 <> 2024 >> EP-16

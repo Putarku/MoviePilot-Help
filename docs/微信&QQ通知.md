@@ -91,17 +91,6 @@ docker-compose up -d
 ```
 </details>
 
-<details>
-<summary>SignServer And Some Tips</summary>
-
-### Tips
-** DO NOT CHANGE "Protocol" IN APPSETTINGS **
-
-### SignServer
-
-https://sign.lagrangecore.org/api/sign
-
-</details>
 
 ## 设置MP的通知信息
  <div align=center> <img src="https://github.com/Putarku/MoviePilot-Help/raw/main/img/QQ_1726668218021.png" width="600"> </div>
