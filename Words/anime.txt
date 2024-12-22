@@ -1,4 +1,6 @@
 ## 10月新番 ##
+
+(?<=ANi.*?)刀劍神域外傳 Gun Gale Online II => 刀劍神域外傳 Gun Gale Online S02
 (?<=ANi.*?)精靈幻想記 2 => 精灵幻想记 {[tmdbid=113808;type=tv;s=2]}
 (?<=ANi.*?)精灵幻想记 2 => 精灵幻想记 {[tmdbid=113808;type=tv;s=2]}
 
