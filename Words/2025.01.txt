@@ -1,0 +1,3 @@
+S-Rank Monster no Behemoth Dakedo Neko to Machigawarete Elf Musume no Pet to Shite Kurashitemasu => S级怪兽《贝希摩斯》被误认成小猫，成为精灵女孩的骑士(宠物)一起生活 {[tmdbid=249545;type=tv]}
+(?<=Ore.dake.Level.Up.na.Ken.*?)2025 => 2024
+Ore.dake.Level.Up.na.Ken.Season.2.*Arise.from.the.Shadow.S02 => Ore.dake.Level.Up.na.Ken.S01
