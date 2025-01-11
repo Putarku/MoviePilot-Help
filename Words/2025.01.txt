@@ -14,6 +14,7 @@ Ore.dake.Level.Up.na.Ken.Season.2.*Arise.from.the.Shadow.S02 => Ore.dake.Level.U
 #无名记忆第二季
 Unnamed Memory Act.2 => 无名记忆 S01
 (?<=Strange-Raw.*?)Unnamed Memory S02 => 无名记忆 S01 && S01 <> Bilibili >> EP+12
+Unnamed.Memory.S02  => 无名记忆 S01 && S01 <> 1080p >> EP+12
 
 #脱离了A级队伍的我，和从前的徒弟们前往迷宫深处。
 (?<=ANi.*?)离开 A 级队伍的我，和从前的弟子往迷宫深处迈进 => 脱离了A级队伍的我，和从前的徒弟们前往迷宫深处。 {[tmdbid=270487;type=tv]}
