@@ -26,3 +26,11 @@ Unnamed.Memory.S02  => 无名记忆 S01 && S01 <> 1080p >> EP+12
 
 #药屋少女的呢喃
 Kusuriya.no.Hitorigoto.S02 => Kusuriya no Hitorigoto S01 && S01 <> 2025 >> EP+24
+
+#蜂蜜柠檬苏打
+(?<=ANi.*?)青春特調蜂蜜檸檬蘇打  => 青春特调蜂蜜柠檬苏打{[tmdbid=247859;type=tv]} 
+(?<=ANi.*?)青春特调蜂蜜柠檬苏打  => 青春特调蜂蜜柠檬苏打{[tmdbid=247859;type=tv]} 
+
+#欢迎来到日本，精灵小姐。
+(?<=ANi.*?)欢迎来到日本，妖精小姐。 => 欢迎来到日本，精灵小姐。{[tmdbid=249031;type=tv;s=1]}
+(?<=ANi.*?)歡迎來到日本，妖精小姐。 => 欢迎来到日本，精灵小姐。{[tmdbid=249031;type=tv;s=1]}
