@@ -34,3 +34,8 @@ Kusuriya.no.Hitorigoto.S02 => Kusuriya no Hitorigoto S01 && S01 <> 2025 >> EP+24
 #欢迎来到日本，精灵小姐。
 (?<=ANi.*?)欢迎来到日本，妖精小姐。 => 欢迎来到日本，精灵小姐。{[tmdbid=249031;type=tv;s=1]}
 (?<=ANi.*?)歡迎來到日本，妖精小姐。 => 欢迎来到日本，精灵小姐。{[tmdbid=249031;type=tv;s=1]}
+
+#re:从零开始的异世界生活 第三季
+Re.Zero.kara.Hajimeru.Isekai.Seikatsu.S03(?=.*ADWeb) => Re.Zero.kara.Hajimeru.Isekai.Seikatsu.S01 && S01 <> 2024 >> EP+50
+(?<=ANi.*?)Re：從零開始的異世界生活 第三季 => Re.Zero.kara.Hajimeru.Isekai.Seikatsu.S01 && S01 <> 1080P >> EP+50
+(?<=ANi.*?)Re：从零开始的异世界生活 第三季 => Re.Zero.kara.Hajimeru.Isekai.Seikatsu.S01 && S01 <> 1080P >> EP+50
