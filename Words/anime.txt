@@ -434,10 +434,21 @@ Record of Lodoss War：Chronicles of the Heroic => Record of Lodoss War Chronicl
 \[ANi\].*\/ => [ANi]
 
 #视频来源修正
+(?i)\bSBSUB\b => 银色子弹字幕组
+(?i)\bNekomoe kisstan\b => 喵萌奶茶屋
+(?i)\bOPFansMaplesnow\b => OPFans枫雪动漫
+(?i)\bSakurato\b|樱都字幕组|桜都字幕组|桜都 => 桜都字幕组
+(?i)\bHaruhana\b => ❀拨雪寻春❀
 (?<=[\W_])CR(?=[\W_]) => Crunchyroll
 (?<=[\W_])NF(?=[\W_]) => Netflix
 (?<=[\W_])AMZN(?=[\W_]) => Amazon
-(?<=[\W_])DV(?=[\W_]) => DoVi
+(?<=[\W_])((H?MAX)|ATVP)(?=[\W_]) => -\1
+(?<=[\W_])ATVP(?=[\W_]) => AppleTV+
+(?<=[\W_])DSNP(?=[\W_]) => Disney+
+(?<=(1080p|2160p)\.)Max\. => -MAX.
+(?<=(1080p|2160p)\.)iT\. => -iTunes.
+(?<=S\d{2}E\d{2}).+(?=(2160|1080)p.+NTb) =>  
+(?<!-)(Disney\+|playWEB|Crunchyroll|Netflix|Amazon|AppleTV\+) => -\1
 
 #辅助识别修正词
 #(\b[5-9]\b|\b[1-9][0-9]\b) \[ =>  E\1 [
@@ -448,6 +459,16 @@ Record of Lodoss War：Chronicles of the Heroic => Record of Lodoss War Chronicl
 Hi10p_1080p => 1080p x264
 Ma10p_1080p => 1080p x265
 HEVC Main10P => x265
+(?<=(VCB-Studio|ANi).*?)2nd Season => S02
+(?<=(VCB-Studio|ANi).*?)IV => S04
+(?<=(VCB-Studio|ANi).*?)III => S03
+(?<=(VCB-Studio|ANi).*?)II => S02
+\[CHS\_CHT\_JP\]\(\w{8}\)
+\[CHT\_JP\]\(\w{8}\)
+\[CHS\_JP\]\(\w{8}\)
+chs&jpn => jpsc
+cht&jpn => jptc
+
 
 # Extra集 屏蔽词
 \(Extra\d\)
