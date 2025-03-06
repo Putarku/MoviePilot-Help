@@ -8,12 +8,14 @@ S 級怪獸《貝希摩斯》被誤認成小貓，成為精靈女孩的騎士（
 S 級怪獸《貝希摩斯》被誤認成小貓，成為精靈女孩的騎士（寵物）一起生活 =>  S级怪兽《贝希摩斯》被误认成小猫，成为精灵女孩的骑士(宠物)一起生活{[tmdbid=249545;type=tv]}
 
 #我独自升级第二季 适配观众
+#我独自升级第二季 适配观众
 我獨自升級 第二季 －起於闇影－ => Ore.dake.Level.Up.na.Ken.S01
 我独自升级 第二季 －起于暗影－ => Ore.dake.Level.Up.na.Ken.S01
-我獨自升級 第二季 －起於闇影 => {[tmdbid=127532;type=tv;s=1]}
+我獨自升級 第二季 －起於闇影 => Ore.dake.Level.Up.na.Ken.S01{[tmdbid=127532;type=tv;s=1]}
 我獨自升級 第二季 =>  我独自升级{[tmdbid=127532;type=tv;s=1]}
 (?<=Ore.dake.Level.Up.na.Ken.*?)2025 => 2024
 Ore.dake.Level.Up.na.Ken.Season.2.*Arise.from.the.Shadow.S02 => Ore.dake.Level.Up.na.Ken.S01
+Solo.Leveling.2025.S02(?=.*PTerWEB) => Ore.dake.Level.Up.na.Ken.S01 && S01 <> 1080 >> EP+12
 
 #无名记忆第二季
 Unnamed Memory Act.2 => 无名记忆 S01
