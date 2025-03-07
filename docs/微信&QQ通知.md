@@ -137,35 +137,24 @@ def render_text(text):
 
 ### 如何配置企业微信通知
   
-  1.参见[此教程](https://pt-helper.notion.site/50a7b44e255d40109bd7ad474abfeba5)
-  
+  参见[此教程](https://pt-helper.notion.site/50a7b44e255d40109bd7ad474abfeba5)
+
   <br>
 
 ### 建立企业微信的代理服务器
   
+由于微信的安全限制，企业微信的消息必须发送到白名单内的ip，而家庭公网ip一般是动态的，所以需要使用一个固定公网ip的vps做代理转发。如果只需要微信通知而不需要微信交互，那么也不需要搞代理服务器
 
-首先需要先准备一个具有固定公网地址的服务器，例如VPS，之后在该服务器上搭建代理服务。搭建方式可以有以下两种，两种任选其一即可
+MoviePilot的微信消息通知路径：
 
- > #### 1、使用[`caddy`](https://github.com/caddyserver/caddy)搭建
-
-  1. 从 https://github.com/caddyserver/caddy/releases
-下载自己对应系统的版本，例如 AMD64 下载`caddy_2.7.5_linux_amd64.tar.gz`
-  1. 解压得到 `caddy` 文件 上传到`/usr/local/bin` 目录下，注意设置权限 `0755`
-  2. 在任意目录新建 `Caddyfile` 文件(例如`/usr/local/caddy`) ，注意设置权限 `0755`，文
-件内容如下
-```yaml
-:3000
-reverse_proxy https://qyapi.weixin.qq.com {
-header_up Host {upstream_hostport}
-}
 ```
-  1. SSH 控制台 cd 到 `Caddyfile` 文件的目录(例如`/usr/local/caddy`)
-  2. 输入 caddr start 启动完成，在防火墙中放行3000端口
-  3.  NasTools / MoviePilot 设置微信的代理 IP 地址为 `http://你的服务器ip/域名:3000`
+MoviePilot通知消息 →→→ 微信服务器
+微信消息 →→→ 固定ip的公网vps →→→ MoviePilot
+```
 
-<br>
+首先需要先准备一个具有固定公网地址的服务器，之后在该服务器上搭建代理服务。
 
- > #### 2、使用[ddsderek/wxchat](https://hub.docker.com/r/ddsderek/wxchat)docker镜像搭建
+#### 使用[ddsderek/wxchat](https://hub.docker.com/r/ddsderek/wxchat)docker镜像搭建
 
 ```yaml
 version: '3.3'
@@ -184,32 +173,42 @@ docker run -d \
     -p 3000:80 \
     ddsderek/wxchat:latest
 ```
-搭建完成后，在防火墙中放行3000端口，并在NasTools / MoviePilot 设置微信的代理 IP 地址为 `http://你的服务器ip/域名:3000`
+搭建完成后，在防火墙中放行3000端口，并在 MoviePilot 设置微信的代理 IP 地址为 `http://(你的服务器ip/域名):3000`
+
+**※注意该代理服务器仅作为消息转发，不要在微信回调地址里面填这个。**
+
+
 
 <br>
 
 ### 配置企业微信时提示“回调失败”
   
 
- 1.在企业微信的填写的地址可以有两种方式
+ 1.在企业微信的填写的地址如下
 
- ①`http://ip:端口/api/v1/message/?token=moviepilot`
+ `http://ip:端口/api/v1/message/?token=moviepilotmoviepilot&source=配置名称`
 
- ②`http://ip:端口/api/v1/message/`
 
- 如果自行配置了`API_TOKEN`的值，那么就需要在地址后面补上`?token=moviepilot`。如果`API_TOKEN`为默认值，那么两种填写方式均可。
+ 其中token为设置页面的自定义值，配置名称则是MP通知渠道中，企业微信配置的名称。
 
  2.确认在手机打开流量时，直接打开`http://ip:端口`，可以直接访问MoviePilot的网页。
 
- 3.微信不支持ipv6,因此如果域名是使用ipv6解析的时候，也会导致不通过。如果没有ipv4的公网ip，建议使用内网穿透。
+ 3.微信通知回调不支持ipv6,因此如果域名是使用ipv6解析的时候，也会导致不通过。如果没有ipv4的公网ip，建议使用内网穿透。
 
  <br>
 
  ### 企业微信部署后不显示菜单
 
-如果是沿用nastool的代理服务器配置，需要在`nginx`的配置文件中额外加入下列代码，才能自动生成菜单。
+一般重启MoviePilot即可。
+如果是自建微信代理服务，则需要在nginx中添加以下配置
 
 ```
+location /cgi-bin/gettoken {
+    proxy_pass https://qyapi.weixin.qq.com;
+}
+location /cgi-bin/message/send {
+    proxy_pass https://qyapi.weixin.qq.com;
+}
 location  /cgi-bin/menu/create {
     proxy_pass https://qyapi.weixin.qq.com;
 }
