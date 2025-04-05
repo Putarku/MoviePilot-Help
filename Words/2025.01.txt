@@ -2,6 +2,19 @@
 \[猎户手抄部\].*\/ => [猎户手抄部]
 \[Strange-Raw\].*\/ => [Strange-Raw]
 
+#安妮・雪莉
+\[ANi\] Anne Shirley / 安妮・雪莉 => [ANi] 安妮・雪莉 {[tmdbid=277665;type=tv]}
+
+#打了300年的史莱姆，不知不觉就练到了满级
+\[ANi\] 持续狩猎史莱姆三百年，不知不觉就练到.LV.MAX.第二季 => 打了300年的史莱姆，不知不觉就练到了满级 S02 {[tmdbid=99073;type=tv]}
+
+#炎炎消防队
+\[ANi\] 炎炎消防队 参之章 => 炎炎消防队 S03 {[tmdbid=88046;type=tv]}
+
+#搞笑漫画日和
+\[ANi\] 搞笑漫画日和 GO - => 搞笑漫画日和 S05E {[tmdbid=80007;type=tv;s=5]}
+
+
 #S级怪兽《贝希摩斯》被误认成小猫，成为精灵女孩的骑士(宠物)一起生活
 S-Rank Monster no Behemoth Dakedo Neko to Machigawarete Elf Musume no Pet to Shite Kurashitemasu => S级怪兽《贝希摩斯》被误认成小猫，成为精灵女孩的骑士(宠物)一起生活 {[tmdbid=249545;type=tv]}
 S 級怪獸《貝希摩斯》被誤認成小貓，成為精靈女孩的騎士（寵物）一起生活 => {[tmdbid=249545;type=tv]}
