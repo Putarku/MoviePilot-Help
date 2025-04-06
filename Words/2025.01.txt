@@ -21,6 +21,7 @@
 
 #小市民系列
 (?<=ANi.*?)小市民系列 第二季 => 小市民系列.S02 && S02 <> 1080P >> EP-10
+Shoushimin.Series.S01(?=.*ADWeb) => 小市民系列.S02 && S02 <> 2024 >> EP-10
 
 #S级怪兽《贝希摩斯》被误认成小猫，成为精灵女孩的骑士(宠物)一起生活
 S-Rank Monster no Behemoth Dakedo Neko to Machigawarete Elf Musume no Pet to Shite Kurashitemasu => S级怪兽《贝希摩斯》被误认成小猫，成为精灵女孩的骑士(宠物)一起生活 {[tmdbid=249545;type=tv]}
