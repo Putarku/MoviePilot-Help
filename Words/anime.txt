@@ -430,6 +430,10 @@ Tensei Shitara Slime Datta Ken.*24.5.* => 关于我转生变成史莱姆这档�
 #罗德斯岛战记：英雄骑士传
 Record of Lodoss War：Chronicles of the Heroic => Record of Lodoss War Chronicles of the Heroic {[tmdbid=72041;type=tv;s=1]}
 
+#我的脑内恋碍选项
+Noucome => 我的脑内恋碍选项 (2013)
+Noucome [OAD] => 我的脑内恋碍选项 - S00E01 - OVA
+
 ## 泛用规则，用于清除多余的别名 ##
 \[ANi\].*\/ => [ANi]
 
