@@ -2,6 +2,15 @@
 \[猎户手抄部\].*\/ => [猎户手抄部]
 \[Strange-Raw\].*\/ => [Strange-Raw]
 
+#Hana-Doll*
+(?<=ANi.*?) 華 Doll＊ -Reinterpretation of Flowering- => Hana-Doll* {[tmdbid=283361;type=tv]}
+(?<=ANi.*?) 华 Doll＊ -Reinterpretation of Flowering- => Hana-Doll* {[tmdbid=283361;type=tv]}
+
+#这是妳与我的最后战场，或是开创世界的圣战 第二季
+Kimi to Boku no Saigo no Senjou Aruiwa Sekai ga Hajimaru Seisen => 这是你与我的最后战场，或是开创世界的圣战 {[tmdbid=101972;type=tv]}
+(?<=ANi.*?)这是妳与我的最后战场，或是开创世界的圣战 第二季 -  => 这是你与我的最后战场，或是开创世界的圣战 S02 {[tmdbid=101972;type=tv]}
+(?<=ANi.*?)這是妳與我的最後戰場，或是開創世界的聖戰 第二季 -  => 这是你与我的最后战场，或是开创世界的圣战 S02 {[tmdbid=101972;type=tv]}
+
 #安妮・雪莉
 (?<=ANi.*?)Anne Shirley / 安妮・雪莉 => 安妮・雪莉 {[tmdbid=277665;type=tv]}
 
@@ -19,7 +28,7 @@
 #防风少年
 (?<=ANi.*?)WIND BREAKER—防风少年— Season 2 -  => 防风少年 S02 {[tmdbid=223500;type=tv]}
 
-#小市民系列
+#小市民系列(推荐使用剧集组订阅第二季)
 (?<=ANi.*?)小市民系列 第二季 => 小市民系列.S02 && S02 <> 1080P >> EP-10
 Shoushimin.Series.S01(?=.*ADWeb) => 小市民系列.S02 && S02 <> 2024 >> EP-10
 
