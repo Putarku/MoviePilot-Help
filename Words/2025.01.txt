@@ -2,6 +2,9 @@
 \[猎户手抄部\].*\/ => [猎户手抄部]
 \[Strange-Raw\].*\/ => [Strange-Raw]
 
+#莉可丽丝：友谊是时间的窃贼
+Lycoris.Recoil.Friends.are.thieves.of.time => 莉可丽丝：友谊是时间的窃贼{[tmdbid=289110;type=tv]}
+
 #Hana-Doll*
 (?<=ANi.*?) 華 Doll＊ -Reinterpretation of Flowering- => Hana-Doll* {[tmdbid=283361;type=tv]}
 (?<=ANi.*?) 华 Doll＊ -Reinterpretation of Flowering- => Hana-Doll* {[tmdbid=283361;type=tv]}
