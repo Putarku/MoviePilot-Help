@@ -3,7 +3,7 @@
 \[Strange-Raw\].*\/ => [Strange-Raw]
 
 #莉可丽丝：友谊是时间的窃贼
-Lycoris.Recoil.Friends.are.thieves.of.time => 莉可丽丝：友谊是时间的窃贼{[tmdbid=289110;type=tv]}
+Lycoris.Recoil.Friends.are.thieves.of.time => 莉可丽丝 S0 {[tmdbid=289110;type=tv;s=0]}
 
 #Hana-Doll*
 (?<=ANi.*?) 華 Doll＊ -Reinterpretation of Flowering- => Hana-Doll* {[tmdbid=283361;type=tv]}
