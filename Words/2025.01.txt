@@ -2,8 +2,8 @@
 \[猎户手抄部\].*\/ => [猎户手抄部]
 \[Strange-Raw\].*\/ => [Strange-Raw]
 
-#莉可丽丝：友谊是时间的窃贼
-Lycoris.Recoil.Friends.are.thieves.of.time => 莉可丽丝 S0 {[tmdbid=289110;type=tv;s=0]}
+#莉可丽丝：友谊是时间的窃贼 （需使用剧集组订阅，并手动设置起始集数为1）
+Lycoris.Recoil.Friends.are.thieves.of.time => 莉可丽丝 S02 {[tmdbid=154494;type=tv;s=2]}
 
 #Hana-Doll*
 (?<=ANi.*?) 華 Doll＊ -Reinterpretation of Flowering- => Hana-Doll* {[tmdbid=283361;type=tv]}
