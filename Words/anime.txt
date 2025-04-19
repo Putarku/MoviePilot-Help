@@ -436,6 +436,9 @@ Record of Lodoss War：Chronicles of the Heroic => Record of Lodoss War Chronicl
 Noucome => 我的脑内恋碍选项 (2013)
 Noucome [OAD] => 我的脑内恋碍选项 - S00E01 - OVA
 
+#天降之物
+Heaven's Lost Property Final：Eternal My Master => Heaven's Lost Property Final: Eternal My Master (2014)
+
 ## 泛用规则，用于清除多余的别名 ##
 \[ANi\].*\/ => [ANi]
 
