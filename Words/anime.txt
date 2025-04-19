@@ -198,6 +198,8 @@ Swallowed.Star.S02 => Swallowed.Star.S01
 吞噬星空.第3季.Swallowed.Star.S03 => Swallowed.Star.S01
 吞噬星空.Swallowed.Star.S04 => Swallowed.Star.S01 && S01 <> 2023 >> EP+85
 Swallowed.Star.2023.S04(?=.*PTerWEB) => Swallowed.Star.S01 && S01 <> WEB-DL >> EP+85
+Swallowed Star 2025 S06(?=.*AilMWeb) => Swallowed.Star.S01
+Swallowed Star 2021 E167(?=.*OurTV) => Swallowed.Star.S01
 
 #百炼成神
 (?<=Apotheosis.S02.*?)2023 => 2022
@@ -433,6 +435,9 @@ Record of Lodoss War：Chronicles of the Heroic => Record of Lodoss War Chronicl
 #我的脑内恋碍选项
 Noucome => 我的脑内恋碍选项 (2013)
 Noucome [OAD] => 我的脑内恋碍选项 - S00E01 - OVA
+
+#天降之物
+Heaven's Lost Property Final：Eternal My Master => Heaven's Lost Property Final: Eternal My Master (2014)
 
 ## 泛用规则，用于清除多余的别名 ##
 \[ANi\].*\/ => [ANi]
