@@ -29,11 +29,16 @@ Kimi to Boku no Saigo no Senjou Aruiwa Sekai ga Hajimaru Seisen => 这是你与�
 (?<=ANi.*?)搞笑漫畫日和 GO - => 搞笑漫画日和 S05E {[tmdbid=80007;type=tv;s=5]}
 
 #防风少年
-(?<=ANi.*?)WIND BREAKER—防风少年— Season 2 -  => 防风少年 S02 {[tmdbid=223500;type=tv]}
+\[ANi\] WIND BREAKER / WIND BREAKER—防风少年— Season 2 => 防风少年 S02 E && E <> 1080 >> EP-13
+\[ANi\] WIND BREAKER / WIND BREAKER—防風少年— Season 2 => 防风少年 S02 E && E <> 1080 >> EP-13
+\[ANi\] WIND BREAKER—防風少年— Season 2 => 防风少年 S02 E && E <> 1080 >> EP-13
+\[ANi\] WIND BREAKER—防风少年— Season 2 => 防风少年 S02 E && E <> 1080 >> EP-13
 
 #小市民系列(推荐使用剧集组订阅第二季)
 (?<=ANi.*?)小市民系列 第二季 => 小市民系列.S02 && S02 <> 1080P >> EP-10
-Shoushimin.Series.S01(?=.*ADWeb) => 小市民系列.S02 && S02 <> 2024 >> EP-10
+Shoushimin.Series.S01E(1[1-9]|2[0-9])(?=.*ADWeb) => 小市民系列.S02E\1 && S02 <> 2024 >> EP-10
+SHOSHIMIN.How.to.Become.Ordinary.S01E(1[1-9]|2[0-9]) => 小市民系列.S02E\1 && S02 <> 2025 >> EP-10
+SHOSHIMIN: How to Become Ordinary S01E(1[1-9]|2[0-9]) => 小市民系列.S02E\1 && S02 <> 2025 >> EP-10
 
 #S级怪兽《贝希摩斯》被误认成小猫，成为精灵女孩的骑士(宠物)一起生活
 S-Rank Monster no Behemoth Dakedo Neko to Machigawarete Elf Musume no Pet to Shite Kurashitemasu => S级怪兽《贝希摩斯》被误认成小猫，成为精灵女孩的骑士(宠物)一起生活 {[tmdbid=249545;type=tv]}
