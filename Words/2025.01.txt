@@ -37,10 +37,8 @@ Kimi to Boku no Saigo no Senjou Aruiwa Sekai ga Hajimaru Seisen => 这是你与�
 
 #防风少年
 WIND.BREAKER.S01E(1[3-9]|2[0-9])(?=.*ADWeb) => 防风少年.S02E\1 && S02 <> 2024 >> EP-13
-\[ANi\] WIND BREAKER / WIND BREAKER—防风少年— Season 2 => 防风少年 S02 E && E <> 1080 >> EP-13
-\[ANi\] WIND BREAKER / WIND BREAKER—防風少年— Season 2 => 防风少年 S02 E && E <> 1080 >> EP-13
-\[ANi\] WIND BREAKER—防風少年— Season 2 => 防风少年 S02 E && E <> 1080 >> EP-13
-\[ANi\] WIND BREAKER—防风少年— Season 2 => 防风少年 S02 E && E <> 1080 >> EP-13
+(?<=ANi.*?)WIND BREAKER—防风少年— Season 2 - (\d+) => 防风少年.S02E\1 && S02 <> 1080 >> EP-13
+(?<=ANi.*?)WIND BREAKER—防風少年— Season 2 - (\d+) => 防风少年.S02E\1 && S02 <> 1080 >> EP-13
 
 #小市民系列
 (?<=ANi.*?)小市民系列 第二季 => 小市民系列.S01
