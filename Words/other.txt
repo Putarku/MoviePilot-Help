@@ -120,6 +120,8 @@ Baka to Test to Shoukanjuu Ni! (\d{2,3}) => Baka to Test to Shoukanjuu S02 E\1
 # 笨蛋测验召唤兽第一季
 # 兼容名称[Yousei-raws] Baka to Test to Shoukanjuu 12 [BDrip 1920x1080 x264 FLAC].mkv
 Baka to Test to Shoukanjuu (\d{2,3}) => Baka to Test to Shoukanjuu S01 E\1
+Bakusou.Kyoudai.Let's.&.Go.WGP => 四驱兄弟 S02
+Bakusou.Kyoudai.Let's.&.Go.MAX => 四驱兄弟 S03
 
 #字幕组修正
 
