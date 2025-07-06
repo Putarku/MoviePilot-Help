@@ -236,6 +236,11 @@ IMMORTALITY.S01(?=.*ADWeb) => IMMORTALITY.S03 && S03 <> 2022 >> EP-24
 
 #长篇动画
 
+#哆啦A梦
+\[2025\.06\.28\]
+\[GB_JP\]
+New Doraemon 哆啦A梦新番\[(\d+)\] => 哆啦A梦(2005)- S01E$1
+
 #名侦探柯南 【银色子弹 BT】
 (?<=SBSUB.*DR.*?)- => part
 \[CHS\_CHT\_JP\]\(\w{8}\)
