@@ -3,8 +3,13 @@
 \[Strange-Raw\].*\/ => [Strange-Raw]
 \[ANi\].*\/ => [ANi]
 
+Arknights S01E(1[7-9]|2[0-9])(?=.*ADWeb) => 明日方舟 S03E\1 && S03 <> 2022 >> EP-16
+
+#被驱逐开勇者派对的白魔导师，被S级冒险者捡到 ～这个白魔导师超规格～
+Yuusha.Party.wo.Tsuihou.Sareta.Shiro.Madoushi.S.Rank.Boukensha.ni.Hirowareru.Kono.Shiro.Madoushi.ga.Kikakugaisugiru.S01 => 被驱逐开勇者派对的白魔导师，被S级冒险者捡到 ～这个白魔导师超规格～ {[tmdbid=284771;type=tv;]}
+
 #噗妮露是可爱史莱姆s02
-(?<=ANi.*?) 噗妮露是可爱史莱姆 第二季 - (1[1-3]|2[0-9]) => 噗妮露是可爱史莱姆 S02E\1 && S02 <> 1080P >> EP-12
+(?<=ANi.*?) 噗妮露是可爱史莱姆 第二季 - (1[3-9]|2[0-9]) => 噗妮露是可爱史莱姆 S02E\1 && S02 <> 1080P >> EP-12
 
 #定孕成婚
 (?<=ANi.*?)定孕成婚 / Deki Chau Made Kon => 定孕成婚
