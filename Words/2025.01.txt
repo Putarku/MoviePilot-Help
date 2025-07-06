@@ -8,7 +8,7 @@
 游乐场少女的异文化交流 => 与游戏中心的少女异文化交流的故事
 
 #明日方舟S03
-Arknights S01E(1[7-9]|2[0-9])(?=.*ADWeb) => 明日方舟 S03E\1 && S03 <> 2022 >> EP-16
+((.+)|)Arknights.S01E(1[7-9]|2[0-9])(?=.*ADWeb) => 明日方舟 S03E\3 && S03 <> 2022 >> EP-16
 
 #被驱逐开勇者派对的白魔导师，被S级冒险者捡到 ～这个白魔导师超规格～
 Yuusha.Party.wo.Tsuihou.Sareta.Shiro.Madoushi.S.Rank.Boukensha.ni.Hirowareru.Kono.Shiro.Madoushi.ga.Kikakugaisugiru.S01 => 被驱逐开勇者派对的白魔导师，被S级冒险者捡到 ～这个白魔导师超规格～ {[tmdbid=284771;type=tv;]}
