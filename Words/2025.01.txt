@@ -3,6 +3,15 @@
 \[Strange-Raw\].*\/ => [Strange-Raw]
 \[ANi\].*\/ => [ANi]
 
+#噗妮露是可爱史莱姆s02
+(?<=ANi.*?) 噗妮露是可爱史莱姆 第二季 - (1[1-3]|2[0-9]) => 噗妮露是可爱史莱姆 S02E\1 && S02 <> 1080P >> EP-12
+
+#定孕成婚
+(?<=ANi.*?)定孕成婚 / Deki Chau Made Kon => 定孕成婚
+
+#青春猪头少年不会梦到兔女郎学姐 S02
+Seishun.Buta.Yarou.wa.Santa.Claus.no.Yume.wo.Minai.S01 => 青春猪头少年不会梦到兔女郎学姐 S02
+
 #租借女友第四季
 Rent-a-Girlfriend.S01E(3[7-9]|4[0-9])(?=.*FROGWeb) => Rent-a-Girlfriend.S04E\1 && S04 <> 2020 >> EP-36
 
