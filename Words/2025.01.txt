@@ -3,6 +3,13 @@
 \[Strange-Raw\].*\/ => [Strange-Raw]
 \[ANi\].*\/ => [ANi]
 
+#青春猪头少年不会梦到兔女郎学姐.S02
+(?<=ANi.*?) 青春猪头少年不会梦到圣诞服女郎 - (\d+) => 青春猪头少年不会梦到兔女郎学姐.S02E\1
+Seishun.Buta.Yarou.wa.Santa.Claus.no.Yume.wo.Minai.S01E(\d+)(?=.*ADWeb) => 青春猪头少年不会梦到兔女郎学姐.S02E\1
+
+#转生为第七王子，随心所欲的魔法学习之路 第二季
+Tensei.Shitara.Dai.Nana.Ouji.Dattanode.Kimamani.Majutsu.wo.Kiwamemasu.S02E(1[3-9]|2[0-9])(?=.*ADWeb) => 转生为第七王子，随心所欲的魔法学习之路.S02E\1 && S02 <> 2025 >> EP-12
+(?<=ANi.*?) 转生为第七王子，随心所欲的魔法学习之路 第二季 - (1[3-9]|2[0-9]) [1080P][Baha][WEB-DL][AAC AVC][CHT][MP4] => 转生为第七王子，随心所欲的魔法学习之路.S02E\1 && S02 <> 1080P >> EP-12
 
 #与游戏中心的少女异文化交流的故事
 游乐场少女的异文化交流 => 与游戏中心的少女异文化交流的故事
