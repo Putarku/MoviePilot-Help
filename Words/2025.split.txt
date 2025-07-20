@@ -3,6 +3,11 @@
 \[Strange-Raw\].*\/ => [Strange-Raw]
 \[ANi\].*\/ => [ANi]
 
+#怪兽8号第二季
+Kaijuu.8.gou.S02E(1[3-9]|2[0-9])(?=.*ADWeb) => Kaijuu.8.gou.S02E\1 && S02 <> 2025 >> EP-12
+Kaiju.No.+8.S01E(1[3-9]|2[0-9])(?=.*FROGWeb) => Kaijuu.8.gou.S02E\1 && S02 <> 2025 >> EP-12
+Kaijuu.8.gou.S01E(1[3-9]|2[0-9])(?=.*Nest@ADWeb) => Kaijuu.8.gou.S02E\1 && S02 <> 2025 >> EP-12
+(?<=ANi.*?)怪兽 8 号 第二季 - (\d+) => 怪兽8号.S02E\1 && S02 <> 1080 >> EP-12
 
 #海贼王s22
 One.Piece.S01E(1[1-9][0-9][0-9]|109[0-9]|108[6-9])(?=.*ADWeb) => 海贼王 S22E\1
