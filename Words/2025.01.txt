@@ -3,6 +3,9 @@
 \[Strange-Raw\].*\/ => [Strange-Raw]
 \[ANi\].*\/ => [ANi]
 
+#怪兽8号
+Kaijuu.8.gou.S02(?=.*ADWeb) => Kaijuu.8.gou.S01
+(?<=Kaijuu.8.gou.S01.*?)2025 => 2024
 
 #海贼王s22
 One.Piece.S01E(1[1-9][0-9][0-9]|109[0-9]|108[6-9])(?=.*ADWeb) => 海贼王 S22E\1
