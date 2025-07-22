@@ -130,6 +130,6 @@ Re.Zero.kara.Hajimeru.Isekai.Seikatsu.S03(?=.*ADWeb) => Re.Zero.kara.Hajimeru.Is
 
 #国漫
 
-Jade.Dynasty => 诛仙动画
+((.+)|)Jade.Dynasty => 诛仙动画{[tmdbid=206484;type=tv]}
 Xtreme.Vanguard => 超限斗神
 Soul.Land.S02 => 斗罗大陆Ⅱ绝世唐门
