@@ -3,6 +3,9 @@
 \[Strange-Raw\].*\/ => [Strange-Raw]
 \[ANi\].*\/ => [ANi]
 
+#拔作岛
+Is.the.island.Utopia.or.Dystopia(?=.*ADWeb) => 拔作岛
+
 #怪兽8号
 Kaijuu.8.gou.S02(?=.*ADWeb) => Kaijuu.8.gou.S01
 (?<=Kaijuu.8.gou.S01.*?)2025 => 2024

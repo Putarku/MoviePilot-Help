@@ -3,6 +3,9 @@
 \[Strange-Raw\].*\/ => [Strange-Raw]
 \[ANi\].*\/ => [ANi]
 
+#拔作岛
+Is.the.island.Utopia.or.Dystopia(?=.*ADWeb) => 拔作岛
+
 #怪兽8号第二季
 Kaijuu.8.gou.S02E(1[3-9]|2[0-9])(?=.*ADWeb) => Kaijuu.8.gou.S02E\1 && S02 <> 2025 >> EP-12
 Kaiju.No.+8.S01E(1[3-9]|2[0-9])(?=.*FROGWeb) => Kaijuu.8.gou.S02E\1 && S02 <> 2025 >> EP-12
