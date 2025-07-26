@@ -42,6 +42,8 @@ Seishun.Buta.Yarou.wa.Santa.Claus.no.Yume.wo.Minai.S01 => 青春猪头少年不�
 #租借女友第四季
 Kanojo.Okarishimasu => 租借女友{[tmdbid=96316;type=tv]} 
 
+#胆大党第二季偏移至第一季
+Dan.Da.Dan.S02E(1[3-9]|2[0-9])(?=.*MWeb) => 胆大党 S01
 
 #宝可梦 地平线(枫叶字幕组)
 宝可梦 地平线 太乐巴戈斯的光辉 => 宝可梦 地平线(2023)
