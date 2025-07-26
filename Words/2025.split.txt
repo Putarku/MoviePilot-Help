@@ -3,6 +3,13 @@
 \[Strange-Raw\].*\/ => [Strange-Raw]
 \[ANi\].*\/ => [ANi]
 
+#我们不可能成为恋人！绝对不行。（※似乎可行？）
+Watashi.ga.Koibito.ni.Nareru.Wake.Naijan.Murimuri.Muri.ja.Nakatta(?=.*ADWeb) => 我们不可能成为恋人！绝对不行{[tmdbid=277513;type=tv]}
+
+# 更衣人偶坠入爱河 第二季
+Sono.Bisque.Doll.wa.Koi.wo.Suru.S02E(?=.*ADWeb) => 更衣人偶坠入爱河.S02E{[tmdbid=123249;type=tv]}
+My.Dress-Up.Darling.S02E(?=.*FROGWeb) => 更衣人偶坠入爱河.S02E{[tmdbid=123249;type=tv]}
+
 #拔作岛
 Is.the.island.Utopia.or.Dystopia(?=.*ADWeb) => 拔作岛
 
