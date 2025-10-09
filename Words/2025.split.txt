@@ -3,6 +3,15 @@
 \[Strange-Raw\].*\/ => [Strange-Raw]
 \[ANi\].*\/ => [ANi]
 
+#ANi
+(?<=ANi.*?)龍族II 悼亡者之瞳 => 龙族 (2022) S02
+(?<=ANi.*?)銀魂 3 年 Z 班銀八老師 => 3年Z組銀八先生
+(?<=ANi.*?)假面骑士 ZEZTZ => 假面骑士ZZZ
+(?<=ANi.*?)SPY×FAMILY 间谍家家酒 Season 3 <> 1080 >> EP-37
+
+#拥有超常技能的异世界流浪美食家
+(?<=ANi.*?)拥有超常技能的异世界流浪美食家 S2 - (\d+) => 拥有超常技能的异世界流浪美食家.S02E\1 && S02 <> 1080 >> EP-12
+
 #我们不可能成为恋人！绝对不行。（※似乎可行？）
 Watashi.ga.Koibito.ni.Nareru.Wake.Naijan.Murimuri.Muri.ja.Nakatta(?=.*ADWeb) => 我们不可能成为恋人！绝对不行{[tmdbid=277513;type=tv]}
 
