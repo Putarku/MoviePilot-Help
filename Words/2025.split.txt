@@ -9,6 +9,9 @@
 (?<=ANi.*?)假面骑士 ZEZTZ => 假面骑士ZZZ
 (?<=ANi.*?)SPY×FAMILY 间谍家家酒 Season 3 <> 1080 >> EP-37
 
+#藤本树 17-26
+(藤本树.17-26)|(Fujimoto.Tatsuki.17-26)|(藤本树17-26.Tatsuki.Fujimoto.17-26) => Fujimoto Tatsuki{[tmdbid=299778;type=tv]}
+
 #拥有超常技能的异世界流浪美食家
 (?<=ANi.*?)拥有超常技能的异世界流浪美食家 S2 - (\d+) => 拥有超常技能的异世界流浪美食家.S02E\1 && S02 <> 1080 >> EP-12
 
