@@ -9,3 +9,11 @@
 
 #咒术回战第三季【ADWeb】
 Jujutsu.Kaisen.S03E(?=.*ADWeb) => Jujutsu.Kaisen.S01E && S01E <> 2026 >> EP+47
+(?<=ANi.*?)咒术回战 死灭回游 前篇 => Jujutsu.Kaisen.S01
+(?<=ANi.*?)咒術迴戰 死滅迴游 前篇 => Jujutsu.Kaisen.S01
+
+#终究，与你相恋
+(?<=ANi.*?)终究，与你相恋。第二季 => 终究，与你相恋。
+
+#枪神 斯坦比特第二季
+(?<=ANi.*?)TRIGUN STARGAZE - (\d{1,2}) => 枪神 斯坦比特.S02E\1
