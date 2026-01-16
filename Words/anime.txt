@@ -445,6 +445,9 @@ Noucome [OAD] => 我的脑内恋碍选项 - S00E01 - OVA
 #天降之物
 Heaven's Lost Property Final：Eternal My Master => Heaven's Lost Property Final: Eternal My Master (2014)
 
+# 王者天下
+(?<=LoliHouse.?) Kingdom S6 => 王者天下.S06 {[tmdbid=46437;type=tv;]}
+
 ## 泛用规则，用于清除多余的别名 ##
 \[ANi\].*\/ => [ANi]
 
