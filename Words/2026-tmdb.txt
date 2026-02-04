@@ -3,6 +3,7 @@
 \[Strange-Raw\].*\/ => [Strange-Raw]
 \[桜都字幕组\].*\/ => [桜都字幕组]
 \[ANi\].*\/ => [ANi]
+\[雪飘工作室\].*\/ => [雪飘工作室]
 
 Oshi.no.Ko.S03E(?=.*ADWeb) => Oshi.no.Ko.{[tmdbid=203737;type=tv]}.S01E && S01E <> 2026 >> EP+24
 Sousou.no.Frieren.S02E(?=.*ADWeb) => Sousou.no.Frieren.S01E && S01E <> 2026 >> EP+28
@@ -26,3 +27,7 @@ Jujutsu.Kaisen.S03E(?=.*ADWeb) => Jujutsu.Kaisen.S01E && S01E <> 2026 >> EP+47
 宝可梦 地平线 超级电压 => 宝可梦 地平线(2023)
 宝可梦 地平线 再度飞升 => 宝可梦 地平线(2023)
 (.+)\[宠物小精灵(.+?地平线)|(.+)\[寵物小精靈(.+?地平線) => \1{[tmdbid=220150]}\2
+
+#光之美少女(雪飘工作室)
+与你同为 偶像光之美少女♪ => 你与偶像光之美少女{[tmdbid=278378;type=tv]}
+名侦探偶像光之美少女♪ => 名侦探光之美少女{[tmdbid=306721;type=tv]}
