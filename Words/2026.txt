@@ -24,6 +24,7 @@ Oshi.no.Ko => 我推的孩子{[tmdbid=203737;type=tv]}
 
 #黄金神威
 (?<=幻樱字幕组.*?)【黄金神威.Golden.Kamuy】【(\d{1,2})】 => 黄金神威.S05E\1 && S05E <> 【GB_MP4】 >> EP-49
+(?<=HYSUB.*?)Golden Kamuy\[(\d{1,2})\] => 黄金神威.S05E\1 && S05E <> GB_MP4 >> EP-49
 
 #宝可梦 地平线(枫叶字幕组)
 宝可梦 地平线 太乐巴戈斯的光辉 => 宝可梦 地平线(2023)
@@ -43,3 +44,11 @@ Hime-sama.Goumon.no.Jikan.desu => 公主殿下，“拷问”的时间到了 {[t
 与你同为 偶像光之美少女 => 你与偶像光之美少女{[tmdbid=278378;type=tv]}
 名侦探偶像光之美少女 => 名侦探光之美少女{[tmdbid=306721;type=tv]}
 名侦探光之美少女 => 名侦探光之美少女{[tmdbid=306721;type=tv]}
+公主协奏管弦乐/Princession_Orchestra/プリンセッション・オーケストラ => 公主专场管弦乐{[tmdbid=256853;type=tv]}
+Princession_Orchestra => 公主专场管弦乐{[tmdbid=256853;type=tv]}
+
+#真･武士传 剑勇传说
+真･武士传 剑勇传说 => 真･武士传 剑勇传说{[tmdbid=254017;type=tv]}
+
+#王者天下
+(?<=LoliHouse.*?) Kingdom S6 => 王者天下.S06 {[tmdbid=46437;type=tv;]}
