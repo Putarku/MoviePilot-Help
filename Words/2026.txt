@@ -52,3 +52,6 @@ Princession_Orchestra => 公主专场管弦乐{[tmdbid=256853;type=tv]}
 
 #王者天下
 (?<=LoliHouse.*?) Kingdom S6 => 王者天下.S06 {[tmdbid=46437;type=tv;]}
+
+# 魔都精兵的奴隶 第二季
+(?i)魔都精兵的奴隶.*?(?:第二季|Slave\s*2).*?\[(\d{1,2})\] => 魔都精兵的奴隶.S02E\1
