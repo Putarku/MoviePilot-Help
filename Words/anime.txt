@@ -447,6 +447,10 @@ Heaven's Lost Property Final：Eternal My Master => Heaven's Lost Property Final
 
 # 王者天下
 (?<=LoliHouse.?) Kingdom S6 => 王者天下.S06 {[tmdbid=46437;type=tv;]}
+# 地狱乐
+\[BeanSub&FZSD&LoliHouse\] Jigokuraku - (\d{1,2}) .* => 地狱乐.S2 E\1 && 地狱乐.S2 E <>  >> EP-13
+# 黄金神威
+\[LoliHouse\] Golden Kamuy - (\d{1,2}) .* => 黄金神威.S5 E\1 && 黄金神威.S5 E <>  >> EP-49 
 
 ## 泛用规则，用于清除多余的别名 ##
 \[ANi\].*\/ => [ANi]
