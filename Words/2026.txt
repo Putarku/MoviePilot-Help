@@ -58,3 +58,6 @@ Princession_Orchestra => 公主专场管弦乐{[tmdbid=256853;type=tv]}
 
 # 不死者之王 圣王国篇
 Gekijouban Overlord Sei Oukoku Hen => 剧场版 OVERLORD 圣王国篇{[tmdbid=1014505;type=movie]}
+
+# DARK MOON -黑之月：月之祭坛
+DARK MOON： 月之神壇 => DARK MOON -黑之月：月之祭坛{[tmdbid=271609;type=tv]}
