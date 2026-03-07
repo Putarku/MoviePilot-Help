@@ -61,3 +61,6 @@ Gekijouban Overlord Sei Oukoku Hen => 剧场版 OVERLORD 圣王国篇{[tmdbid=10
 
 # DARK MOON -黑之月：月之祭坛
 DARK MOON： 月之神壇 => DARK MOON -黑之月：月之祭坛{[tmdbid=271609;type=tv]}
+
+# 假面骑士ZZZ
+假面騎士 ZEZTZ => 假面骑士ZZZ{[tmdbid=295434;type=tv]}
