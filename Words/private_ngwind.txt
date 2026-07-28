@@ -1,0 +1,24 @@
+# 香格里拉边境第二季
+(?<=\[Up to 21°C\].*?)香格里拉・开拓异境～粪作猎手挑战神作～ 第二季 => ShangriLa.Frontier.S01
+(?<=\[Up to 21°C\].*?)Shangri-La Frontier 2nd Season => ShangriLa.Frontier.S01
+(?<=\[Up to 21°C\].*?)Shangri-La Frontier - Kusoge Hunter, Kamige ni Idoman to su 2nd Season => ShangriLa.Frontier.S01
+## 匹配测试：Shangri La Frontier 2024 S02E20 1080p CR WEB-DL x264 AAC-PTerWEB
+Shangri La Frontier 2024 S02 => ShangriLa.Frontier.2024.S01 && S01 <> 1080p >> EP+25
+## 匹配测试：Shangri-La Frontier S02E21 1080p KKTV WEB-DL AAC2.0 H.264-MWeb
+Shangri-La Frontier S02 => ShangriLa.Frontier.2024.S01 && S01 <> 1080p >> EP+25
+## 匹配测试：Shangri-La.Frontier.S02E21.1080p.friDay.WEB-DL.AAC2.0.H.264-MWeb.mkv
+Shangri-La.Frontier.S02 => ShangriLa.Frontier.2024.S01 && S01 <> 1080p >> EP+25
+# 我独自升级
+## 匹配测试：Solo Leveling S02E01 1080p friDay WEB-DL AAC2.0 H.264-MWeb
+Solo Leveling S02 => Solo.Leveling.S01 && S01 <> 1080p friDay >> EP+12
+## 匹配测试：Solo.Leveling.S02E09.1080p.friDay.WEB-DL.AAC2.0.H.264-MWeb.mkv
+Solo.Leveling.S02 => Solo.Leveling.S01 && S01 <> 1080p.friDay >> EP+12
+
+# 胆大党第二季
+DAN.DA.DAN.2025.S02 => DAN.DA.DAN.2025.S01 && S01 <> 1080p >> EP+12
+
+# 葬送的芙莉莲 第二季
+# 匹配测试：Frieren.Beyond.Journeys.End.S02E01.Shall.We.Go.Then.1080p.CR.WEB-DL.DDP2.0.H.264-Kitsune.mkv
+# [葬送的芙莉莲 第二季].Sousou.no.Frieren.2026.S02E01.1080p.CR.WEB-DL.H264.AAC-UBWEB.mkv
+Sousou.no.Frieren.2026 => Frieren.Beyond.Journeys.End
+Frieren.Beyond.Journeys.End.S02 =>  Frieren.Beyond.Journeys.End.S01 && Frieren.Beyond.Journeys.End.S01E <> 1080p >> EP+28
