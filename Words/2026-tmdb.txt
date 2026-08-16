@@ -5,6 +5,12 @@
 \[ANi\].*\/ => [ANi]
 \[雪飘工作室\].*\/ => [雪飘工作室]
 
+
+#死神千年战争
+BLEACH.Sennen.Kessen-hen.Kashin-tan.S01 => 死神 {[tmdbid=30984;type=tv;s=2]} S02 && S02 <> .2026.1080p.Baha
+Bleach.Thousand.Year.Blood.War.S04 => 死神 {[tmdbid=30984;type=tv;s=2]} S02 && S02 <> .2026.1080p.LINETV >> EP+40
+(?<=ANi.*?) BLEACH 死神 千年血战篇-祸进谭- - (\d{1,2}) => 死神 {[tmdbid=30984;type=tv;s=2]} S02E\1
+
 Oshi.no.Ko.S03E(?=.*ADWeb) => Oshi.no.Ko.{[tmdbid=203737;type=tv]}.S01E && S01E <> 2026 >> EP+24
 Sousou.no.Frieren.S02E(?=.*ADWeb) => Sousou.no.Frieren.S01E && S01E <> 2026 >> EP+28
 【我推的孩子】 => 我推的孩子{[tmdbid=203737;type=tv]}

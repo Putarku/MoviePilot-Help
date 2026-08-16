@@ -5,6 +5,11 @@
 \[ANi\].*\/ => [ANi]
 \[雪飘工作室\].*\/ => [雪飘工作室]
 
+#死神千年战争
+BLEACH.Sennen.Kessen-hen.Kashin-tan.S01 => 死神 {[tmdbid=30984;type=tv;s=2]} S02 && S02 <> .2026.1080p.Baha
+Bleach.Thousand.Year.Blood.War.S04 => 死神 {[tmdbid=30984;type=tv;s=2]} S02 && S02 <> .2026.1080p.LINETV >> EP+40
+(?<=ANi.*?) BLEACH 死神 千年血战篇-祸进谭- - (\d{1,2}) => 死神 {[tmdbid=30984;type=tv;s=2]} S02E\1
+
 Oshi.no.Ko => 我推的孩子{[tmdbid=203737;type=tv]}
 【我推的孩子】 => 我推的孩子{[tmdbid=203737;type=tv]}
 能帮我弄干净吗？ => 能帮我弄干净吗？{[tmdbid=293144;type=tv]}
@@ -21,6 +26,9 @@ Oshi.no.Ko => 我推的孩子{[tmdbid=203737;type=tv]}
 
 #葬送的芙莉莲 第二季
 (?<=ANi.*?)葬送的芙莉莲 第二季 - (\d{1,2}) => 葬送的芙莉莲.S02E\1 && S02E <> 1080 >> EP-28
+
+#极速车魂 第三季
+(?<=ANi.*?)燃油车斗魂 第三季 - (\d{1,2}) => 极速车魂.S03E\1 && S03E <> 1080 >> EP-24
 
 #黄金神威
 (?<=幻樱字幕组.*?)【黄金神威.Golden.Kamuy】【(\d{1,2})】 => 黄金神威.S05E\1 && S05E <> 【GB_MP4】 >> EP-49
