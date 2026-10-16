@@ -5,6 +5,9 @@
 \[ANi\].*\/ => [ANi]
 \[雪飘工作室\].*\/ => [雪飘工作室]
 
+#药屋少女的呢喃 S03
+The.Apothecary.Diaries.S03E => The.Apothecary.Diaries.S01E
+Kusuriya.no.Hitorigoto.S03E => Kusuriya.no.Hitorigoto.S01E
 
 #死神千年战争
 BLEACH.Sennen.Kessen-hen.Kashin-tan.S01 => 死神 {[tmdbid=30984;type=tv;s=2]} S02 && S02 <> .2026.1080p.Baha
